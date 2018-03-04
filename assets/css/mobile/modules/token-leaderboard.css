@@ -1,0 +1,35 @@
+.token-leaderboard {
+	padding: 15px 15px 0;
+}
+
+.token-leaderboard__daily-list
+	.token-leaderboard__daily-list-headings
+	.heading.rank {
+	text-align: center;
+}
+
+.token-leaderboard__daily-list-leader-scroller {
+	width: 100%;
+}
+
+div.token-leaderboard__daily-list-leaders ul {
+	width: 100%;
+}
+
+div.token-leaderboard__daily-list-leaders ul li div {
+	margin: 0 auto;
+}
+
+.token-leaderboard__technical-difficulties {
+	padding: 25px 10px 25px 10px;
+}
+
+.token-leaderboard__my-daily-token-total .tokens-icon.small.userwithoutpass {
+	width: 41px;
+}
+
+.sidebar-box.sso-create-password-lightbox {
+	padding: 6px 0 0 30px;
+	h5 {
+	}
+}

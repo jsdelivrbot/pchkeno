@@ -1,0 +1,484 @@
+/* the playing area side section containing the locked cards */
+.card-tabs {
+	float: right;
+	width: 226px;
+	position: relative;
+	z-index: 3;
+}
+
+.card-tab-holder {
+	-webkit-perspective: 900;
+	perspective: 900;
+}
+
+.card-tab {
+	position: relative;
+	/*display: inline-block; 
+    overflow: hidden;*/
+	display: block;
+	margin: 0 0 5px 0;
+	/*height: 180px;*/
+	height: 117px;
+	/*height: 143px;*/
+	width: 276px;
+	/*width: 100%;*/
+
+	left: -38px;
+	/*top: -35px;*/
+	top: -3px;
+}
+.card-tab--last {
+	top: -2px;
+}
+.card-tab__stage {
+	position: relative;
+	left: 0;
+	/*top: -7px; */
+	top: -40px;
+}
+
+/*
+@styleguide
+
+@title Keno Card Tab Locked/Unlocked States
+
+<div class='card-tab'>
+    <span class='card-tab__num'>01</span>
+    <div class='card-tab__locked'> <p class='card-tab__status'>CARD 01 LOCKED</p> </div>
+    <div class='card-tab__unlocked'>
+        <p class='card-tab__status'>UNLOCKED</p>
+        <p class='card-tab__instructions'>Select 10 numbers<br/>and SUBMIT</p>
+    </div>
+    <span class="card-tab__shadowoverlay"></span>
+</div>
+
+Unlocked 
+
+<div class='card-tab card-tab--unlocked'>
+    <span class='card-tab__num'>01</span>
+    <div class='card-tab__locked'> <p class='card-tab__status'>CARD 01 LOCKED</p> </div>
+    <div class='card-tab__unlocked'>
+        <p class='card-tab__status'>UNLOCKED</p>
+        <p class='card-tab__instructions'>Select 10 numbers<br/>and SUBMIT</p>
+    </div>
+    <span class="card-tab__shadowoverlay"></span>
+</div>
+
+Unlocking Animation in progress
+
+<div class='card-tab card-tab--unlocking'>
+    <span class='card-tab__num'>01</span>
+    <div class='card-tab__locked'> <p class='card-tab__status'>CARD 01 LOCKED</p> </div>
+    <div class='card-tab__unlocked'>
+        <p class='card-tab__status'>UNLOCKED</p>
+        <p class='card-tab__instructions'>Select 10 numbers<br/>and SUBMIT</p>
+    </div>
+    <span class="card-tab__shadowoverlay"></span>
+</div>
+
+<div class='card-tab card-tab--unlocking-out'>
+    <span class='card-tab__num'>01</span>
+    <div class='card-tab__locked'> <p class='card-tab__status'>CARD 01 LOCKED</p> </div>
+    <div class='card-tab__unlocked'>
+        <p class='card-tab__status'>UNLOCKED</p>
+        <p class='card-tab__instructions'>Select 10 numbers<br/>and SUBMIT</p>
+    </div>
+    <span class="card-tab__shadowoverlay"></span>
+</div>
+*/
+.card-tab__locked,
+.card-tab__unlocked {
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	z-index: 2;
+}
+/* some funkiness going on in Safari with card flip animations
+ * if this thing overflows the parent, so we are making it smaller 
+ * so it stays within the bounds of the parent
+ */
+.card-tab__locked {
+	width: 60%;
+	left: 20%;
+}
+.card-tab--unlocked .card-tab__locked {
+	display: none;
+}
+
+.card-tab__unlocked {
+	visibility: hidden;
+	bottom: 7px;
+	transition: opacity linear 100ms, transform linear 160ms;
+	transform: scale(0.5);
+	opacity: 0;
+}
+.card-tab--unlocking-out .card-tab__unlocked {
+	visibility: visible;
+	opacity: 1;
+	transform: scale(1);
+}
+
+.card-tab__status {
+	margin: 0;
+	font-size: 14px;
+	font-family: Arial;
+	transition: opacity linear 100ms;
+	opacity: 1;
+}
+.card-tab__unlocked .card-tab__status {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.card-tab--unlocking .card-tab__locked .card-tab__status,
+.card-tab--unlocking-out .card-tab__locked .card-tab__status {
+	opacity: 0;
+}
+
+.card-tab__instructions {
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+.card-tab__num {
+	font-size: 48px;
+	font-weight: bold;
+	position: absolute;
+	top: 4px;
+	left: 30px;
+	line-height: 48px;
+	z-index: 2;
+	font-family: "Open Sans", sans-serif;
+	letter-spacing: -4px;
+	transition: transform linear 0.16s, opacity linear 0.16s;
+
+	/* these are workaround styles because if any part of the elements bounds poke out from the parent which has the card flip animation
+     * there is some funky flickering in Safari */
+	/*
+    height: 30px;
+    top: 20px;
+    line-height: 20px;
+    */
+}
+@mixin card-colors ".card-tab--%s .card-tab__num", color, TEXT;
+
+.card-tab--unlocking .card-tab__num {
+	visibility: hidden;
+	transform: translateX(84px);
+	opacity: 0;
+}
+.card-tab--unlocking-out .card-tab__num {
+	visibility: visible;
+	transform: translate(0, -2px);
+	opacity: 1;
+}
+
+.card-tab__shadowoverlay {
+	position: absolute;
+	left: 0;
+	top: -28px;
+	height: 176px;
+	width: 10px;
+	z-index: 2;
+	display: none;
+}
+.cardplay--unlocked .card-tab--animatable .card-tab__shadowoverlay {
+	display: block;
+}
+@mixin card-colors ".card-tab--%s .card-tab__shadowoverlay", background, BG;
+.card-tab--first .card-tab__shadowoverlay {
+	top: 3px;
+	height: 143px;
+}
+.card-tab--last .card-tab__shadowoverlay {
+	top: -30px;
+	height: 143px;
+}
+
+/**
+@styleguide
+
+@title Card Lock icon
+
+<div class='card-tab'>
+    <div class='card-tab__lock'>
+        <div class='card-tab__lock__ofset'>
+            <div class='card-tab__lock__top'></div>
+            <div class='card-tab__lock__bot'></div>
+        </div>
+    </div>
+</div>
+
+Animated
+
+<div class='card-tab card-tab--unlocking-progress'>
+    <div class='card-tab__lock'>
+        <div class='card-tab__lock__ofset'>
+            <div class='card-tab__lock__top'></div>
+            <div class='card-tab__lock__bot'></div>
+        </div>
+    </div>
+</div>
+
+<div class='card-tab card-tab--unlocking-out'>
+    <div class='card-tab__lock'>
+        <div class='card-tab__lock__top'></div>
+        <div class='card-tab__lock__bot'></div>
+    </div>
+</div>
+*/
+.card-tab__lock {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -18px 0 0 -18px;
+	width: 29px;
+	height: 37px;
+	z-index: 3;
+	transition: transform 750ms linear;
+}
+/* the --unlocking-progress state is added during the progress stage of unlock animation
+ * the lock should rotate and unlock itself
+ */
+.card-tab--unlocking-progress .card-tab__lock {
+	transform: rotate(360deg);
+}
+
+/**
+ * This is just an added element to transform the lock further
+ * separately from what is applied to the parent element
+ */
+.card-tab__lock__offset {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	transition: transform 160ms linear;
+}
+/* the --unlocking-out state is added during the last stage of unlock animation
+ * the lock should move towards the top
+ */
+.card-tab--unlocking-out .card-tab__lock__offset {
+	transform: translateY(-30px);
+}
+
+.card-tab__lock__top {
+	width: 17px;
+	height: 24px;
+	background: resolve("sprites/cards/lock-icon-top@2x.png") 0 0 no-repeat;
+	background-size: 17px 24px;
+	position: absolute;
+	left: 6px;
+	top: 0;
+	transition: transform 750ms linear, translate 750ms linear;
+}
+.card-tab--unlocking-progress .card-tab__lock__top {
+	/*transform: scaleX(-1) translate(10px, -5px);*/
+	transform: rotateY(180deg) translateY(-3px);
+	transform-origin: 14px 100%;
+}
+
+.card-tab__lock__bot {
+	width: 29px;
+	height: 24px;
+	background: resolve("sprites/cards/lock-icon-base@2x.png") 0 0 no-repeat;
+	background-size: 29px 24px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+/**
+ * The completed state 
+ */
+.card-tab__completed {
+	width: 226px;
+	height: 109px;
+	position: relative;
+	left: 24px;
+	top: 3px;
+	border-radius: 32px;
+	box-shadow: 0 0px 4px 1px rgba(0, 0, 0, 0.3);
+}
+@mixin card-colors ".card-tab--%s .card-tab__completed", background-color, BG;
+.card-tab__completed .card-tab__status {
+	font-size: 17px;
+	position: absolute;
+	top: 9px;
+	font-family: "Roboto", Arial, sans-serif;
+	right: 16px;
+	font-weight: bold;
+}
+.card-tab__completed .card-tab__status__icon {
+	border-radius: 12px;
+	padding: 3px;
+	background-image: resolve("images/icons/checkmark.png");
+	width: 22px;
+	height: 22px;
+	background-size: 100%;
+	float: right;
+	margin-left: 3px;
+}
+@mixin card-colors ".card-tab--%s .card-tab__completed .card-tab__status__icon",
+	color,
+	BG;
+
+.card-tab__completed__nums {
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 42px;
+	width: 100%;
+	margin: 0;
+	padding: 0 10px;
+	list-style: none;
+	box-sizing: border-box;
+}
+.card-tab__completed__num {
+	float: left;
+	margin: 0;
+	width: 20%;
+	text-align: center;
+	height: 31px;
+	line-height: 24px;
+}
+.card-tab__completed__num__val {
+	display: inline-block;
+	border-radius: 14px;
+	border-width: 2px;
+	border-style: solid;
+	padding: 0;
+	line-height: 27px;
+	font-size: 16px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	box-sizing: border-box;
+}
+@mixin card-colors ".card-tab--%s .card-tab__completed__num__val",
+	border-color,
+	BG;
+@mixin card-colors ".card-tab--%s .card-tab__completed__num__val",
+	background,
+	BALL;
+
+/* card flip tabs */
+.card-tab.cardflip {
+}
+.card-tab.cardflip .cardflip__front {
+	pointer-events: none;
+}
+.card-tab.cardflip .cardflip__back,
+.card-tab__bg {
+	pointer-events: none;
+	border-radius: 30px;
+	width: 230px;
+	height: 109px;
+	left: 23px;
+	top: 3px;
+	z-index: 5;
+
+	/*@TODO dev only */
+	/*
+    background: resolve("_screenshots/card-tab-locked.png") -5px -5px no-repeat;
+    background-size: 240px auto;
+    */
+}
+
+.cardflip__front .card-tab__bg {
+	box-shadow: 0 0px 4px 1px rgba(0, 0, 0, 0.3);
+}
+.cardflip--is-flipped .cardflip__front .card-tab__bg {
+	box-shadow: none;
+}
+/*
+.cardflip--animating .card-tab__bg { 
+    box-shadow: none;
+}
+*/
+/* card-tab__bg
+ * is the replacement element for the tabs that are not complete and are
+ * not the next to unlock (and so do not need to animate with svg)
+ * also, so we simply use this element with equivalent css to style 
+ * the background color, shape... also, having the svg in the card flip
+ * animations for these tabs was causing issues in some browsers
+ */
+.card-tab__bg {
+	position: absolute;
+	z-index: 1;
+}
+@mixin card-colors ".card-tab--%s.cardflip .cardflip__back,
+	.card-tab--%s .card-tab__bg",
+	background-color,
+	BG;
+.card-tab__locked-back .card-tab__num {
+	left: 5px;
+	top: 0;
+}
+.card-tab__locked-back .card-tab__status {
+	color: #333;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-family: Roboto;
+	position: relative;
+	left: 29px;
+	top: 15px;
+}
+.card-tab__locked-back .card-tab__unlock-instructions {
+	color: #ccc;
+	font-size: 17px;
+	text-align: center;
+	background: #333;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	margin: 0;
+	padding: 5px 31px;
+	border-bottom-left-radius: 28px;
+	border-bottom-right-radius: 28px;
+}
+/* cardflip effect hover */
+.card-tab .cardflip__front:after,
+.card-tab .cardflip__back:after {
+	width: 231px;
+	height: 109px;
+	border-radius: 30px;
+}
+.card-tab .cardflip__front:after {
+	left: 23px;
+	top: 3px;
+}
+/* cardflip effect click targets */
+.card-tab.cardflip .cardflip__top,
+.card-tab.cardflip .cardflip__bottom,
+.card-tab.cardflip .cardflip__left,
+.card-tab.cardflip .cardflip__right {
+}
+.card-tab.cardflip .cardflip__top,
+.card-tab.cardflip .cardflip__bottom {
+	width: 40%;
+	left: 30%;
+}
+.card-tab.cardflip .cardflip__top {
+}
+.card-tab.cardflip .cardflip__bottom {
+}
+.card-tab.cardflip .cardflip__left,
+.card-tab.cardflip .cardflip__right {
+	width: 20%;
+}
+.card-tab.cardflip .cardflip__left {
+	left: 10%;
+}
+.card-tab.cardflip .cardflip__right {
+	right: 10%;
+}

@@ -1,0 +1,45 @@
+.play-keno-online-modal,
+.live-keno-lottery-drawings-modal,
+.lucky-pch-keno-winners-modal {
+	.modal-dialog {
+		border-radius: 30px;
+	}
+
+	.close {
+		padding: 2px 6px;
+
+		span {
+			line-height: 17px;
+		}
+	}
+
+	.modal-content {
+		background-color: #323230;
+		color: #fff;
+		border-radius: 20px;
+	}
+
+	.modal-body {
+		padding: 0;
+	}
+
+	.modal-body img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.sub-content {
+		padding: 10px 10px 0;
+		font-size: 1.3rem;
+		line-height: 17px;
+	}
+
+	h2 {
+		font-size: 1.6rem;
+		text-transform: uppercase;
+	}
+
+	h4 {
+		font-size: 1.4rem;
+	}
+}

@@ -1,0 +1,54 @@
+/*
+@styleguide
+
+@title Select/Selected Numbers with winning numbers
+
+Displays a list of selected/selectable numbers and those that are winning numbers
+
+<ul class='select-nums'>
+    <li class='select-nums__num'>05</li>
+    <li class='select-nums__num'>18</li>
+    <li class='select-nums__num'>25</li>
+    <li class='select-nums__num'>37</li>
+    <li class='select-nums__num'>41</li>
+    <li class='select-nums__num'>58</li>
+    <li class='select-nums__num'>59</li>
+    <li class='select-nums__num'>65</li>
+    <li class='select-nums__num'>71</li>
+    <li class='select-nums__num'>83</li>
+</ul>
+*/
+
+.select-nums {
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+
+.select-nums__num {
+	float: left;
+	margin: 0 6px 0 0;
+}
+.select-nums__num__val {
+	font-size: 30px;
+	font-family: Roboto;
+	text-align: center;
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 0;
+	background: transparent;
+	color: #fff;
+	margin: 0 auto;
+	padding-top: 3px;
+}
+.select-nums__num--winning .select-nums__num__val {
+	box-sizing: border-box;
+	border: 3px solid #fff;
+	border-radius: 24px;
+	background: linear-gradient(to bottom, #fbf1af 0%, #ffd342 100%);
+	box-shadow: 2px 5px 2px 0px rgba(0, 0, 0, 0.2);
+	color: #333;
+	padding-top: 0;
+}

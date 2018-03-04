@@ -1,0 +1,15 @@
+.token-leaders ul {
+	width: 300px;
+	margin: 0 auto;
+}
+
+#dw_popup {
+	width: 100%;
+	left: 0;
+}
+
+.leaderboard-divider {
+	width: 100%;
+	background-color: #333;
+	height: 15px;
+}

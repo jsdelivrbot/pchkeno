@@ -1,0 +1,100 @@
+/**== Top Bar Styling **/
+
+.uninav .uninav__top-bar {
+    background: #000;
+    height: 23px;
+    border: none;
+}
+
+.uninav .uninav__top-bar__content {
+    background: none;
+    height: 23px;
+    margin: 0 auto;
+    color: #F7D793;
+    z-index: 101;
+
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 12px;
+    overflow: visible;
+
+    width: 1165px;
+    padding: 0;
+    line-height: 1.9em;
+    margin-bottom: 0;
+}
+
+.uninav .uninav__top-bar__link {
+    padding: 0 5px 0px 1px;
+    color: #fff;
+}
+
+.uninav .uninav__top-bar__profile-name a {
+    color: #F7D793!important;
+    text-decoration: none;
+}
+
+.uninav .uninav__top-bar__credentials {
+    display: block;
+    float: left;
+    overflow: hidden;
+    height: 23px;
+}
+.uninav--unrecognized .uninav__top-bar__credentials {
+    display: none;
+}
+
+.uninav .uninav__top-bar__logoholder {
+    float: left;
+    overflow: hidden;
+    height: 100%;
+}
+
+.uninav .uninav__top-bar__logoholder:before {
+    float: left;
+    content: '|';
+}
+
+.uninav .uninav__top-bar__logoholder img {
+    width: 23px;
+    margin: 0 3px;
+}
+
+.uninav .uninav__top-bar__vip-logo {
+    margin-top: 0px!important;
+    vertical-align: top;
+    height: 22px;
+    width: 22px;
+}
+
+.uninav--unrecognized .uninav__top-bar__credentials {
+    display: block;
+}
+
+.uninav .uninav__top-bar__copy {
+    display: block;
+    float: right;
+    overflow: hidden;
+}
+
+.uninav--unrecognized .uninav__top-bar__copy {
+    display: block;
+}
+
+.uninav .uninav__top-bar__links {
+    float:right;
+}
+.uninav .uninav__top-bar__links a{
+    text-decoration: none !important;
+    color: #fff;
+}
+.uninav .uninav__top-bar__links a:hover {
+    text-decoration: underline !important;
+    color: #fff;
+}
+.uninav .uninav__top-bar__links a:visited {
+    color: #fff;
+}
+.uninav .uninav__top-bar__links a:active {
+    color: #fff;
+}
+

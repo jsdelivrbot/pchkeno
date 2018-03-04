@@ -1,0 +1,227 @@
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/Dispatcher.js:18:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/Dispatcher.js:18:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/Dispatcher.js:18:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/Dispatcher.js:18:16: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/flashBridge.js:35:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/flashBridge.js:35:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/flashBridge.js:35:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/flashBridge.js:35:16: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameLoader.js:85:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameLoader.js:85:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameLoader.js:85:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameLoader.js:85:16: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:1:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:1:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:1:18: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:1:23: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:2:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:2:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:2:19: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:2:24: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:3:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:3:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:3:19: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:3:24: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:4:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:4:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:4:42: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:4:47: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:5:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:5:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:5:30: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:6:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:6:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:6:20: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:6:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:7:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:7:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:7:26: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:7:31: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:8:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:8:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:8:20: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:8:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:349:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:349:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:349:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameManager.js:349:16: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameModel.js:1:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameModel.js:1:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameModel.js:1:30: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameModel.js:235:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameModel.js:235:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameModel.js:235:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameModel.js:235:16: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:1:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:1:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:1:19: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:1:24: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:2:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:2:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:2:30: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:3:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:3:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:3:20: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:3:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:326:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:326:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:327:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:327:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:327:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameOverScreen.js:327:16: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/gameProxy.js:190:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/gameProxy.js:190:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/gameProxy.js:190:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/gameProxy.js:190:16: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:1:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:1:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:1:30: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:2:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:2:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:2:20: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:2:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:3:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:3:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:3:20: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:3:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:473:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:473:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:474:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:474:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:474:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GameService.js:474:16: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:1:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:1:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:1:23: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:1:28: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:2:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:2:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:2:30: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:112:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:112:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:113:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:113:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:113:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/GOSManager.js:113:16: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:1:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:1:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:1:18: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:1:23: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:2:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:2:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:2:19: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:2:24: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:3:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:3:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:3:19: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:3:24: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:4:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:4:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:4:20: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:4:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:5:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:5:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:5:18: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:5:23: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:6:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:6:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:6:20: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:6:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:7:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:7:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:7:23: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:7:28: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:8:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:8:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:8:20: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:8:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:9:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:9:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:9:30: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:30:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:30:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:31:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:31:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:31:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/main.js:31:16: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/PRIZE_TYPES.js:22:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/PRIZE_TYPES.js:22:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/PRIZE_TYPES.js:23:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/PRIZE_TYPES.js:23:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/PRIZE_TYPES.js:23:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/PRIZE_TYPES.js:23:16: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/utils.js:13:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/src/utils.js:13:8: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:5:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:5:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:5:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:5:30: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:6:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:6:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:6:14: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:6:19: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:7:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:7:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:7:18: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:7:23: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:13:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:13:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:16:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:16:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:16:19: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/mocha-tests.js:16:24: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:1:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:1:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:1:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:1:30: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:2:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:2:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:2:14: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:2:19: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:3:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:3:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:3:18: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:3:23: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:4:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:4:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:4:20: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:4:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:5:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:5:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameManager-spec.js:5:57: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:1:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:1:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:1:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:1:30: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:2:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:2:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:2:14: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:2:19: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:3:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:3:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:3:18: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:3:23: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:4:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:4:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:4:20: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:4:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:5:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:5:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/spec/GameService-spec.js:5:32: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/util/user.js:5:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/path-gamemanager-js@1.18.3/tests/util/user.js:5:8: Semi-colon expected

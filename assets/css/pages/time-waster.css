@@ -1,0 +1,158 @@
+/* dev only */
+/*
+.timewaster:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: resolve("_screenshots/18_time_waster.png") 0 0 no-repeat;
+    background-size: 886px auto;
+    width: 886px;
+    height: 612px;
+    opacity: 0.5;
+}
+*/
+
+.timewaster {
+    background: #333;
+    border-radius: 30px;
+
+    /* dev only */
+    /*min-height: 612px;*/
+}
+
+.timewaster .timewaster__clock .clock {
+    z-index: 1;
+}
+
+.timewaster__header {
+    padding: 24px 0 0 56px;
+    margin: 0 0 27px 0;
+}
+
+.timewaster__title {
+    margin: 0;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 200;
+    color: #fff;
+    display: inline;
+}
+
+.timewaster__subtitle {
+    color: #fff;
+    font-size: 15px;
+    padding-left: 23px;
+    display: inline;
+}
+
+.timewaster__subtitle2 {
+    font-size: 15px;
+    color: #dea32d;
+}
+
+.timewaster__clock {
+    position: absolute;
+    right: 61px;
+    top: 1px;
+}
+
+.timewaster__clock .clock__stage-overlay--top {
+    border-top-color: #333;
+}
+
+.timewaster__clock .clock__stage-overlay--bot {
+    border-bottom-color: #333;
+}
+
+.timewaster__game {
+    margin: 0 auto 9px;
+    min-height: 400px;
+    text-align: center;
+}
+
+.timewaster__game #game {
+    margin: 0 auto;
+}
+
+.timewaster__game .pathgame__game-progress {
+    margin-top: 10px;
+}
+
+.timewaster__game h2 {
+    color: rgba(255, 255, 255, 1);
+    width: 640px;
+    margin: 0 auto 15px;
+}
+
+.timewaster__game #ad_holder {
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+.timewaster__game #ad_holder #jwplayer-ad {
+    margin: 0 auto;
+}
+
+.timewaster__game .pathgame--desktop {
+    margin: 0 auto;
+}
+
+.timewaster .card-tabs {
+    float: none;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    left: 52px;
+    height: 116px;
+    overflow: hidden;
+}
+
+.timewaster__card-tabs__text {
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+    left: -52px;
+    margin: 0 56px;
+}
+
+.card-tabs hr {
+    display: none;
+}
+
+.timewaster__card-tabs__text:before,
+.timewaster__card-tabs__text:after {
+    content: " ";
+    height: 2px;
+    width: 48px;
+    background: #666;
+    position: absolute;
+    top: 10px;
+}
+
+.timewaster__card-tabs__text:before {
+    left: 0;
+}
+
+.timewaster__card-tabs__text:after {
+    right: 0;
+}
+
+/*
+@styleguide Timewaster card tabs
+
+<div class='timewaster'>
+    <div class='card-tab'></div>
+</div>
+    <div class='timewaster'>
+        <div class='card-tab'></div>
+    </div>
+*/
+.timewaster .card-tab {
+    float: left;
+    transform: scale(0.625);
+    top: -14px;
+    width: 150px;
+    margin-right: 8px;
+}

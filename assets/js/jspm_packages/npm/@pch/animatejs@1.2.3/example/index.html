@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <title>Animate.js Example</title>
+    <link rel="stylesheet" href="../dist/vendor/animate.css" type="text/css"/>
+    <link rel="stylesheet" href="./example.css" type="text/css"/>
+</head>
+<body>
+
+    <div id="example1" class="example example-targ example-targ--1">
+        Example1
+    </div>
+
+    <div id="example2" class="example example-targ example-targ--2">
+        Example2
+    </div>
+
+    <div class='controls'>
+        <button class='animate-btn animate--flip'>Animate Flip</button>
+        <button class='animate-btn animate--slide'>Animate Slide</button>
+    </div>
+
+    <div id="example3" class="example example-trans">
+        Transition
+        Example
+    </div>
+
+    <div class='controls'>
+        <button class='animate-btn animate--trans'>Transition X</button>
+    </div>
+
+    <div id="example4" class="example">
+        Out/In Example1
+    </div>
+    <div id="example5" class="example">
+        Out/In Example2
+    </div>
+
+    <div class='controls'>
+        <button class='animate-btn animate--outin'>Animate Out/In</button>
+        <button class='animate-btn animate--fadeoutin'>Animate Fade Out/In</button>
+        <button class='animate-btn animate--fadeoutinpersist'>Animate Fade Out/In Persist</button>
+    </div>
+
+    <div id="example6" class="example">
+        jquery Example1
+    </div>
+    <div id="example7" class="example">
+        jquery Example2
+    </div>
+
+    <div class='controls'>
+        <button class='animate-btn animate--jquery'>Animate jQuery Collection</button>
+    </div>
+
+    <!-- jquery is not a dependency, but the animate module will accept a jquery collection and still work
+        including jquery here is just to show an example of that -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="jspm_packages/system.js"></script>
+    <script src="./config.js"></script>
+    <script>SystemJS.import("example.js")</script>
+</body>
+</html>

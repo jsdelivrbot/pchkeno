@@ -1,0 +1,50 @@
+.mobile-dark-modal {
+	.modal-content {
+		background: #333;
+		color: #fff;
+
+		box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.3);
+		text-align: center;
+	}
+	h3 {
+		font-size: 20px;
+		padding-bottom: 3px;
+	}
+	p {
+		font-size: 17px;
+		margin-bottom: 0;
+	}
+	.buttons {
+		display: flex;
+		justify-content: space-between;
+
+		a.red-button {
+			width: 45%;
+			font-size: 15px;
+			margin-right: 0;
+		}
+	}
+	.close {
+		color: #fff;
+		font-size: 16px;
+		border-radius: 50px;
+		opacity: 1;
+		border: 2px solid #fff;
+		width: 26px;
+		height: 26px;
+		text-align: center;
+		background: #000;
+		position: absolute;
+		right: -5px;
+		top: -10px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+		span {
+			display: block;
+			font-weight: 300;
+			font-size: 20px;
+			margin-top: -4px;
+			margin-left: -2px;
+		}
+	}
+}

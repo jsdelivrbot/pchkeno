@@ -1,0 +1,343 @@
+/* 3D rotate cube style: https://desandro.github.io/3dtransforms/docs/cube.html */
+.kenobars-fixed {
+	height: 64px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 200;
+
+	/* this is a hacky fix for Safari and the cardflip anims
+     * apearing above the keno bar... the 130px is more than the half width
+     * of the cardtab, so when it is flipped, the extents of it do not
+     * push through the keno bar in the z-plane
+     */
+	transform: translateZ(130px);
+	top: auto !important;
+}
+
+.kenobars {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+	transform: translateZ(-32px);
+}
+.kenobars--golive {
+	transform: translateZ(-32px) rotateX(-90deg);
+}
+/* IE does not support preserve-3d,
+ * and adding it on the parent prevents transforms on children 
+ * working properly, so we are falling back to a much less sexy
+ * animation
+ */
+.no-preserve3d .kenobars {
+	transform-style: flat;
+	transform: translateZ(0);
+}
+
+.kenobar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform: translateZ(32px);
+	backface-visibility: hidden;
+	border-top: 1px solid #6b6b6b;
+	transition: transform 1s;
+	background: linear-gradient(to bottom, #3b3b3b 0%, #010101 100%);
+}
+.kenobar--live {
+	background: linear-gradient(to bottom, #3b3b3b 0%, #000 100%);
+}
+.no-preserve3d .kenobar {
+	transform: translateZ(0);
+	transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.no-preserve3d .kenobars--golive .kenobar {
+	transform: rotateX(180deg);
+}
+
+.kenobar--live {
+	display: none;
+	/*
+    background: resolve("_screenshots/keno_bar_live.png") 0 0 no-repeat;
+    background-size: 1241px auto;
+    background-position: bottom left;
+    */
+	transform: rotateX(90deg) translateZ(32px);
+}
+.kenobars--golive .kenobar--live,
+.kenobars--goprogress .kenobar--live,
+.no-preserve3d .kenobar--live {
+	display: block;
+}
+.no-preserve3d .kenobar--live {
+	transform: rotateX(-180deg);
+}
+.no-preserve3d .kenobars--golive .kenobar--live {
+	transform: rotateX(0deg);
+}
+
+/* the body as a separate element with the background allows us to
+ * position it above others elements that we will be sliding up/down
+ * from the bar
+ */
+.kenobar__body {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -630px;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	padding-left: 0;
+	padding-right: 0;
+
+	/* @TODO dev only */
+	/*
+    background: resolve("_screenshots/07_keno_bar.png") bottom left no-repeat;
+    background-size: 1241px 65px;
+    */
+}
+/* the arrow body */
+.kenobar--live:after,
+.kenobar--live .kenobar__body:after {
+	content: " ";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -14px;
+	height: 27px;
+	width: 936px;
+	/*background: linear-gradient(to bottom, #8a8a8a 0%, #333 100%);*/
+	background: linear-gradient(to bottom, #8d8d8d 0%, #363636 100%);
+}
+/* the arrow head */
+.kenobar--live:after {
+	width: 50%;
+}
+.kenobar--live .kenobar__body:before {
+	content: " ";
+	position: absolute;
+	left: 936px;
+	top: 50%;
+	margin-top: -23px;
+	width: 20px;
+	height: 43px;
+	background: resolve("sprites/live-drawings/kenobar-arrow2@2x.png") 0 0
+		no-repeat;
+	background-size: 20px 43px;
+}
+/* hide arrow when next set of cards played */
+.site--playnext .kenobar--live:after,
+.site--playnext .kenobar--live .kenobar__body:after,
+.site--playnext .kenobar--live .kenobar__body:before {
+	display: none;
+}
+
+.kenobar__lead {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 300;
+	float: left;
+	margin: 17px 8px 0 20px;
+	width: 120px;
+}
+.kenobar--live .kenobar__lead {
+	font-size: 38px;
+	color: #fff200;
+	font-weight: bold;
+	width: 384px;
+	margin: 0 102px 0 103px;
+	padding-top: 9px;
+	line-height: 40px;
+	height: 100%;
+	letter-spacing: 1px;
+	white-space: nowrap;
+	text-indent: 9px;
+	overflow: visible;
+	background: linear-gradient(to bottom, #3b3b3b 0%, #000 100%);
+	position: relative;
+	z-index: 2;
+}
+.kenobar--live .kenobar__lead:after {
+	position: absolute;
+	right: -3px;
+	top: 0;
+	width: 8px;
+	height: 100%;
+	content: " ";
+	background: linear-gradient(to bottom, #3b3b3b 0%, #000 100%);
+	transform: skewX(-10deg);
+}
+
+.kenobar__cards {
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+}
+
+.kenobar__card {
+	float: left;
+	border: 4px solid #666;
+	margin: 8px 42px 0 0;
+	width: 46px;
+	height: 46px;
+	border-radius: 24px;
+	text-align: center;
+	position: relative;
+}
+@mixin card-colors ".kenobar__card--%s", border-color, BG;
+.kenobar__card--locked {
+	border-color: #666;
+}
+@mixin card-colors ".kenobar__card--%s.kenobar__card--complete", background, BG;
+
+.kenobar__card__num,
+.kenobar__card--complete .kenobar__card__completeicon {
+	font-size: 24px;
+	line-height: 38px;
+	font-weight: bold;
+	color: #666;
+}
+.kenobar__card--complete .kenobar__card__completeicon {
+	color: #1f1f1f;
+	font-weight: normal;
+	line-height: 36px;
+}
+@mixin card-colors ".kenobar__card--%s .kenobar__card__num", color, BG;
+.kenobar__card--locked .kenobar__card__num {
+	color: #666;
+}
+
+.kenobar__card--complete .kenobar__card__num,
+.kenobar__card__complete {
+	position: absolute;
+	visibility: hidden;
+}
+
+.kenobar__card__completeicon,
+.kenobar__card__complete {
+	display: none;
+}
+.kenobar__card--complete .kenobar__card__completeicon,
+.kenobar__card--complete .kenobar__card__complete {
+	display: inline-block;
+}
+
+.kenobar__card__nexticon {
+	position: absolute;
+	right: -40px;
+	top: 4px;
+	color: #666;
+	font-size: 32px;
+}
+.kenobar__card--complete .kenobar__card__nexticon {
+	color: #fff;
+}
+.kenobar__card:last-child .kenobar__card__nexticon {
+	display: none;
+}
+
+.kenobar__controls {
+	float: left;
+	padding: 0 0 0 24px;
+	position: relative;
+	z-index: 2;
+}
+
+.kenobar__controls__btn {
+	border-color: #959595;
+	color: #959595;
+	font-size: 14px;
+	background: #151515;
+	background: linear-gradient(to bottom, #242424 0%, #070707 100%);
+	margin-top: 8px;
+	width: 132px;
+	padding: 11px 0;
+}
+.kenobar__controls__btn:hover,
+.kenobar__controls__btn:active,
+.kenobar__controls__btn:active:focus,
+.kenobar__controls__btn:focus {
+	border-color: #959595;
+	background: #fff;
+	color: #959595;
+}
+
+/* these are the separator lines */
+.kenobar__cards:after,
+.kenobar--live .kenobar__lead:before,
+.kenobar__controls:after {
+	content: " ";
+	position: absolute;
+	width: 2px;
+	height: 56px;
+	top: 4px;
+	right: 8px;
+	background: #565656;
+	background: linear-gradient(to bottom, #3d3d3d 0%, #565656 50%, #151515 100%);
+}
+.kenobar__controls:after {
+	right: -17px;
+}
+.kenobar--live .kenobar__lead:before {
+	right: -98px;
+}
+
+/*
+@styleguide
+
+@title Kenobar Paytable
+
+this is the container for the paytable when shown in the kenobar
+<div class='kenobar__paytable'>
+    <div class='paytable'></div>
+</div>
+
+    <div class='kenobar__paytable'>
+        <div class='paytable'></div>
+    </div>
+*/
+.kenobar__paytable {
+	width: 700px;
+	position: absolute;
+	left: 50%;
+	margin-left: -228px;
+	bottom: 0;
+	transform: translateZ(-1px);
+}
+
+/* the countdown clock */
+.kenobar__clock {
+	float: left;
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+	width: 200px;
+	z-index: 2;
+	transition: opacity 0.3s linear;
+}
+.kenobar__clock .clock {
+	transform: scale(0.575);
+	top: -29px;
+	right: 9px;
+}
+.kenobar__clock .clock__stage-overlay--top {
+	border-top-color: #3a3a3a;
+}
+.kenobar__clock .clock__stage-overlay--bot {
+	border-bottom-color: #020202;
+}
+
+/* hide clock when playing next set of cards */
+.site--playnext .kenobar--live .kenobar__clock {
+	opacity: 0;
+}

@@ -1,0 +1,20 @@
+/* some overrides for Keno */
+.uninav .uninav__logo { 
+    width: 246px;
+    height: 50px;
+    background-image: url(../../images/uni-nav/site-keno/logo.png);
+    margin-top: -6px;
+}
+.uninav .uninav__menu__content {
+    background-position: 18px 0;
+}
+
+.uninav .uninav__carousel {
+    margin-left: 258px;
+}
+
+.uninav .uninav__carousel__nxt {
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow: hidden;
+}

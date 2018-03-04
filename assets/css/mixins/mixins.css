@@ -1,0 +1,19 @@
+@define-mixin imagereplace {
+	white-space: nowrap;
+	overflow: hidden;
+	text-indent: 100%;
+}
+
+@define-mixin loadingspinner {
+	background-image: resolve("icons/loading-spinner2.gif");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: 40px auto;
+}
+
+@define-mixin loadingspinner-small {
+	background-image: resolve("icons/loading-spinner.gif");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+}

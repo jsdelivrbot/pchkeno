@@ -1,0 +1,35 @@
+/* the oops overlay */
+.generic-error-modal .modal-dialog {
+	width: 488px;
+	margin: 150px auto;
+}
+.generic-error-modal .modal-content {
+	text-align: center;
+}
+.generic-error-modal .modal-header {
+	padding: 0;
+}
+.generic-error-modal .modal-title {
+	font-size: 150px;
+	line-height: 176px;
+	font-weight: 200;
+	letter-spacing: 3px;
+}
+.generic-error-modal .modal-body {
+	padding: 0;
+	top: -27px;
+}
+.generic-error-modal__text {
+	font-size: 23px;
+	font-weight: 200;
+	margin-bottom: 16px;
+}
+/*
+.generic-error-modal__btn {
+    padding: 10px 0;
+    width: 214px;
+    font-size: 32px;
+    margin: 0;
+    text-transform: none;
+}
+*/

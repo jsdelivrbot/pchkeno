@@ -1,0 +1,107 @@
+/* trigger via: $(".emailoptin").modal({backdrop:true}); */
+
+.emailoptin .modal-dialog {
+	min-width: 619px;
+	/* @TODO dev only */
+	/*
+    background: resolve("_screenshots/16_email_opt_in_lightbox.png") 0 0 no-repeat;
+    background-position: -7px -6px;
+    background-size: 619px auto;
+    */
+}
+
+.emailoptin .modal-content {
+	background: #555498;
+	/* @TODO dev only */
+	/*opacity: 0.5;*/
+}
+
+.emailoptin .modal-header {
+	color: #fff;
+	font-weight: bold;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-width: 0;
+	text-align: center;
+	background: transparent;
+	position: relative;
+	z-index: 2;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.emailoptin .modal-title {
+	@mixin imagereplace;
+	background: resolve("sprites/logos/pchkeno-white@2x.png") 0 0 no-repeat;
+	background-size: 208px 38px;
+	width: 208px;
+	height: 38px;
+	margin: 0 auto;
+}
+.emailoptin .modal-subtitle {
+	font-size: 30px;
+	line-height: 30px;
+	padding: 0 60px;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.emailoptin .from-hours {
+	font-size: 14px;
+}
+
+.emailoptin__banner {
+	background: resolve("modals/email_opt_in_lightbox@2x.png") 0 0 no-repeat;
+	background-size: 604px 438px;
+	width: 604px;
+	height: 438px;
+}
+
+.emailoptin .modal-body {
+	padding: 371px 0 0 0;
+	overflow: hidden;
+}
+
+.emailoptin__banner {
+	position: absolute;
+	top: -55px;
+	left: 0;
+	margin: 0;
+}
+.emailoptin__banner__text {
+	position: absolute;
+	width: 100%;
+	bottom: 24px;
+	left: 0;
+	text-align: center;
+	font-size: 17px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.emailoptin__form {
+	background: #333;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+.emailoptin__form__opt {
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+	text-align: left;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+.emailoptin__form .checkbox--squared {
+	float: left;
+	margin: 3px 21px 0 46px;
+}
+.emailoptin__form__opt a {
+	color: #fff;
+	text-decoration: underline;
+}
+.emailoptin__form .btn {
+	margin: 7px 0 14px 0;
+}

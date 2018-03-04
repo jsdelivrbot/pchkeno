@@ -1,0 +1,130 @@
+.control-bar {
+	height: 125px;
+	position: fixed;
+	visibility: hidden;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	top: auto !important;
+}
+
+@mixin card-colors ".cardplay--%s .control-bar", background, BG;
+
+/* form submit buttons */
+.card__controls {
+	clear: both;
+}
+
+/*
+@styleguide
+
+@title Keno Card Buttons
+*/
+.card__controls__btn {
+	text-transform: uppercase;
+	background: none;
+	margin: 8px 4% 0 0;
+	border: 2px solid #fff;
+	border-radius: 34px;
+	color: #fff;
+	overflow: hidden;
+	padding: 13px 0;
+	width: 35%;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	float: right;
+	text-align: center;
+	position: relative;
+	box-shadow: 2px 5px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+@mixin card-gradient ".cardplay--%s .card__controls__btn", background;
+
+.card__controls__btn:focus,
+.card__controls__btn:active,
+.card__controls__btn:hover {
+	border-color: rgba(255, 255, 255, 1) !important;
+}
+
+.card__controls__btn .bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.card__controls__btn .btn-text {
+	z-index: 2;
+	position: relative;
+}
+
+.card__controls__btn--disabled {
+	opacity: 0.5;
+}
+
+.card .card__controls__btn--disabled:hover {
+	cursor: not-allowed;
+}
+
+.card__controls__btn--clear {
+	border-radius: 42px;
+	width: 55px;
+}
+
+.card__controls__btn::before {
+	display: block;
+	box-shadow: inset 3px 5px 2px 0px rgba(255, 255, 255, 0.13);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: transparent;
+	content: " ";
+	top: 0;
+	left: 0;
+	border-radius: 34px;
+}
+
+.card__controls__btn--clear::before {
+	border-radius: 42px;
+}
+
+.card__controls__btn {
+	background: linear-gradient(to bottom, #ca711a 0%, #834100 100%);
+}
+
+.control-bar__your-numbers {
+	height: 56px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.control-bar__your-numbers h3 {
+	color: rgba(255, 255, 255, 1);
+	font-size: 12px;
+	text-align: center;
+	padding-top: 6px;
+	margin: 0 0 4px 0;
+	padding-bottom: 0;
+}
+
+@mixin card-colors ".cardplay--%s .control-bar__line ", background, BG;
+
+.control-bar__line {
+	background: rgba(255, 126, 0, 1);
+	border-top: 0px solid rgba(255, 126, 0, 1);
+	width: 25%;
+	height: 2px;
+	position: absolute;
+	top: 11px;
+	margin: 0;
+}
+
+.control-bar__left-line {
+	left: 10px;
+}
+
+.control-bar__right-line {
+	right: 10px;
+}

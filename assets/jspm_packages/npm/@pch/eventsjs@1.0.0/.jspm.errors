@@ -1,0 +1,32 @@
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:4:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:4:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:5:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:5:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:5:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:5:30: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:6:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:6:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:6:14: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:6:19: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:7:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:7:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:7:18: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:7:23: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:12:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:12:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:12:19: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/mocha-tests.js:12:24: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/spec/EventsMixin-spec.js:1:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/spec/EventsMixin-spec.js:1:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/spec/EventsMixin-spec.js:1:25: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/spec/EventsMixin-spec.js:1:30: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/spec/EventsMixin-spec.js:2:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/spec/EventsMixin-spec.js:2:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/spec/EventsMixin-spec.js:2:20: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/tests/spec/EventsMixin-spec.js:2:25: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/src/index.js:101:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/src/index.js:101:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/src/index.js:101:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/eventsjs@1.0.0/src/index.js:101:16: Semi-colon expected

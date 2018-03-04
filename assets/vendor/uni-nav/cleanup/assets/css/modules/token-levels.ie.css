@@ -1,0 +1,82 @@
+.ie8 .uninav__token-level-icon--bronze, 
+.lt-ie9 .uninav__token-level-icon--bronze 
+{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/token-levels/bronze.png',sizingMethod='scale'); }
+
+.ie8 .uninav__token-level-icon--silver, 
+.lt-ie9 .uninav__token-level-icon--silver 
+{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/token-levels/silver.png',sizingMethod='scale'); }
+
+.ie8 .uninav__token-level-icon--gold, 
+.lt-ie9 .uninav__token-level-icon--gold 
+{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/token-levels/gold.png',sizingMethod='scale'); }
+
+.ie8 .uninav__token-level-icon--platinum, 
+.lt-ie9 .uninav__token-level-icon--platinum 
+{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/token-levels/platinum.png',sizingMethod='scale'); }
+
+.ie8 .uninav__token-level-icon--emerald, 
+.lt-ie9 .uninav__token-level-icon--emerald 
+{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/token-levels/emerald.png',sizingMethod='scale'); }
+
+.ie8 .uninav__token-level-icon--saphire, 
+.ie8 .uninav__token-level-icon--sapphire, 
+.lt-ie9 .uninav__token-level-icon--saphire, 
+.lt-ie9 .uninav__token-level-icon--sapphire 
+{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/token-levels/sapphire.png',sizingMethod='scale'); }
+
+.ie8 .uninav__token-level-icon--diamond, 
+.lt-ie9 .uninav__token-level-icon--diamond 
+{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/token-levels/diamond.png',sizingMethod='scale'); }
+
+.ie8 .uninav__token-level-icon--blackdiamond, 
+.ie8 .uninav__token-level-icon--black_diamond, 
+.lt-ie9 .uninav__token-level-icon--blackdiamond, 
+.lt-ie9 .uninav__token-level-icon--black_diamond 
+{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/token-levels/black_diamond.png',sizingMethod='scale'); }
+
+.ie8 .uninav__token-level-icon, 
+.lt-ie9 .uninav__token-level-icon { background-image: none; }
+
+.ie8 .uninav__display-token-level--bronze, 
+.lt-ie9 .uninav__display-token-level--bronze
+{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/token-levels/uninav/uninav-level-bg-bronze.png",sizingMethod='scale');}
+
+.ie8 .uninav__display-token-level--silver, 
+.lt-ie9 .uninav__display-token-level--silver
+{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/token-levels/uninav/uninav-level-bg-silver.png",sizingMethod='scale');}
+
+.ie8 .uninav__display-token-level--gold, 
+.lt-ie9 .uninav__display-token-level--gold
+{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/token-levels/uninav/uninav-level-bg-gold.png",sizingMethod='scale');}
+
+.ie8 .uninav__display-token-level--platinum, 
+.lt-ie9 .uninav__display-token-level--platinum
+{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/token-levels/uninav/uninav-level-bg-platinum.png",sizingMethod='scale');}
+
+.ie8 .uninav__display-token-level--emerald, 
+.lt-ie9 .uninav__display-token-level--emerald
+{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/token-levels/uninav/uninav-level-bg-emerald.png",sizingMethod='scale');}
+
+.ie8 .uninav__display-token-level--sapphire, 
+.ie8 .uninav__display-token-level--sappphire, 
+.lt-ie9 .uninav__display-token-level--sapphire, 
+.lt-ie9 .uninav__display-token-level--sappphire
+{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/token-levels/uninav/uninav-level-bg-sapphire.png",sizingMethod='scale');}
+
+.ie8 .uninav__display-token-level--diamond, 
+.lt-ie9 .uninav__display-token-level--diamond
+{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/token-levels/uninav/uninav-level-bg-diamond.png",sizingMethod='scale');}
+
+.ie8 .uninav__display-token-level--blackdiamond, 
+.ie8 .uninav__display-token-level--black_diamond, 
+.lt-ie9 .uninav__display-token-level--blackdiamond, 
+.lt-ie9 .uninav__display-token-level--black_diamond
+{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/token-levels/uninav/uninav-level-bg-black_diamond.png",sizingMethod='scale');}
+
+.ie8 .uninav__display-token-level, 
+.lt-ie9 .uninav__display-token-level--bronze 
+{ background-image: none; }
+
+.ie8 .uninav__display-token-level--no-password, 
+.lt-ie9 .uninav__display-token-level--no-password 
+{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/token-levels/uninav/uninav-level-no-password.png",sizingMethod='scale'); }

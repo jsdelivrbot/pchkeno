@@ -1,0 +1,4 @@
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/pchvideoplayer@2.0.0/dist/index.esm.js:634:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/pchvideoplayer@2.0.0/dist/index.esm.js:634:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/pchvideoplayer@2.0.0/dist/index.esm.js:634:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/pchvideoplayer@2.0.0/dist/index.esm.js:634:16: Semi-colon expected

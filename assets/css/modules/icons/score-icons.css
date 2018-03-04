@@ -1,0 +1,8 @@
+.score-icon {
+	@mixin imagereplace;
+	background: resolve("images/sprites/icons/score-icon@2x.png");
+	width: 27px;
+	height: 27px;
+	background-size: 27px 27px;
+	display: inline-block;
+}

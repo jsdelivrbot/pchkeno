@@ -1,0 +1,182 @@
+$screenWidth: 851px;
+$screenHeight: 558px;
+
+.tutorial .close {
+	right: 59px;
+	top: 10px;
+	z-index: 3;
+}
+
+.tutorial .modal-content {
+	text-align: center;
+	background: rgba(255, 255, 255, 0.6);
+	/* @TODO dev only */
+	/*opacity: 0.5;*/
+}
+
+.tutorial .modal-dialog {
+	width: 974px;
+	/* @TODO dev only */
+	/*
+    background: resolve("_screenshots/32_tutorial.png") 0 0 no-repeat;
+    background-position: -11px -10px;
+    background-size: 977px auto;
+    */
+}
+
+.tutorial .modal-header {
+	padding: 0;
+}
+
+.tutorial .modal-body {
+	width: $screenWidth;
+	height: $screenHeight;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.tutorial__screens {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	transform: translateX(0);
+	transition: transform 1s ease;
+}
+
+.tutorial__screen {
+	width: $screenWidth;
+	height: $screenHeight;
+	position: relative;
+	flex-shrink: 0;
+
+	@mixin loadingspinner;
+}
+.tutorial__screen--loaded {
+	background: transparent;
+}
+
+.tutorial__screen__header,
+.tutorial__screen__header2,
+.tutorial__screen__body,
+.tutorial__screen__body2,
+.tutorial__screen__bubble {
+	position: relative;
+	z-index: 2;
+	text-align: center;
+}
+.tutorial__screen__header,
+.tutorial__screen__header2 {
+	color: #fff;
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: bold;
+}
+.tutorial__screen__body,
+.tutorial__screen__body2 {
+	color: #fff;
+	font-size: 17px;
+	line-height: 21px;
+	font-weight: 300;
+}
+.tutorial__screen__bubble {
+	color: #333;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 20px;
+	position: absolute;
+}
+.tutorial__screen--1 .tutorial__screen__bubble {
+	width: 173px;
+	right: 56px;
+	bottom: 58px;
+}
+
+.tutorial__screen__col {
+	width: 50%;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+}
+.tutorial__screen__col--left {
+	left: 40px;
+}
+.tutorial__screen__col--right {
+	right: 40px;
+	width: 340px;
+}
+.tutorial__screen__col--left .tutorial__screen__header,
+.tutorial__screen__col--left .tutorial__screen__body {
+	text-align: left;
+}
+.tutorial__screen__col--right .tutorial__screen__header,
+.tutorial__screen__col--right .tutorial__screen__body {
+	text-align: right;
+}
+
+.tutorial__screen__img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tutorial__controls__btn {
+	@mixin imagereplace;
+	position: absolute;
+	height: 100%;
+	width: 50px;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	top: 0;
+	background: transparent resolve("icons/chevron-thin-large@2x.png") center
+		center no-repeat;
+	background-size: 25px 42px;
+	border: 0;
+}
+.tutorial__controls__btn:hover,
+.tutorial__controls__btn:active,
+.tutorial__controls__btn:active:focus,
+.tutorial__controls__btn:focus {
+	border: 0;
+	outline: none;
+}
+.tutorial__controls__btn--prev {
+	left: 0;
+}
+.tutorial__controls__btn--next {
+	right: 0;
+	transform: rotate(180deg);
+}
+
+.tutorial__controls__skips {
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	width: 100%;
+	padding: 0 0 0 9px;
+	margin: 0;
+	z-index: 3;
+	display: flex;
+	justify-content: center;
+}
+.tutorial__controls__skip {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin: 0 10px 0 0;
+	background: #fff;
+}
+.tutorial__controls__skip--active {
+	background: #000;
+}
+.tutorial__controls__skip__link {
+	@mixin imagereplace;
+	display: block;
+	width: 100%;
+	height: 100%;
+}

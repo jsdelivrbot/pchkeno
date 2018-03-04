@@ -1,0 +1,129 @@
+body.app-keno.mobile {
+	font-size: 14px;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+.app-keno.mobile {
+	background: #333;
+	color: #999999;
+}
+
+.app-keno.mobile a {
+	color: #fff;
+}
+
+.app-keno.mobile .regform__header-title {
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	padding-top: 51vh;
+}
+
+.app-keno.mobile .regform__header-intro {
+	color: #999;
+	font-size: 13.5px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.app-keno.mobile .regform__input {
+	width: 100%;
+	border-radius: 4px;
+	margin: 0 3px 0 0;
+	border: 1px solid #999;
+	padding: 4px;
+	color: #333;
+	font-size: 18px;
+	box-sizing: border-box;
+	background-color: #f6f6f6;
+}
+
+.app-keno.mobile .dob .regform__label {
+	width: 100%;
+	display: block;
+}
+
+.app-keno.mobile .dob .regform__input {
+	margin-right: 0px;
+}
+.app-keno.mobile .regform__input--month {
+	width: 123px;
+}
+
+.app-keno.mobile .regform__input--day {
+	width: 63px;
+}
+
+.app-keno.mobile .regform__input--year {
+	width: 86px;
+}
+
+.app-keno.mobile .regform__label {
+	margin-top: 12px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.app-keno.mobile .regform__field {
+	margin-top: 12px;
+}
+
+.app-keno.mobile .regform {
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.app-keno.mobile .regform__remember {
+	font-weight: bold;
+	margin: 20px 0;
+	font-size: 18px;
+}
+
+.app-keno.mobile #register_content {
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.app-keno.mobile .regform__optin {
+	margin: 10px 0px;
+	position: relative;
+	padding-left: 25px;
+}
+
+.app-keno.mobile .regform__optin input {
+	position: absolute;
+	top: 4px;
+	left: 3px;
+	margin: 0;
+	width: 13px;
+	height: 13px;
+}
+.app-keno.mobile .submit-container {
+	text-align: center;
+	margin: 25px 0;
+}
+
+.app-keno.mobile .register-content__privacy {
+	text-align: center;
+}
+
+.app-keno.mobile .register-content__copyright {
+	text-align: center;
+	padding: 0 5px;
+	margin-top: 15px;
+}
+
+.app-keno.mobile .copyright2 {
+	text-align: center;
+	padding: 0 5px;
+}
+
+.app-keno.mobile .submit-button {
+	border: none;
+	background-size: 100% !important;
+	height: 70px;
+	width: 213px;
+	box-shadow: none;
+}

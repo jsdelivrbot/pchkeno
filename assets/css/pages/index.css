@@ -1,0 +1,70 @@
+.banner--home.banner--tokens {
+	background-image: resolve("banners/home-banner-tokens@2x.png");
+}
+.banner--home.banner--cash {
+	background-image: resolve("banners/home-banner-cash@2x.png");
+}
+
+.sidebar .banner--home.banner--tokens {
+	background-image: resolve("banners/home-sidebar-banner-tokens@2x.png");
+}
+.sidebar .banner--home.banner--cash {
+	background-image: resolve("banners/home-sidebar-banner-cash@2x.png");
+}
+
+.banner--home .banner__title {
+	color: #ed1a1d;
+	font-size: 30px;
+	margin: 0 0 13px 0;
+	height: 34px;
+}
+.sidebar .banner--home .banner__title {
+	font-size: 18px;
+	margin-bottom: 9px;
+	height: 47px;
+}
+.sidebar .banner--home .banner__title__prize {
+	display: block;
+	font-size: 25px;
+	text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
+		2px 2px 0 #fff;
+}
+
+.banner--home .banner__subtitle {
+	font-size: 26px;
+	color: #fff;
+	margin: 0;
+}
+.sidebar .banner--home .banner__subtitle {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 0.95;
+}
+
+.banner--home .banner__subtitle2,
+.banner--home .banner__subtitle3 {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 200;
+	position: absolute;
+	margin: 0;
+	bottom: 9px;
+}
+.sidebar .banner--home .banner__subtitle2,
+.sidebar .banner--home .banner__subtitle3 {
+	font-size: 9px;
+	position: static;
+}
+
+.banner--home .banner__subtitle23 {
+	line-height: 1;
+	margin: 0;
+}
+
+.banner--home .banner__subtitle2 {
+	left: 33px;
+}
+
+.banner--home .banner__subtitle3 {
+	right: 33px;
+}

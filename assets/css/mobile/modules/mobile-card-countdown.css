@@ -1,0 +1,10 @@
+.clock {
+	z-index: 0;
+	height: 122px;
+}
+
+@mixin card-colors ".cardplay--%s .clock", background, BG;
+
+@mixin card-colors ".cardplay--%s .clock__stage-overlay--top", border-top-color, BG;
+
+@mixin card-colors ".cardplay--%s .clock__stage-overlay--bot", border-bottom-color, BG;

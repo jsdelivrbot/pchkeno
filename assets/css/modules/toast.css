@@ -1,0 +1,115 @@
+.toast {
+	position: fixed;
+	width: 100%;
+	bottom: 64px;
+	left: 50%;
+	width: 936px;
+	margin-left: -468px;
+	z-index: 199; /* show just below kenobar */
+}
+.toast__border {
+	border: 8px solid rgba(255, 255, 255, 0.5);
+	border-radius: 44px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom: 0;
+	width: 345px;
+	float: right;
+	position: relative;
+	right: 161px;
+	bottom: -16px;
+	height: 100%;
+}
+.toast__body {
+	height: 100%;
+	border: 3px solid #6b6b6b;
+	border-bottom: 0;
+	border-radius: 34px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	background: linear-gradient(to bottom, #020202 0%, #3a3a3a 100%);
+	text-align: center;
+	color: #fff;
+	min-height: 100px;
+	padding: 26px;
+}
+
+.toast__usermsg,
+.toast__description {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+}
+.toast__usermsg {
+	margin-bottom: 0;
+}
+
+.toast__awardmsg {
+	font-size: 35px;
+	line-height: 35px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.toast__awardmsg--tokens {
+	color: #f5be41;
+	position: relative;
+	left: -4px;
+}
+.toast__awardmsg--tokens.earn-tokens {
+	left: 0;
+}
+.toast__awardmsg--cash {
+	color: #668a47;
+}
+
+.toast__description {
+}
+
+.toast__close {
+	border: 2px solid #fff;
+	background: #000;
+	width: 27px;
+	height: 27px;
+	position: absolute;
+	top: 0;
+	right: -4px;
+	z-index: 2;
+	border-radius: 20px;
+	font-weight: normal;
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 16px;
+	text-indent: 1px;
+	padding: 2px 4px 4px 4px;
+}
+
+.toast__submitbtn .btn {
+	margin: 0;
+}
+
+.toast__nothanks {
+	color: #999;
+	font-size: 13px;
+	text-decoration: underline;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.promotion-entry {
+
+	.toast__border {
+		border: 0;
+		bottom: -3px;
+		right: 172px;
+	}
+
+	.toast__body {
+		padding: 0;
+		border: 0;
+	}
+
+	#entry-notification-mobile {
+		max-width: 100%;
+	}
+}

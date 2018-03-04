@@ -1,0 +1,28 @@
+.gos,
+.gos__win,
+.gos__continue-btn,
+.gos__claim-btn {
+    display: none;
+}
+
+.gos--show,
+.gos__win--show {
+    display: block;
+}
+
+.gos__continue-btn--show,
+.gos__claim-btn--show {
+    display: inline-block;
+}
+
+/* if user data provided to GOS, p13n block is updated */
+.gos__p13n {
+    display: none;
+}
+.gos--signedin .gos__p13n {
+    display: block;
+}
+
+/* class that is added for full reg users */
+.gos--fullreg {
+}

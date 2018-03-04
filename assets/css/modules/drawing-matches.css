@@ -1,0 +1,329 @@
+.drawing__side-game-match {
+	margin: 0 0 20px 20px;
+	perspective: 900px;
+	text-align: center;
+}
+
+.drawing__side-game-match-card {
+	/*transition: all 0.6s ease;*/
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.drawing__side-game-match-card.flip {
+	transform: rotateX(180deg);
+}
+
+$side-game-match-radius: 32px;
+
+.drawing__side-game-match-card-front,
+.drawing__side-game-match-card-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	border-radius: $side-game-match-radius;
+	width: 226px;
+	background: rgba(51, 51, 51, 1);
+	height: 109px;
+}
+
+.drawing__side-game-match-card-front {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.drawing__side-game-match-card-back {
+	transform: rotateX(180deg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.drawing__side-game-match-card-back .colored-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50px;
+	overflow: hidden;
+	width: 100%;
+	background-color: rgba(85, 84, 152, 1);
+
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.drawing__side-game-match-card-back .matched {
+	color: rgba(255, 255, 255, 1);
+	font-weight: bold;
+	font-size: 18px;
+	position: absolute;
+	left: 85px;
+	top: 15px;
+}
+
+.drawing__side-game-match-card-back .tokens-won {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.drawing__side-game-match-card-back .tokens-won .tokens-icon {
+	height: 34px;
+}
+
+.drawing__side-game-match-card-back .token-amount {
+	color: rgba(245, 190, 65, 1);
+	font-size: 20px;
+	height: 26px;
+	margin-left: 10px;
+}
+
+.drawing__side-game-match-card-back .token-amount .plus {
+	color: rgba(204, 204, 204, 1);
+}
+
+.drawing__side-game-match-card-back .winnings-message {
+	margin-top: 45px;
+	width: 100%;
+}
+
+.drawing__side-game-match-card-back .winnings-message p.did-not-play {
+	color: rgba(204, 204, 204, 1);
+	text-align: center;
+	margin-top: 10px;
+}
+
+.drawing__side-game-match-card-back .winnings-message.cash {
+	margin-top: 45px;
+}
+
+.drawing__side-game-match-card-back .cash-won {
+}
+
+.drawing__side-game-match-card-back .cash-won .cash-won-text {
+	display: flex;
+	justify-content: center;
+}
+
+.drawing__side-game-match-card-back .cash-won .cash-icon {
+	margin: 0px 5px;
+}
+
+.drawing__side-game-match-card-back .cash-won .cash-amount {
+	color: rgba(181, 219, 130, 1);
+}
+
+.drawing__side-game-matches {
+	display: flex;
+
+	flex-direction: column;
+	visibility: hidden;
+	position: relative;
+}
+
+.drawing__side-game-match {
+	display: block;
+	margin: 0 0 15px 0;
+	padding: 0 5px;
+	perspective: 900px;
+	text-align: center;
+}
+
+.drawing__side-game-match-card {
+	position: relative;
+	height: 109px;
+	width: 226px;
+
+	/*transition: all 0.6s ease;*/
+	transform-style: preserve-3d;
+}
+
+.drawing__side-game-match-card-front,
+.drawing__side-game-match-card-back {
+	position: absolute;
+	background: #fec606;
+	top: 0;
+	left: 0;
+	height: 109px;
+	border-radius: 35px;
+	width: 226px;
+	background: rgba(51, 51, 51, 1);
+}
+.drawing__side-game-match-card-front {
+	box-shadow: 0 0px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.cardflip__front .completed {
+	color: rgba(255, 255, 255, 1);
+	display: flex;
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	display: block;
+}
+
+.cardflip__front .did-not-play {
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 18px;
+	font-weight: bold;
+	display: none;
+}
+
+.drawing__side-game-match--did-not-play .cardflip__front .did-not-play {
+	display: block;
+}
+
+.drawing__side-game-match--did-not-play .cardflip__front .completed {
+	display: none;
+}
+
+.drawing__side-game-match--completed .cardflip__front .completed {
+	display: block;
+}
+
+.cardflip__front .completed .checkmark {
+	background-image: resolve("images/icons/checkmark.png");
+	width: 22px;
+	height: 22px;
+	background-size: 100%;
+	margin-left: 5px;
+	float: right;
+}
+
+.drawing__side-game-match-card-front {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+}
+
+.drawing__side-game-match-card-back {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+}
+
+.drawing__side-game-match.flip .drawing__side-game-match-card {
+	transform: rotateX(180deg);
+}
+
+.drawing__side-game-match-card-back {
+	transform: rotateX(180deg);
+}
+
+@mixin card-colors ".drawing__side-game-match--%s .drawing__side-game-match-card-front,
+	.drawing__side-game-match--%s .colored-top",
+	background-color,
+	BG;
+@mixin card-colors ".drawing__side-game-match--%s ul.drawing__side-game-match-card-numbers li",
+	background-color,
+	BG;
+
+/*.drawing__side-game-match-1 ul.drawing__side-game-match-card-numbers li   {box-shadow: 0px 0px 0px rgba(85, 84, 152, 1.0);}
+.drawing__side-game-match-2 ul.drawing__side-game-match-card-numbers li   {box-shadow: 0px 0px 0px rgba(7, 174, 23, 1.0)}
+.drawing__side-game-match-3 ul.drawing__side-game-match-card-numbers li   { box-shadow: 0px 0px 0px rgba(226, 0, 0, 1.0)}
+.drawing__side-game-match-4 ul.drawing__side-game-match-card-numbers li   { box-shadow: 0px 0px 0px rgba(0, 181, 226, 1.0)}
+.drawing__side-game-match-5 ul.drawing__side-game-match-card-numbers li   {box-shadow: 0px 0px 0px rgba(255, 126, 0, 1.0)}*/
+
+.drawing__side-game-match--did-not-play
+	.drawing__side-game-match-card
+	.drawing__side-game-match-card-front,
+.drawing__side-game-match--did-not-play
+	.drawing__side-game-match-card
+	.colored-top,
+.drawing__side-game-match--did-not-play
+	ul.drawing__side-game-match-card-numbers
+	li {
+	background-color: rgba(204, 204, 204, 1);
+}
+
+.drawing__side-game-match-card .background-number {
+	color: rgba(0, 0, 0, 0.35);
+	font-family: "Open Sans", sans-serif;
+	position: absolute;
+	left: 10px;
+	top: 9px;
+	font-size: 48px;
+	line-height: 48px;
+	z-index: 0;
+	font-weight: bold;
+}
+
+ul.drawing__side-game-match-card-numbers {
+	width: 200px;
+	display: block;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 32px;
+	z-index: 0;
+	border-radius: 20px;
+	line-height: 20px;
+}
+
+ul.drawing__side-game-match-card-numbers li {
+	border-radius: 20px;
+
+	float: left;
+	width: 20%;
+	width: 39px;
+}
+
+ul.drawing__side-game-match-card-numbers
+	li
+	div.drawing__side-game-match-card-numbers-ball {
+	display: inline-block;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, 0.05);
+	font-size: 16px;
+	width: 29px;
+	font-weight: "Open Sans", Arial, sans-serif;
+	height: 29px;
+	line-height: 29px;
+	margin: 5px 0px 0 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	border-radius: 20px;
+	font-weight: 400;
+}
+
+ul.drawing__side-game-match-card-numbers
+	li
+	div.drawing__side-game-match-card-numbers-ball.match {
+	background: var(--ball-color);
+	background: linear-gradient(
+		to bottom,
+		rgba(251, 241, 176, 1) 0%,
+		rgba(253, 226, 117, 1) 49%,
+		rgba(255, 211, 66, 1) 100%
+	);
+	animation-name: drawing__bounceIn;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+	color: rgba(0, 0, 0, 1);
+}
+
+ul.drawing__side-game-match-card-numbers li:first-of-type {
+}
+
+/* card flip click target */
+.drawing__side-game-match .cardflip__top,
+.drawing__side-game-match .cardflip__bottom,
+.drawing__side-game-match .cardflip__left,
+.drawing__side-game-match .cardflip__right {
+	transform: translateZ(2px);
+}
+
+.drawing__side-game-match .cardflip__front:after,
+.drawing__side-game-match .cardflip__back:after {
+	border-radius: 30px;
+}

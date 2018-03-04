@@ -1,0 +1,111 @@
+/*== Token Container */
+
+.uninav .uninav__token-center-container {
+    color: #fff;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 0;
+    background: transparent url(../../images/token-center/token-center-container-bkgd.png) no-repeat 0 0;
+    z-index: 999;
+    padding: 0 2px;
+    overflow: visible;
+    font-size: 12px;
+
+    width: 347px;
+    right: 0;
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .uninav .uninav__token-center-container {
+        width: 343px;
+        right: 0;
+    }
+}
+.uninav .uninav__token-center-container--expanded .uninav__token-center {
+    height: auto;
+}
+.uninav--unrecognized .uninav__token-center-container, 
+.uninav--notokens .uninav__token-center-container, 
+.uninav--incomplete .uninav__token-center-container, 
+.uninav--unrecognized-main .uninav__token-center-container {
+    display: none;
+}
+
+.uninav .uninav__token-center {
+    position: relative;
+    width: 343px;
+    background: #1b1b1b url(../../images/token-center/token-center-container-bkgd.png) no-repeat -2px 0;
+    height: 56px;
+    padding-top: 6px;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*== Token Center Container FOOTER Styling ==*/
+
+.uninav .uninav__token-center__footer {
+    background: transparent url(../../images/token-center/token-center-bkgd.png) no-repeat 0 bottom;
+    padding: 2px 0 2px 14px;
+    height: 20px;
+    color: #888;
+}
+
+.uninav .uninav__token-center__footer__links {
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 14px;
+    color: #888;
+    height: 18px;
+    border-right: 1px solid #111;
+    overflow: hidden;
+    width: 280px;
+    text-align: center;
+}
+
+.uninav .uninav__token-center__footer__linkitem {
+    display: inline;
+    margin-right: 7px;
+    padding-right: 7px;
+    border-right: 1px solid #888;
+}
+.ie8 .uninav .uninav__token-center__footer__linkitem,
+.ie7 .uninav .uninav__token-center__footer__linkitem {
+    padding-right: 5px;
+}
+.uninav .uninav__token-center__footer__linkitem--last {
+    border-right: none;
+    margin-right: 0;
+}
+
+.uninav .uninav__token-center__footer__link {
+    color: #888;
+    text-decoration: none;
+    font-size: 12px;
+    background: none;
+}
+.uninav .uninav__token-center__footer__link:hover {
+    color: #fff;
+}
+
+.uninav .uninav__token-center__footer__toggle-container {
+    display: block;
+    float: left;
+    border-left: 1px solid #333;
+    width: 45px;
+    height: 18px;
+    padding: 0;
+}
+
+.uninav .uninav__token-center__footer__toggle-action {
+    display: block;
+    width: 19px;
+    height: 12px;
+    background: transparent url(../../images/token-center/token-center-bkgd.png) no-repeat -62px -322px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.uninav .uninav__token-center-container--expanded .uninav__token-center__footer__toggle-action {
+    background-position: -19px -322px;
+}
+

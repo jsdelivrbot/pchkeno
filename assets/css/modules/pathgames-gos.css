@@ -1,0 +1,205 @@
+/*
+ * These styles are all prefixed by #pathgame-container
+ * so that the specficity will override the inline styles
+ * that the pathgames bundle injects itself and that we do not control
+ */
+
+#pathgame-container .gos {
+	/*width: 871px;*/
+	width: 100%;
+	left: 0;
+	border-width: 10px;
+	border-style: solid;
+	border-radius: 0px;
+	padding: 0;
+	background: #fff;
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8);
+	border-color: #e20000;
+	/*
+    background: url(../images/_screenshots/05_game_over_slots-withpass.png) -10px -10px no-repeat;
+    background-size: 871px auto;
+    */
+}
+/* border color depends on card num */
+@mixin card-colors "#pathgame-container .gos--%s", border-color, BG;
+
+#pathgame-container .gos__header {
+	background: #ebebeb resolve("icons/gameover@2x.png") 50% 50% no-repeat;
+	background-size: 63px 65px;
+	height: 100px;
+	width: 100%;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+}
+#pathgame-container .gos__header img {
+	display: none;
+}
+
+#pathgame-container .gos__inner {
+	background: transparent;
+	box-shadow: none;
+	border-radius: 0;
+	border: 0;
+	padding-bottom: 0;
+}
+
+#pathgame-container .gos__user,
+#pathgame-container .gos__main-text,
+#pathgame-container .gos__you-won {
+	text-shadow: none;
+	color: #e20000;
+	font-weight: bold;
+	font-size: 33px;
+	line-height: 43px;
+	letter-spacing: 1px;
+	margin: 0 1px 0;
+	position: relative;
+	display: block;
+}
+#pathgame-container .gos--td .gos__main-text {
+	font-size: 24px;
+	line-height: 30px;
+}
+#pathgame-container .gos--td .gos__user {
+	display: none;
+}
+
+#pathgame-container .gos__amount-sep {
+	border-top: 2px solid #ebebeb;
+	margin: 19px 38px 0;
+}
+
+#pathgame-container .gos__amount {
+	text-shadow: none;
+	color: #dda32d;
+	font-size: 30px;
+	font-weight: 300;
+	padding: 0;
+	display: inline-block;
+	border-top: 0;
+	position: relative;
+}
+#pathgame-container .gos--td .gos__amount {
+	margin-bottom: 0;
+}
+
+#pathgame-container .gos--tokens .gos__amount:before {
+	@mixin imagereplace;
+
+	content: " ";
+	position: absolute;
+	left: -50px;
+	top: 3px;
+
+	background: resolve("sprites/icons/tokenstack-icon@2x.png");
+	width: 40px;
+	height: 33px;
+	background-size: 40px 33px;
+	display: inline-block;
+}
+#pathgame-container .gos--cash .gos__amount:before {
+	@mixin imagereplace;
+
+	content: " ";
+	position: absolute;
+	left: -40px;
+	top: 9px;
+
+	display: inline-block;
+	background: resolve("sprites/icons/cash-icon@2x.png");
+	background-size: 26px 24px;
+	width: 26px;
+	height: 24px;
+}
+
+#pathgame-container .gos__top-text,
+#pathgame-container .gos__bottom-text {
+	text-shadow: none;
+	color: #999;
+	font-size: 18px;
+	font-weight: 200;
+	text-align: center;
+	display: block;
+}
+#pathgame-container .gos__bottom-text {
+	margin: 0;
+}
+#pathgame-container .gos--desktop.gos--td .gos__top-text,
+#pathgame-container .gos--desktop.gos--td .gos__bottom-text {
+	margin: 10px 0;
+}
+
+#pathgame-container .gos--td .gos__sso-message {
+	padding: 0;
+}
+#pathgame-container .gos__sso-inputs-container {
+	margin: 0;
+}
+#pathgame-container .gos__forfeit {
+	background: transparent;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+#pathgame-container .gos__bottom-text-continue {
+	text-shadow: none;
+}
+
+#pathgame-container .gos__button-container {
+	background-color: #e20000;
+	padding: 20px 0 40px;
+	margin-bottom: 0;
+}
+@mixin card-colors "#pathgame-container .gos--%s .gos__button-container",
+	background-color,
+	BG;
+
+#pathgame-container .gos__play-more-button {
+	text-transform: uppercase;
+	margin: 12px 16px 0 0;
+	border: 2px solid #fff;
+	border-radius: 34px;
+	color: #fff;
+	padding: 13px 0;
+	width: 190px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	box-shadow: 2px 5px 2px 0px rgba(0, 0, 0, 0.2);
+	background: rgb(254, 160, 69);
+	background: linear-gradient(to bottom, #9b0e0e 0%, #660000 100%);
+	text-shadow: none;
+}
+@mixin card-gradient "#pathgame-container .gos--%s .gos__play-more-button",
+	background;
+#pathgame-container .gos__play-more-button:hover,
+#pathgame-container .gos__play-more-button:active,
+#pathgame-container .gos__play-more-button:active:focus,
+#pathgame-container .gos__play-more-button:focus {
+	border-color: #fff;
+	outline: none;
+}
+#pathgame-container .gos__play-more-button .gos__but-text {
+	line-height: 1.2;
+	display: block;
+	margin: 0;
+	height: 100%;
+	text-shadow: none;
+}
+#pathgame-container .gos__play-more-button .gos__arrow-border,
+#pathgame-container .gos__play-more-button .gos__arrow {
+	display: none;
+}
+
+#pathgame-container .gos__footer {
+	background-color: #e20000;
+	padding: 0 0 40px;
+	margin-bottom: 0;
+}
+@mixin card-colors "#pathgame-container .gos--%s .gos__footer",
+	background-color,
+	BG;

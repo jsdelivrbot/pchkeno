@@ -1,0 +1,159 @@
+.pathgame--desktop .pathgame__htmlgame-outer {
+    background: linear-gradient(to bottom, #d2d0d0 0%, #fafafa 71%, #c0c0c1 100%);
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #bdbdbd;
+    box-shadow: 0px -1px 0px 1px white inset;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.game-preloader {
+    position: absolute;
+    top: 0px;
+}
+
+.pathgame {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.pathgame--desktop {
+    max-width: 762px;
+}
+
+.pathgame--desktop .pathgame__htmlgame-outer {
+    background: linear-gradient(to bottom, #d2d0d0 0%, #fafafa 71%, #c0c0c1 100%);
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #bdbdbd;
+    box-shadow: 0px -1px 0px 1px white inset;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+.pathgame--desktop .pathgame__htmlgame-inner {
+    min-height: 350px;
+}
+
+.pathgame--desktop .pathgame__game-progress {
+    height: 20px;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.pathgame--desktop .pathgame__game-progress-text,
+.pathgame--desktop .pathgame__game-progress-numbers {
+    display: inline-block;
+    color: #595757;
+}
+
+.pathgame--desktop .pathgame__game-progress-text {
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.75);
+}
+
+.pathgame--desktop .pathgame__game-progress-numbers {
+    padding: 6px 15px;
+    background: #e7e5e0;
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px 0px rgba(147, 143, 143, 0.75) inset;
+}
+
+.pathgame--desktop .pathgame__disclaimer {
+    text-align: center;
+    width: 460px;
+    margin: 15px auto 0 auto;
+    color: black;
+    font-size: 9px;
+}
+
+.pathgame--tablet {
+    max-width: 762px;
+}
+
+.pathgame--tablet .pathgame__htmlgame-outer {
+    background: linear-gradient(to bottom, #d2d0d0 0%, #fafafa 71%, #c0c0c1 100%);
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #bdbdbd;
+    box-shadow: 0px -1px 0px 1px white inset;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+.pathgame--tablet .pathgame__htmlgame-inner {
+    min-height: 350px;
+}
+
+.pathgame--tablet .pathgame__game-progress {
+    height: 20px;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.pathgame--tablet .pathgame__game-progress-text,
+.pathgame--tablet .pathgame__game-progress-numbers {
+    display: inline-block;
+    color: #595757;
+}
+
+.pathgame--tablet .pathgame__game-progress-text {
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.75);
+}
+
+.pathgame--tablet .pathgame__game-progress-numbers {
+    padding: 6px 15px;
+    background: #e7e5e0;
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px 0px rgba(147, 143, 143, 0.75) inset;
+}
+
+.pathgame--tablet .pathgame__disclaimer {
+    text-align: center;
+    width: 460px;
+    margin: 15px auto 0 auto;
+    color: black;
+    font-size: 9px;
+}
+
+.pathgame--mobile .pathgame__htmlgame-outer {
+    width: 320px;
+    min-height: 480px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.pathgame--mobile .pathgame__game-progress {
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px 0px;
+    background: black;
+}
+
+.pathgame--mobile .pathgame__game-progress-text,
+.pathgame--mobile .pathgame__game-progress-numbers {
+    display: inline-block;
+}
+
+.pathgame--mobile .pathgame__game-progress-curr {
+    font-weight: bold;
+}
+
+.pathgame--mobile .pathgame__disclaimer {
+    text-align: center;
+    width: 320px;
+    margin: 10px auto 0 auto;
+    color: black;
+    font-size: 0.7em;
+}

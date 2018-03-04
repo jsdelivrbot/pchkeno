@@ -1,0 +1,104 @@
+.modal {
+	width: 100%;
+	height: 100%;
+	/* important is because the Zepto show() method
+     * which the bootstrap modal uses, adds unncessary transform scale()
+     * inline styles to this element, but we want translateZ()
+     * so that it shows over elements like the cardflips
+     */
+	transform: translateZ(2px) !important;
+}
+
+.modal .modal-dialog {
+	border: 8px solid rgba(255, 255, 255, 0.5);
+	border-radius: 40px;
+}
+
+.modal .modal-content {
+	border: 3px solid #333;
+	border-radius: 30px;
+}
+
+.modal .modal-header {
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom: 0;
+}
+
+.modal .close {
+	background: #000;
+	position: absolute;
+	right: -7px;
+	top: -7px;
+	border: 2px solid #fff;
+	border-radius: 16px;
+	font-weight: 300;
+	opacity: 1;
+	color: #fff;
+	padding: 2px 7px;
+	z-index: 3;
+}
+.modal .close span {
+	display: inline-block;
+	line-height: 18px;
+	vertical-align: top;
+}
+
+.modal-vertical-align-spacer {
+	display: table;
+	height: 100%;
+	width: 100%;
+	pointer-events: none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.modal-vertical-align-body {
+	/* To center vertically */
+	display: table-cell;
+	vertical-align: middle;
+	/*pointer-events:none;*/
+}
+.modal-vertical-align-body .modal-dialog {
+	pointer-events: all;
+}
+
+/* the oops overlay */
+.cardplay-oops .modal-dialog {
+	width: 488px;
+	margin: 150px auto;
+	/* dev only */
+	/*
+    background: resolve("_screenshots/33_home_oops_overlay.png") 0 0 no-repeat;
+    background-position: -9px -8px;
+    background-size: 489px auto;
+    */
+}
+.cardplay-oops .modal-content {
+	text-align: center;
+	padding: 8px;
+	/* dev only */
+	/*opacity: 0.5*/
+}
+.cardplay-oops .modal-header {
+	padding: 0;
+}
+.cardplay-oops .modal-title {
+	font-size: 150px;
+	line-height: 176px;
+	font-weight: 200;
+	letter-spacing: 3px;
+}
+.cardplay-oops .modal-body {
+	padding: 0;
+	top: -27px;
+}
+.cardplay-oops__text {
+	font-size: 23px;
+	font-weight: 200;
+	margin-bottom: 16px;
+}
+.cardplay-oops__btn {
+	padding: 10px 0;
+	width: 214px;
+	font-size: 32px;
+	margin: 0;
+	text-transform: none;
+}

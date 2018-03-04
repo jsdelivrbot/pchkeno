@@ -1,0 +1,424 @@
+.results {
+	border: 2px solid #c5c5c5;
+	border-radius: 40px;
+	margin-right: 10px;
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #333;
+	overflow: hidden;
+
+	/* @TODO dev only */
+	/*
+    background: resolve("_screenshots/results_unrecognized.png") 0 0 no-repeat;
+    background-size: 874px auto;
+    */
+}
+
+.results__header,
+.results__title,
+.results__subtitle {
+	font-weight: 300;
+	font-family: "Roboto";
+}
+
+.results__header {
+	background: linear-gradient(to bottom, #cacaca 0%, #e1e1e1 100%);
+	border: 3px solid #fff;
+	border-radius: 36px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.results__title {
+	font-size: 48px;
+	padding: 20px 0 0 22px;
+	float: left;
+	margin: 0;
+}
+
+.results__subtitle {
+	float: left;
+	margin: 0;
+	padding: 35px 0 0 16px;
+	font-size: 25px;
+	line-height: 1.2;
+	text-decoration: underline;
+}
+
+.results__navbar {
+	clear: both;
+	margin: 0;
+	padding: 15px 0 0 0;
+	background: transparent;
+	border: 0;
+	position: relative;
+	top: 1px;
+}
+
+.results__navbar__container {
+	padding: 0 13px;
+}
+
+.results__navbar__collapse {
+	padding: 0;
+	position: relative;
+	top: 1px;
+}
+
+.results__form {
+	padding: 0 52px 0 0;
+	margin: 0;
+}
+.results__form__date {
+	cursor: pointer;
+}
+.results__form__date .form-label__display {
+	min-width: 210px;
+}
+
+/*
+.results__form__time > select.form-control {
+    display: block;
+}
+*/
+$timeWidth: 150px;
+.results__form__time {
+	position: relative;
+}
+.results__form__time .form-label__display {
+	width: $timeWidth;
+}
+/* times loading state */
+.results__form__time .form-label__display--loading {
+	@mixin loadingspinner-small;
+	background-position: 94% 50%;
+}
+.results__form__time .form-label__display--loading .glyphicon {
+	display: none;
+}
+
+.results__form__time .selectric-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: $timeWidth;
+	height: 100%;
+}
+.results__form__time .selectric {
+	opacity: 0;
+}
+.results__form__time .selectric-items {
+	margin-top: -2px;
+	width: $timeWidth;
+	border: 0;
+}
+
+.results__form__time .results__opt--haspicks {
+	color: #555498;
+	font-weight: bold;
+}
+
+.results__form .form-submit {
+	position: absolute;
+	right: -3px;
+	top: -4px;
+	margin: 0 4px 0 0;
+}
+.results__form .form-submit:hover {
+	transform: none;
+	background: linear-gradient(to bottom, #380606 0%, #5f0101 100%);
+}
+.results--submitting .results__form .form-submit {
+	cursor: wait;
+}
+
+.results__form .pika-single {
+	margin: -7px 0 0 -51px;
+}
+.page--results .pika-button.pika-day {
+	padding: 2px 6px 3px 6px;
+}
+
+.results__nav__item {
+	margin-right: 9px;
+}
+
+.results__nav__item .results__nav__link {
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 11px 9px 20px 9px;
+	background: transparent;
+	border: 2px solid #fff;
+
+	color: #666;
+}
+/* active link */
+.results__nav__item--active .results__nav__link,
+.results__nav__item--active .results__nav__link:hover {
+	background: #fff;
+	color: #333;
+}
+/* pjax loading */
+.results--submitting .results__nav__item .results__nav__link,
+.results--submitting .results__nav__item .results__nav__link:hover {
+	cursor: wait;
+}
+
+.results__nav__link .platform-icon {
+	position: relative;
+	top: 2px;
+}
+.results__nav__item--active .nav > li > a:hover {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.results__winning-nums {
+	font-size: 20px;
+	font-family: Roboto;
+	text-align: center;
+	padding: 5px 0 0 0;
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 0 0 16px 0;
+}
+.results__winning-nums__desc {
+	font-weight: 300;
+	margin: 0;
+}
+.results__winning-nums__desc em {
+	font-weight: 400;
+	font-style: normal;
+}
+.results__winning-nums--cash .results__winning-nums__desc em {
+	color: #6f934d;
+}
+.results__winning-nums--tokens .results__winning-nums__desc em {
+	color: #dda32d;
+}
+.results__winning-nums__desc strong {
+	font-weight: 400;
+}
+
+.results__winning-nums__nums {
+	margin: 0 166px;
+	padding: 4px 0 0 0;
+}
+
+.results__drawtype {
+	@mixin imagereplace;
+	position: absolute;
+	top: 36px;
+	left: 22px;
+	width: 129px;
+	height: 63px;
+}
+.results__drawtype--cash {
+	background: resolve("sprites/icons/cash-drawing@2x.png") 0 0 no-repeat;
+	background-size: 129px 63px;
+}
+.results__drawtype--tokens {
+	background: resolve("sprites/icons/token-drawing@2x.png") 0 0 no-repeat;
+	background-size: 129px 63px;
+}
+
+.results__paytable-link {
+	@mixin imagereplace;
+	position: absolute;
+	right: 58px;
+	top: 42px;
+	background: resolve("sprites/icons/paytable@2x.png") 0 0 no-repeat;
+	background-size: 50px 38px;
+	width: 50px;
+	height: 38px;
+}
+
+.results__picks {
+	clear: both;
+	border: 3px solid #fff;
+	border-bottom-left-radius: 36px;
+	border-bottom-right-radius: 36px;
+	overflow: hidden;
+	display: none;
+}
+.results__picks--active {
+	display: block;
+}
+
+.results__picks__data {
+	width: 100%;
+	table-collapse: collapse;
+}
+
+.results__picks__data thead tr {
+	height: 28px;
+	font-size: 16px;
+}
+.results__picks__data thead th {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	vertical-align: middle;
+	background: #d1d3d4;
+	color: #565759;
+}
+.results__picks__data thead th:first-child {
+	color: #d1d3d4;
+}
+.results__picks__data thead th:last-child {
+	background: #565759;
+	color: #d7d7d7;
+	width: 223px;
+}
+
+.results__picks__data__card {
+	height: 80px;
+}
+@mixin card-colors ".results__picks__data__card--%s", background, BG;
+
+.results__picks__data__card th {
+	font-size: 55px;
+	font-weight: bold;
+	width: 82px;
+	text-align: center;
+}
+@mixin card-colors ".results__picks__data__card--%s th", color, TEXT;
+
+@mixin card-colors ".results__picks__data__card--%s td:last-child",
+	background,
+	DARK;
+
+.results__picks__data__unplayed {
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	margin: 0;
+}
+
+.results__picks__data__card .select-nums {
+	display: flex;
+}
+.results__picks__data__card .select-nums__num {
+	flex-grow: 1;
+}
+
+.results__picks__award {
+	font-size: 20px;
+	margin: 0;
+	font-weight: 300;
+	text-align: center;
+	position: relative;
+	top: -6px;
+	display: inline-block;
+	width: 100%;
+	vertical-align: bottom;
+}
+.results__picks__award--unplayed {
+	font-size: 55px;
+	color: #fff;
+	margin: 0;
+	top: 0;
+}
+.results__picks__award--tokens {
+	color: #f5be41;
+}
+.results__picks__award--cash {
+	color: #b5db82;
+}
+
+.results__picks__award__disclaimer {
+	color: #ccc;
+	font-size: 15px;
+}
+
+.results__picks__award--tokens .token-stack-icon,
+.results__picks__award--cash .cash-icon {
+	position: relative;
+	top: 5px;
+}
+
+/* unrecognized user */
+.results__unrecognized {
+	text-align: center;
+	clear: both;
+	padding-top: 46px;
+	padding-bottom: 100px;
+	background: #e4e5e6;
+	border: 3px solid #fff;
+	border-bottom-right-radius: 38px;
+	border-bottom-left-radius: 38px;
+}
+.results__unrecognized__text {
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+
+/* create password */
+.results__nopass {
+	position: absolute;
+	bottom: 5px;
+	right: 29px;
+	height: 400px;
+	width: 224px;
+	background: #fff;
+	border-bottom-right-radius: 30px;
+	color: #fff;
+	text-align: center;
+
+	background: #fff;
+	/* @TODO dev only */
+	/*
+    background: resolve("_screenshots/results_no_password.png") 0 0 no-repeat;
+    background-size: 223px 421px;
+    background-position: 0 -30px;
+    */
+}
+.results__nopass__body {
+	background: resolve("results/nopass_bg@2x.png") 50% -1px no-repeat;
+	background-size: 213px 316px;
+	position: relative;
+	top: -1px;
+	padding: 9px 0 0 0;
+}
+
+.results__nopass__title {
+	font-weight: bold;
+	font-size: 29px;
+	margin: 0 0 10px 0;
+}
+.results__nopass__text {
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 300;
+	font-family: "PT Sans", Arial;
+	padding: 0 40px;
+}
+.results__nopass__tokens {
+	font-size: 26px;
+	line-height: 28px;
+	font-weight: bold;
+	font-family: "Roboto";
+	display: block;
+}
+.results__nopass__btn {
+	margin: 68px 0 0 0;
+	padding: 16px 0;
+	font-family: "PT Sans", Arial;
+	font-size: 19px;
+	font-weight: 300;
+	text-transform: none;
+}
+.results__more-info {
+	font-size: 14px;
+	position: absolute;
+	top: 36px;
+	right: 59px;
+	text-decoration: underline;
+	color: #999;
+	&:hover,
+	&:active {
+		color: #999;
+	}
+}

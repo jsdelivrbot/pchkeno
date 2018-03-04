@@ -1,0 +1,30 @@
+.live-drawing-game-over-screen {
+	height: 100vh;
+	overflow: auto;
+
+	.bottom-graphic {
+		height: 100px;
+	}
+
+	h2,
+	.won {
+		font-size: 3rem;
+	}
+
+	.cash-won span {
+		margin: 0 10px;
+	}
+
+	.tokens-icon {
+		width: 70px;
+		height: 65px;
+	}
+
+	.keep-playing-container p {
+		margin: 30px 10px;
+	}
+
+	.divider-line {
+		width: 100vw;
+	}
+}

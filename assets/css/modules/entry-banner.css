@@ -1,0 +1,11 @@
+.entry-banner,
+.entry-banner-contest {
+	background: #1d1d1d;
+
+	text-align: center;
+}
+
+.entry-banner .entry-banner__img {
+	display: none;
+	opacity: 0;
+}

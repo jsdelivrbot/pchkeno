@@ -1,0 +1,133 @@
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInOut {
+	0% {
+		opacity: 0;
+	}
+	10% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+.coachingLightBox {
+	display: none;
+	background-color: rgba(255, 255, 255, 0.5);
+
+	left: 0;
+	position: absolute;
+	z-index: 100;
+	padding: 7px;
+	border-radius: 40px;
+	transition: top 1s, left 1s, transform 1s;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+
+	.second-arrow {
+		display: none;
+	}
+	.coachingContainer {
+		position: relative;
+
+		border: 4px solid #000;
+		padding: 30px 19px;
+		background-color: #fff;
+		border-radius: 40px;
+		font: 21px "Roboto", sans-serif;
+		color: #000;
+		max-width: 260px;
+		display: table-cell;
+		vertical-align: middle;
+		height: 150px;
+		text-align: center;
+		&:before {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 0;
+			top: 50%;
+			margin-top: -16px;
+			bottom: auto;
+			left: -28px;
+			border-width: 14px 24px 14px 0;
+			border-style: solid;
+			border-color: transparent #000;
+		}
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 0;
+			top: 50%;
+			margin-top: -17px;
+			bottom: auto;
+			left: -22px;
+			border-width: 15px 25px 15px 0;
+			border-style: solid;
+			border-color: transparent #fff;
+		}
+	}
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 0;
+		top: 50%;
+		margin-top: -21px;
+		bottom: auto;
+		left: -30px;
+		border-width: 19px 30px 19px 0;
+		border-style: solid;
+		border-color: transparent #fff;
+		opacity: 0.5;
+	}
+}
+
+.coachingLightBox.fadeInOut {
+	animation-name: fadeInOut;
+	animation-duration: 4s;
+	animation-fill-mode: both;
+}
+
+#idleLightBox {
+	position: absolute;
+	right: 330px;
+	left: auto !important;
+
+	&:before {
+		left: auto;
+		right: 38px;
+		top: -13px;
+		transform: rotate(90deg);
+		margin-left: -3px;
+	}
+
+	.coachingContainer {
+		&:before {
+			top: -12px;
+			right: 31px;
+			left: auto;
+			transform: rotate(90deg);
+		}
+
+		&:after {
+			top: -3px;
+			right: 31px;
+			left: auto;
+			margin-left: -1px;
+			transform: rotate(90deg);
+		}
+	}
+}

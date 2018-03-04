@@ -1,0 +1,1 @@
+module.exports = require("npm:systemjs-plugin-babel@0.0.16/plugin-babel.js");

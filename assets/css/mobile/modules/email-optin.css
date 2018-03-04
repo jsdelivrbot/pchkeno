@@ -1,0 +1,51 @@
+.emailoptin {
+    .modal-dialog {
+        width: 93%;
+        min-width: auto;
+    }
+
+    .emailoptin__form .btn {
+        margin-top: 15px;
+    }
+
+    .emailoptin__banner {
+        background: resolve("mobile/modals/email_opt_in_lightbox@2x.png") 0 0 no-repeat;
+        background-size: 100%;
+        width: 100%;
+        padding-top: 62.5%; /*image height / width * 100*/
+        position: relative;
+        top: 0;
+        height: auto;
+    }
+
+    .modal-subtitle {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 0;
+    }
+
+    .modal-body {
+        padding: 0;
+    }
+
+    .from-hours {
+        font-weight: normal;
+    }
+
+    .emailoptin__banner__text {
+        display: none;
+    }
+
+    .emailoptin__form {
+        margin-top: 0;
+    }
+
+    .emailoptin__form .checkbox--squared {
+        margin: 3px 15px 0 0;
+    }
+
+    .emailoptin__form__opt {
+        padding: 15px 10px 0px 10px;
+        margin-bottom: 0px;
+    }
+}

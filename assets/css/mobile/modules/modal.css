@@ -1,0 +1,33 @@
+.cardplay-oops .modal-title {
+	font-size: 80px;
+	line-height: 115px;
+}
+
+.cardplay-oops .modal-dialog {
+	width: 90%;
+}
+
+.cardplay-oops__text {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.cardplay-oops__btn {
+	text-transform: uppercase;
+	margin: 12px 16px 0 0;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 34px;
+	color: #fff;
+	padding: 13px 18px;
+	width: 60%;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	box-shadow: 2px 5px 2px 0px rgba(0, 0, 0, 0.2);
+	background: rgb(254, 160, 69);
+	background: linear-gradient(to bottom, #9b0e0e 0%, #660000 100%);
+}

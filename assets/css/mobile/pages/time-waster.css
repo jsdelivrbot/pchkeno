@@ -1,0 +1,125 @@
+$bgcolor: #333;
+
+.timewaster {
+	background: $bgcolor;
+	color: #fff;
+
+	.clock__stage-overlay--top {
+		border-top: 69px solid #333333;
+	}
+
+	.clock__stage-overlay--bot {
+		border-bottom: 69px solid #333333;
+	}
+
+	h1 {
+		font-weight: normal;
+		font-size: 38px;
+		text-align: center;
+		margin-right: 80px;
+
+		/*for iphone 5 and smaller devices so it doesn't overlap countdown clock */
+	}
+
+	.timewaster__header p {
+		text-align: center;
+		margin: 0 0 3px;
+		line-height: 20px;
+	}
+
+	p.timewaster__subtitle {
+		font-size: 15px;
+	}
+
+	p.timewaster__subtitle2 {
+		color: #dea32d;
+		font-size: 14px;
+	}
+
+	p.timewaster__card-tabs__text {
+		font-weight: 300;
+		background: $bgcolor;
+		position: relative;
+		font-size: 15px;
+		margin: 0 auto;
+		display: inline-block;
+		padding: 0 4vw;
+	}
+
+	p.timewaster__card-tabs__text__second {
+		width: 100%;
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.card-tabs hr {
+		position: absolute;
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.card-tabs {
+		padding: 10px 0;
+		text-align: center;
+	}
+
+	.card-tabs .card-tab-holder {
+		display: inline-block;
+		width: 18%;
+	}
+
+	.card-tabs .card-tab-container {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 5px;
+	}
+
+	.card-tabs .card-tab {
+		border-radius: 10px;
+		text-align: left;
+
+		box-shadow: 1px 1px 10px 5px hsl(0, 0%, 0%, 0.3);
+		font-size: 7px;
+		overflow: hidden;
+		font-weight: bold;
+
+		.card-tab__num {
+			font-size: 38px;
+			font-family: "Open Sans", Arial, sans-serif;
+			color: hsl(0, 0%, 0%, 0.5);
+			line-height: 20px;
+			font-weight: bold;
+		}
+
+		.card-tab__completed {
+			margin: -2px 0 0 7px;
+
+			p {
+				margin: 0;
+			}
+		}
+	}
+
+	@mixin card-colors ".card-tab--%s", background, BG;
+}
+
+.timewaster__header {
+	width: 320px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.timewaster .clock {
+	transform: scale(0.475);
+	position: absolute;
+	right: -46px;
+	top: -25px;
+}
+
+.clock__stage-overlay--bot {
+	border-bottom: 69px solid $bgcolor;
+}
+
+.clock__stage-overlay--top {
+	border-top: 69px solid $bgcolor;
+}

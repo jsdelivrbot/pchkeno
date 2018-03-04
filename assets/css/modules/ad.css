@@ -1,0 +1,54 @@
+.ad-rectangle .black-inner-rectangle h2 {
+	color: rgba(255, 255, 255, 1);
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.mobile-gtp-ad {
+	display: none;
+}
+
+#display-ad {
+	display: block;
+	width: 650px;
+	margin: 0 auto;
+}
+
+.display-ad {
+	margin: 15px auto;
+	clear: both;
+}
+.ad-728x90 {
+	width: 728px;
+	height: 90px;
+}
+
+.ad-300x250 {
+	width: 300px;
+	height: 250px;
+}
+
+.ad-300x600 {
+	width: 300px;
+	height: 600px;
+}
+
+#ad1-300x250,
+#ad2-300x250 {
+	width: 300px;
+	height: 250px;
+	margin-bottom: 15px;
+}
+
+#ad1-728x90 {
+	width: 728px;
+	height: 90px;
+	margin: 20px auto;
+}
+
+#ad1-300x600 {
+	width: 300px;
+	height: 600px;
+	margin-bottom: 15px;
+}

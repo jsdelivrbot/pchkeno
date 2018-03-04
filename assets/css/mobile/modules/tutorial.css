@@ -1,0 +1,98 @@
+.modal.tutorial {
+    .modal-dialog {
+        margin: 0;
+        width: 100%;
+        border: 0px;
+    }
+
+    .modal-content {
+        border-radius: 0px;
+        box-shadow: none;
+        border: 0;
+    }
+
+    .tutorial__screen__header, .tutorial__screen__header2 {
+        font-size: 18px;
+        line-height: 23px;
+        margin: 10px auto 0;
+        width: 78%;
+    }
+
+    .tutorial__screen__body, .tutorial__screen__body2 {
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .close {
+        right: 7px;
+        top: 7px;
+        padding: 2px 7px 4px;
+    }
+
+    .tutorial__screen__img {
+        width: 100%;
+        height: 80%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: contain;
+
+        /*For lazy loading images */
+        /* https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/ */
+        opacity: 1;
+        transition: opacity 0.3s;
+    }
+
+    .tutorial__screen__img[data-src] {
+        opacity: 0;
+    }
+
+    .tutorial__screen {
+        width: 100%;
+        height: 736px;
+    }
+
+    .tutorial__controls__skips {
+        bottom: 26%;
+    }
+
+    .tutorial__controls__skip {
+        margin: 0 20px 0 0;
+        width: 15px;
+        height: 15px;
+    }
+
+    .modal-body {
+        width: 100%;
+        height: 100vh;
+        background: #565599;
+    }
+
+    .tutorial__controls__skips {}
+
+    .tutorial__controls__btn--prev-container, .tutorial__controls__btn--next-container {
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50px;
+        height: 55px;
+        width: 55px;
+        position: absolute;
+        top: 50%;
+    }
+
+    .tutorial__controls__btn {
+        background-position: 26px center;
+    }
+
+    .tutorial__controls__btn--prev-container {
+        left: -20px;
+    }
+
+    .tutorial__controls__btn {
+        background-size: 12px 22px;
+    }
+
+    .tutorial__controls__btn--next-container {
+        right: -20px;
+    }
+}

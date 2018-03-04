@@ -1,0 +1,177 @@
+/*== Style for Carousel Navigation */
+
+.uninav .uninav__carousel {
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+
+    margin-top: 0;
+    margin-left: 247px;
+    position: relative;
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .uninav .uninav__carousel {
+        margin-left: 223px;
+    }
+}
+
+.uninav .uninav__carousel__nav {
+    float: left;
+    width: 478px;
+    margin: 0;
+    height: 66px;
+    overflow: hidden;
+    position: relative;
+    background: rgb(65, 64, 64);
+    background: -moz-linear-gradient(top, rgba(65, 64, 64, 1) 1%, rgba(31, 31, 31, 1) 85%);
+    background: -webkit-linear-gradient(top, rgba(65, 64, 64, 1) 1%, rgba(31, 31, 31, 1) 85%);
+    background: linear-gradient(to bottom, rgba(65, 64, 64, 1) 1%, rgba(31, 31, 31, 1) 85%);
+}
+
+.uninav .uninav__carousel__navlist {
+    transition: all 800ms cubic-bezier(0.18, 0.89, 0.32, 1.28);/* .12, 0, .32, 1 */
+    transform: translateX(0px);
+    background: transparent url(../../images/uni-nav/nav-assets/nav-sprite2015.png) repeat-x 0 -170px;
+    min-width: 900px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.uninav .uninav__carousel__navlist--a120 { transform: translateX(-120px); }
+.uninav .uninav__carousel__navlist--a240 { transform: translateX(-240px); }
+.uninav .uninav__carousel__navlist--a360 { transform: translateX(-360px); }
+.uninav .uninav__carousel__navlist--a480 { transform: translateX(-480px); }
+.uninav .uninav__carousel__navlist--a600 { transform: translateX(-600px); }
+.uninav .uninav__carousel__navlist--a720 { transform: translateX(-720px); }
+.uninav .uninav__carousel__navlist--a840 { transform: translateX(-840px); }
+.uninav .uninav__carousel__navlist--a960 { transform: translateX(-960px); }
+.uninav .uninav__carousel__navlist--a1080 { transform: translateX(-1080px); }
+.uninav .uninav__carousel__navlist--a1200 { transform: translateX(-1200px); }
+.uninav .uninav__carousel__navlist--a1320 { transform: translateX(-1320px); }
+.uninav .uninav__carousel__navlist--a1440 { transform: translateX(-1440px); }
+
+
+/*== Style for Carousel Navigation */
+
+.uninav .uninav__carousel__spacer {
+    display: block;
+    overflow: hidden;
+    width: 510px;
+    zoom: 1;
+    float: left;
+    background: transparent url(../../images/uni-nav/nav-assets/nav-sprite2015.png) repeat-x 0 -170px;
+    margin-left: 32px;
+    height: 100%
+}
+
+.uninav .uninav__carousel__item {
+    float: left;
+    display: block;
+    background: transparent url(../../images/uni-nav/nav-assets/list-separator.png) no-repeat top right;
+    padding: 1px 0 0 0;
+    width: 120px;
+}
+
+.uninav .uninav__carousel__link {
+    width: 118px;
+    padding: 46px 0 6px 0;
+    display: block;
+    color: #777;
+    font: bold 11px/13px Arial, sans-serif;
+    text-align: center;
+    background: transparent url(../../images/uni-nav/nav-assets/nav-sprite2015.png) no-repeat 0 0;
+    text-decoration: none;
+    background-position: right top;
+}
+.uninav .uninav__carousel__link:hover {
+    color: #fff;
+}
+
+.uninav .uninav__carousel__link--portal,
+.uninav .uninav__carousel__link--home {
+    background-position: -260px 0;
+}
+.uninav .uninav__carousel__link--portal:hover,
+.uninav .uninav__carousel__link--home:hover {
+    background-position: -260px -86px;
+}
+.uninav .uninav__carousel__link--search { 
+    margin-top: 0;
+}
+
+.uninav .uninav__carousel__link--search { background-position: -380px 0; }
+.uninav .uninav__carousel__link--search:hover { background-position: -380px -86px; }
+.uninav .uninav__carousel__link--games { background-position: -500px 0; }
+.uninav .uninav__carousel__link--games:hover { background-position: -500px -86px; }
+.uninav .uninav__carousel__link--lotto { background-position: -620px 0; }
+.uninav .uninav__carousel__link--lotto:hover { background-position: -620px -86px; }
+.uninav .uninav__carousel__link--slots { background-position: -740px 0; }
+.uninav .uninav__carousel__link--slots:hover { background-position: -740px -86px; }
+.uninav .uninav__carousel__link--bingo { background-position: -860px 0; }
+.uninav .uninav__carousel__link--bingo:hover { background-position: -860px -86px; }
+.uninav .uninav__carousel__link--surveys { background-position: -980px 0; }
+.uninav .uninav__carousel__link--surveys:hover { background-position: -980px -86px; }
+.uninav .uninav__carousel__link--tips { background-position: -1100px 0; }
+.uninav .uninav__carousel__link--tips:hover { background-position: -1100px -86px; }
+.uninav .uninav__carousel__link--blackjack { background-position: -1223px 0; }
+.uninav .uninav__carousel__link--blackjack:hover { background-position: -1221px -85px; }
+.uninav .uninav__carousel__link--frontpage { background-position: -1344px 0; }
+.uninav .uninav__carousel__link--frontpage:hover { background-position: -1346px -86px; }
+.uninav .uninav__carousel__link--frontpagenew { background: transparent url(../../images/uni-nav/nav-assets/nav-sprite2015_FPnew.png) no-repeat -1344px 0; }
+.uninav .uninav__carousel__link--frontpagenew:hover { background: transparent url(../../images/uni-nav/nav-assets/nav-sprite2015_FPnew.png) no-repeat -1344px -85px; }
+
+.uninav .uninav__carousel__prev,
+.uninav .uninav__carousel__next,
+.uninav .uninav__carousel__prv,
+.uninav .uninav__carousel__nxt {
+    background: transparent url(../../images/uni-nav/nav-assets/nav-sprite2015.png) no-repeat -165px 0;
+    width: 26px;
+    height: 62px;
+    float: left;
+    margin: 0 3px;
+    padding: 0 0;
+    cursor: pointer;
+    text-indent: -999px;
+}
+
+.uninav .uninav__carousel__prev,
+.uninav .uninav__carousel__prev--disabled:hover,
+.uninav .uninav__carousel__prv,
+.uninav .uninav__carousel__prv--disabled:hover {
+    background-position: -90px 0;
+}
+
+.uninav .uninav__carousel__prev:hover,
+.uninav .uninav__carousel__prv:hover {
+    background-position: -160px 0;
+}
+
+.uninav .uninav__carousel__next,
+.uninav .uninav__carousel__next--disabled:hover,
+.uninav .uninav__carousel__nxt,
+.uninav .uninav__carousel__nxt--disabled:hover {
+    background-position: -130px 0;
+}
+
+.uninav .uninav__carousel__next:hover,
+.uninav .uninav__carousel__nxt:hover {
+    background-position: -200px 0;
+}
+
+.uninav .uninav__carousel__nxt--disabled,
+.uninav .uninav__carousel__next--disabled,
+.uninav .uninav__carousel__nxt--disabled:hover,
+.uninav .uninav__carousel__next--disabled:hover,
+.uninav .uninav__carousel__prv--disabled,
+.uninav .uninav__carousel__prev--disabled,
+.uninav .uninav__carousel__prv--disabled:hover,
+.uninav .uninav__carousel__prev--disabled:hover {
+    opacity: 0.2;
+    -webkit-opacity: 0.2;
+    -moz-opacity: 0.2;
+    filter: alpha(opacity=20);
+    cursor: default;
+}

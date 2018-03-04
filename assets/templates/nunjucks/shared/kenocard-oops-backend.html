@@ -1,0 +1,8 @@
+{% extends "shared/modal.html" %}
+{% block modalClass %}cardplay-oops{% endblock %}
+{% block closeButton %}{% endblock %}
+{% block modalTitle %}Error!{% endblock %}
+{% block body %}
+    <p class='cardplay-oops__text'>An unknown error occurred, please try again.</p>
+    <button type="button" data-dismiss="modal" class="cardplay-oops__btn cardplay-oops__btn--submit btn btn-primary">Try Again</button>
+{% endblock %}

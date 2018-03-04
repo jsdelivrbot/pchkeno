@@ -1,0 +1,98 @@
+.paytable-header {
+	background: rgba(85, 84, 152, 1);
+	color: rgba(255, 255, 255, 1);
+	padding: 5px;
+	text-align: center;
+}
+
+.paytable-header h1 {
+	font-size: 35px;
+}
+.paytable-header h2 {
+	font-size: 14px;
+	width: 70%;
+	margin: 0 auto;
+	line-height: 18px;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+
+table.paytable__amounts {
+	width: 100%;
+}
+
+table.paytable__amounts th {
+	background: rgba(51, 51, 51, 1);
+	color: rgba(255, 255, 255, 1);
+	padding: 2px 0;
+}
+
+table.paytable__amounts th.paytable__amounts__matchheader {
+	text-align: center;
+	padding: 0;
+}
+
+.paytable__amounts__match {
+	width: 40%;
+	text-align: center;
+	padding-right: 15px;
+}
+
+.paytable__amounts .paytable__amounts__match {
+	font-size: 23px;
+	color: rgba(85, 84, 152, 1);
+}
+
+.paytable__amounts__amount .token-stack-icon {
+	float: left;
+	top: -3px;
+	position: relative;
+	margin-right: 5px;
+}
+
+.paytable__amounts__amountheader .header-text {
+	margin: 5px 0 0 5px;
+	float: left;
+}
+
+.paytable__amounts__amountheader .paytable__amounts__amountheader__plus {
+	margin-top: 5px;
+}
+
+.paytable__amounts__amount__tokens,
+.paytable__amounts__amount__cash {
+	margin-top: 4px;
+}
+
+.paytable__amounts__amount__cash {
+	color: rgb(119, 155, 84);
+}
+
+.paytable__amounts__amountheader .cash-icon,
+.paytable__amounts__amountheader .token-stack-icon,
+.paytable__amounts__amountheader .paytable__amounts__amountheader__plus {
+	margin-left: 2px;
+	display: block;
+	float: left;
+}
+
+.paytable__amounts__amountheader .token-stack-icon {
+	margin-top: -4px;
+}
+
+.paytable__amounts__amountheader .cash-icon {
+}
+.paytable__amounts tbody td {
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(221, 163, 45, 1);
+	padding: 3% 0 3% 0;
+}
+
+.paytable__amounts__rowodd {
+	background: rgba(241, 242, 242, 1);
+}
+
+.paytable__amounts__roweven {
+	background: rgba(255, 255, 255, 1);
+}

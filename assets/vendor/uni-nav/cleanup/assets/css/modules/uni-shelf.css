@@ -1,0 +1,276 @@
+/**== Uni Shelf Styles **/
+
+.uni-shelf {
+    display: block;
+    height: 0;
+    /*221px*/
+    background: #666;
+    color: #fff;
+    font: normal 13px/1.2em Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    border: none;
+    overflow: hidden;
+}
+
+.uni-shelf h3 {
+    font-size: 2.4em;
+    line-height: 1.2em;
+    margin: 0;
+    font-weight: normal;
+
+    color: #ffffff;
+    text-transform: none;
+    border: 0;
+}
+
+.uni-shelf h5 {
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-weight: normal;
+    padding: 4px 0 8px 0;
+    margin: 0;
+}
+
+.uni-shelf .top-lip {
+    display: block;
+    height: 7px;
+    background: rgb(34, 34, 34);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIyMjIyMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2NjY2NjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(34, 34, 34, 1) 0%, rgba(102, 102, 102, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(34, 34, 34, 1)), color-stop(100%, rgba(102, 102, 102, 1)));
+    background: -webkit-linear-gradient(top, rgba(34, 34, 34, 1) 0%, rgba(102, 102, 102, 1) 100%);
+    background: -o-linear-gradient(top, rgba(34, 34, 34, 1) 0%, rgba(102, 102, 102, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(34, 34, 34, 1) 0%, rgba(102, 102, 102, 1) 100%);
+    background: linear-gradient(to bottom, rgba(34, 34, 34, 1) 0%, rgba(102, 102, 102, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#666666', GradientType=0);
+}
+
+.uni-shelf .content {
+    height: auto;
+    /*250px*/
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    width: 850px;
+    padding: 20px 0 20px 25px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+.uni-shelf .close-x {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 33px;
+    height: 33px;
+    background: transparent url(../images/uni-nav/nav-assets/nav-sprite2015.png) repeat-x 0 -410px;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+
+.uni-shelf .section {
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0 0 20px 0;
+    width: 380px;
+    float: left;
+    clear: none;
+}
+
+.uni-shelf .sign-in {
+    padding: 0 0 0 30px;
+    padding-top: 0;
+    width: 280px
+}
+
+.uni-shelf .links {
+    position: relative;
+    padding: 15px 15px 10px;
+    clear: none;
+    border-left: 1px solid #d6d6d6;
+    margin-left: 100px;
+}
+
+.uni-shelf .sign-in .form-fields,
+.uni-shelf .sign-in .form-fields fieldset {
+    position: relative;
+    display: block;
+}
+
+.uni-shelf .form-fields legend,
+.uni-shelf .form-fields h3,
+.uni-shelf .form-fields fieldset {
+    display: block;
+    float: left;
+    padding-right: 15px;
+}
+
+.uni-shelf .form-fields fieldset {
+    padding-top: 3px;
+}
+
+.uni-shelf .form-fields legend,
+.uni-shelf .form-fields h3 {
+    font-size: 36px;
+    line-height: 1.0;
+    margin-bottom: 10px;
+}
+
+.uni-shelf .form-fields fieldset span.additional {
+    clear: left;
+    display: block;
+    position: relative;
+    line-height: 21px;
+    padding: 0 0 0 5px;
+    margin: 0;
+}
+
+.uni-shelf .form-fields label {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    font-size: 1.5em;
+    cursor: text;
+}
+
+.uni-shelf .form-fields label span {
+    color: #aeaeae;
+}
+
+.uni-shelf .form-fields label span.hide {
+    display: none;
+}
+
+.uni-shelf .form-fields label span.light {
+    color: #e2e2e2;
+}
+
+.uni-shelf .sign-in input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+}
+
+.uni-shelf .sign-in input[ type="text"],
+.uni-shelf .sign-in input[ type="password"] {
+    font-size: 1.3em;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    width: 257px;
+    height: 20px;
+    margin: 0 0 6px 0;
+}
+
+.uni-shelf .sign-in input.sso-highlight {
+    border-color: #ff0000;
+}
+
+.uni-shelf .sign-in a {
+    text-decoration: underline;
+}
+
+.uni-shelf .sign-in button.btn-signin {
+    background: transparent url(../images/uni-nav/nav-assets/nav-sprite2015.png) 1px -530px;
+    margin: 10px 0 0;
+    cursor: pointer;
+    width: 136px;
+    line-height: 42px;
+    padding: 0 44px 0 10px;
+    color: #fff;
+    font-size: 22px;
+    border: 0;
+    text-align: left;
+    display: block;
+    float: left;
+    clear: left;
+}
+
+.uni-shelf .sign-in button.btn-signin.disabled {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 10+, Firefox on Android */
+    -webkit-filter: grayscale(1);
+    filter: gray;
+    opacity: 0.4;
+    cursor: default;
+}
+
+.uni-shelf .sign-in button.btn-signin span {
+    line-height: 38px;
+    display: block;
+    height: 44px;
+    /* text-shadow: 2px 2px 2px #B26922;
+    filter: dropshadow(color=#B26922, offx=2, offy=2); */
+}
+
+.uni-shelf .sign-in img.loader-icon {
+    margin: 20px 0 0 10px;
+    visibility: hidden;
+    display: block;
+    float: left;
+}
+
+.uni-shelf .sign-in img.loader-icon.show {
+    visibility: visible;
+}
+
+.uni-shelf .links h5 {
+    display: block;
+    background: #666;
+    padding: 4px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.uni-shelf .links p {
+    text-align: center;
+}
+
+
+/**= Uni Shelf Links Horizontal List Styles **/
+
+.uni-shelf .links ul {
+    display: block;
+    clear: left;
+    margin: 10px auto 0;
+    width: 280px;
+    overflow: hidden;
+}
+
+.uni-shelf .links ul li {
+    float: left;
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
+    width: 140px;
+}
+
+.uni-shelf .links ul li span {
+    width: 118px;
+    padding: 46px 0 6px 0;
+    display: block;
+    color: #fff;
+    font: bold 11px/13px Arial, sans-serif;
+    text-align: center;
+    background: transparent url(../images/uni-nav/nav-assets/nav-sprite2015.png) no-repeat 0 0;
+    text-decoration: none;
+    opacity: 0.6;
+    -webkit-opacity: 0.6;
+    -moz-opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin: 0 auto;
+    background-position: right top
+}
+
+
+.uni-shelf .sign-in input[ type="text" ], .uni-shelf .sign-in input[ type="password" ] {
+    height: 35px;
+    color: black;
+}
+.uni-shelf .form-fields label span {
+    font-weight: normal;
+}

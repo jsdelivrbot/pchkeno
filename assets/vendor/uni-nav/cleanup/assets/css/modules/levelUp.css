@@ -1,0 +1,47 @@
+/*CELEBRATION LEVEL UP*/
+#preCelebrationLoader,div#levelUpCelebrationIframeHolder {
+width: 100%;
+height: 100%;
+min-height:640px;
+top: 0;
+left: 0;
+position: fixed;
+z-index: 10000;
+}
+div#levelUpCelebrationIframeHolder iframe#levelUpCelebrationIframe{
+width: 100%;
+height: 100%;
+display: none;
+}#preCelebrationLoader{
+background: rgba(0,0,0,0.85);
+padding: 20% 0 0 0;
+color: white;
+font-size: 3em;
+}
+.loaderMsg {
+text-align: center;
+position: relative;
+line-height:25px;
+}
+.loaderHolder{
+background: url('http://www.pch.com/pch_media/images/circle_loader.gif') no-repeat;
+width: 128px;
+height: 128px;
+margin: 40px auto;
+position: relative;
+}
+@media screen and (max-width: 1000px) {
+#preCelebrationLoader{
+font-size: 2em!important;
+}
+.loaderHolder{
+width: 64px!important;
+height: 64px!important;
+background-size: 64px 64px!important;
+}
+}
+@media screen and (max-device-height:481){
+    #preCelebrationLoader,div#levelUpCelebrationIframeHolder {
+    position: absolute!important;
+    }
+}

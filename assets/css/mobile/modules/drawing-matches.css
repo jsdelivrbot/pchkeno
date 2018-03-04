@@ -1,0 +1,30 @@
+/* These styles are for the mobile live drawing match cards, they build on the existing desktop styles */
+
+.page--live-drawing .unrecognized-overlay {
+	display: none;
+}
+
+.drawing__side-game-matches {
+	visibility: visible;
+}
+
+ul.drawing__side-game-match-card-numbers li {
+	list-style-type: none;
+}
+
+.drawing__side-game-matches {
+	margin-top: 25px;
+	display: block;
+	text-align: center;
+}
+.drawing__side-game-match {
+	display: inline-block;
+	width: 158px;
+	height: 76px;
+	transform: scale(0.65);
+}
+
+.drawing__side-game-match-card {
+	margin-left: -38px; /*necessary to align with scale transform */
+	margin-top: -25px;
+}

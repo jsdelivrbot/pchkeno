@@ -1,0 +1,135 @@
+.token-leaders {
+	padding: 15px 15px 5px 15px;
+}
+
+.token-leaders-pch-rewards {
+	background: resolve("images/sprites/sidebar/token-leaders/pch-rewards@2x.png")
+		no-repeat 0 0;
+	width: 204px;
+	height: 48px;
+	background-size: 204px 48px;
+	margin: 0 auto;
+}
+
+.token-leaders hr {
+	margin: 10px 0;
+	color: rgba(233, 233, 233, 1);
+}
+
+.token-leaders h3,
+.token-leaders p.token-leaders-play-now {
+	color: rgba(51, 51, 51, 1);
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.token-leaders p.token-leaders__play-now {
+	margin-top: 10px;
+	text-align: center;
+}
+
+ul.token-leaders__list li {
+	background-position: 0px 0px;
+	display: flex;
+}
+
+ul.token-leaders__list .level-icon {
+	align-self: center;
+}
+
+ul.token-leaders__list li p {
+	margin: 0 5px;
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 16px;
+	color: rgba(85, 84, 152, 1);
+}
+
+.token-leaders__reward-icon {
+	width: 15px;
+	height: 15px;
+	background-image: resolve("images/sprites/icons/levels/diamond@2x.png");
+}
+
+.token-leaders__help {
+	display: block;
+	position: relative;
+	height: 20px;
+}
+
+.token-leaders__help-icon {
+	border-radius: 15px;
+	border: 1px solid rgba(158, 158, 158, 1);
+	color: rgba(158, 158, 158, 1);
+	font-size: 10px;
+	width: 18px;
+	z-index: 4;
+	text-align: center;
+	padding-top: 2px;
+	cursor: pointer;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+.token-leaders__prize-details {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.token-leaders__prize-details a {
+	color: rgba(153, 153, 153, 1);
+	font-size: 10px;
+	text-decoration: underline;
+}
+
+/*Taken from PCH.com*/
+
+#dw_popup {
+	width: 378px;
+
+	background: #d0d0d0;
+	padding: 10px;
+	position: absolute;
+	left: -386px;
+	display: none;
+	z-index: 7;
+	top: 0px;
+	opacity: 0;
+}
+
+#dw_popup #dw_popup_text {
+	font-size: 13px;
+	background: #fff;
+
+	border-radius: 7px;
+	padding: 10px;
+}
+#dw_popup #dw_popup_text p {
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+#dw_popup .winner-device {
+	margin: 0;
+	top: 0;
+}
+#dailywinners .winner-device-computer {
+	width: 27px;
+	height: 21px;
+	background-image: url(/pch_media/images/daily_winners/tablet-desktop.png);
+}
+#dw_popup .winner-device-computer {
+	width: 19px;
+	height: 15px;
+	background-image: url(/pch_media/images/daily_winners/popup-tablet-desktop.png);
+	display: inline-block;
+	background-position-y: 4px;
+}
+.sso-create-password-lightbox {
+	text-align: center;
+}

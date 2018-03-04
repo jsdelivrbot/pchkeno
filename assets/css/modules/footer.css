@@ -1,0 +1,300 @@
+/*
+@styleguide
+
+@title Footer
+Used to display the footer at the bottom of every page
+
+
+
+*/
+
+$footer-text-color: rgba(153, 153, 153, 1);
+$heading-color: rgba(85, 84, 152, 1);
+
+footer {
+	border-top: 1px solid rgba(186, 186, 186, 1);
+	position: relative;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: $footer-text-color;
+	font-size: 12px;
+	margin-bottom: 94px; /* leave space for keno bar */
+}
+
+footer a {
+	color: $footer-text-color;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: $heading-color;
+}
+
+.footer-shadow {
+	background: linear-gradient(
+		to bottom,
+		rgba(186, 186, 186, 1) 0%,
+		rgba(253, 253, 253, 0.66) 100%
+	);
+	height: 5px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+nav.footer-links {
+	font-size: 14px;
+	width: 1200px;
+	margin: 40px auto 0;
+}
+
+nav.footer-links ul {
+	display: flex;
+	justify-content: center;
+}
+
+/*
+@styleguide
+
+@title Footer Links
+Horizontal links displayed at the top of the footer
+
+<footer>
+    <nav class="footer-links">
+        <ul>
+            <li><a href="http://info.pch.com/about-publishers-clearing-house" target="_blank" >About PCH</a></li>
+            <li> <a href="https://myaccount.pch.com/Login/Index?paymentSourceId=4" target="_blank" >Pay Online</a></li>
+            <li><a href="http://spectrum.pch.com/Path/MagSite/MagCert.aspx?tid=3ba3a671-488e-416f-b658-479dd6dc2e75" target="_blank" >Magazines</a></li>
+            <li><a href="http://www.pch.com/products/" target="_blank" >Merchandise</a> </li>
+
+        </ul>
+    </nav>
+</footer>
+
+    <footer>   
+        <nav class="footer-links">
+            <ul>
+                <li><a href="http://info.pch.com/about-publishers-clearing-house" target="_blank" >About PCH</a></li>
+            </ul>
+        </nav>
+    </footer>
+   
+
+
+*/
+
+nav.footer-links ul li {
+	margin: 0;
+	list-style-type: none;
+	border-right: 1px solid $footer-text-color;
+	padding: 5px 10px;
+}
+
+nav.footer-links ul li:last-of-type {
+	border-right: none;
+}
+
+section.disclaimer {
+	text-align: center;
+	font-size: 11px;
+	margin-top: 20px;
+}
+
+section.footer-links-secondary {
+	display: flex;
+	justify-content: center;
+	width: 1200px;
+	margin: 35px auto 0;
+}
+
+section.footer-links-secondary .footer-links-secondary-column {
+	margin: 0;
+	flex: 1 100%;
+	border-right: 1px solid $footer-text-color;
+	text-align: left;
+	padding: 0 43px;
+}
+
+section.footer-links-secondary .footer-links-secondary-column nav {
+	display: flex;
+}
+
+section.footer-links-secondary .footer-links-secondary-column:last-of-type {
+	border: none;
+}
+
+/*
+@styleguide
+
+@title Footer Column Links
+Links in footer columns
+
+<footer>
+    <section class="footer-links-secondary">
+        <div class="footer-links-secondary-column col-md-4">
+            
+            <nav>
+                <ul>
+                    <li><a href="http://blackjack.pch.com/" target="_blank">PCH Blackjack</a></li>
+                    <li><a href="http://www.pch.com/" target="_blank">PCH.com</a></li>
+                    <li><a href="http://search.pch.com/" target="_blank">PCH Search&amp;Win</a></li>
+                    <li><a href="http://games.pch.com/" target="_blank">PCH Games</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    <section>
+</footer>
+
+
+
+
+
+    <footer>
+    <section class="footer-links-secondary">
+        <div class="footer-links-secondary-column col-md-4">
+            
+            <nav>
+                <ul>
+                    <li><a href="http://blackjack.pch.com/" target="_blank">PCH Blackjack</a></li>
+                    <li><a href="http://www.pch.com/" target="_blank">PCH.com</a></li>
+                    <li><a href="http://search.pch.com/" target="_blank">PCH Search&amp;Win</a></li>
+                    <li><a href="http://games.pch.com/" target="_blank">PCH Games</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    <section>
+</footer>
+   
+
+
+*/
+section.footer-links-secondary .footer-links-secondary-column nav ul {
+	text-align: left;
+	font-size: 18px;
+	font-weight: 300;
+	width: 100%;
+	margin-top: 10px;
+}
+
+section.footer-links-secondary .footer-links-secondary-column nav ul li {
+}
+
+/*
+@styleguide
+
+@title Footer Column Header (h2)
+Column header for footer links
+
+<footer>
+    <section class="footer-links-secondary">
+        <div class="footer-links-secondary-column col-md-4">
+            <h2>Other Channels</h2>
+        </div>
+    </section
+</footer>
+
+
+
+
+
+    <footer>
+        <section class="footer-links-secondary">
+            <div class="footer-links-secondary-column col-md-4">
+                <h2>Other Channels</h2>
+            </div>
+        </section
+    </footer>
+   
+
+
+*/
+
+section.footer-links-secondary h2 {
+	color: $heading-color;
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+	font-weight: 300;
+}
+
+section.footer-icons {
+	width: 1200px;
+	margin: 50px auto;
+	display: flex;
+}
+
+section.footer-icons .footer-icons-left {
+	width: 100%;
+}
+
+section.footer-icons .footer-icons-left div {
+}
+
+section.footer-icons .footer-icons-left a {
+	margin-right: 10px;
+	float: left;
+}
+
+section.footer-icons .footer-icons-left .truste {
+	background: resolve("images/sprites/footer/truste@2x.png") no-repeat 0 0;
+	width: 108px;
+	height: 34px;
+	background-size: 100%;
+}
+
+section.footer-icons .footer-icons-left .iab {
+	background: resolve("images/sprites/footer/iab@2x.jpg") no-repeat 0 0;
+	width: 66px;
+	height: 31px;
+	background-size: 100%;
+}
+
+section.footer-icons .footer-icons-left .bbb {
+	background: resolve("images/sprites/footer/bbb@2x.png") no-repeat 0 0;
+	width: 84px;
+	height: 41px;
+	background-size: 100%;
+}
+
+section.footer-icons .footer-icons-social {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+section.footer-icons .footer-icons-social .footer-icons-social-container {
+	display: flex;
+	width: 165px;
+}
+
+section.footer-icons .footer-icons-social .facebook .icon {
+	background: resolve("images/sprites/footer/facebook@2x.png") no-repeat 0 0;
+	width: 48px;
+	height: 48px;
+	background-size: 100%;
+}
+
+section.footer-icons .footer-icons-social p {
+	font-size: 14px;
+	margin: 3px 0px 0px 10px;
+	flex: 1;
+}
+
+section.footer-icons .footer-icons-social .facebook p {
+	color: rgba(59, 90, 154, 1);
+}
+
+section.footer-icons .footer-icons-social .twitter .icon {
+	background: resolve("images/sprites/footer/twitter@2x.png") no-repeat 0 0;
+	width: 48px;
+	height: 48px;
+	background-size: 100%;
+}
+
+section.footer-icons .footer-icons-social .twitter p {
+	color: rgba(13, 166, 233, 1);
+}
+
+/* testing git branch functionality */

@@ -1,0 +1,1 @@
+module.exports = require("npm:babel-register@6.26.0/lib/browser.js");

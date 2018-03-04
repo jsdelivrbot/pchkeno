@@ -1,0 +1,8 @@
+{% extends "shared/toast.html" %}
+{% block toastClass %}entry-confirmed-toast{% endblock %}
+{% block toastBody %}
+	<div class="check-container">
+		<div class="check"></div>
+	</div>
+	<p class="entry-confirmed-text"><span class="amount">{{prizeAmount}}</span> <br/>Entry Confirmed!</p>
+{% endblock %}

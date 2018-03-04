@@ -1,0 +1,197 @@
+$clockMorphAnimation: 0.18s;
+
+.clock {
+	width: 191px; /* 280 */
+	height: 121px; /*175px;*/
+	background-size: contain;
+	color: #fff;
+	font-family: Verdana, Arial;
+	z-index: 4;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translateZ(1px);
+	z-index: -1;
+}
+@mixin card-colors ".card--%s .clock", background, BG;
+
+.cardplay--intro .clock {
+	visibility: hidden;
+}
+
+.clock__stage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.clock__time {
+	position: relative;
+	top: 16px;
+	left: 20px;
+	width: 152px; /*220px;*/
+	text-align: center;
+	z-index: 4;
+}
+.clock__time__header {
+	letter-spacing: 0.2px;
+	font-size: 11px;
+	visibility: hidden;
+}
+.clock__digits {
+	position: relative;
+	top: 7px;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 48px; /*70px;*/
+	line-height: 41px; /*60px;*/
+	width: 128px; /*194px;*/
+	height: 68px; /*98px;*/
+	margin: 0 auto;
+}
+
+.lock-down-message-container {
+	.clock__label {
+		font-family: Roboto, Arial, sans-serif !important;
+		font-weight: bold;
+	}
+
+	.clock__morphtext {
+		font-weight: bold;
+		font-family: Roboto, Arial, sans-serif !important;
+	}
+}
+.clock__minutes,
+.clock__sep,
+.clock__seconds {
+	position: absolute;
+	top: 0;
+
+	transition: opacity $clockMorphAnimation ease-out,
+		transform $clockMorphAnimation ease-out;
+}
+
+.clock__minutes {
+	left: 0;
+}
+.clock--countdown .clock__minutes {
+	opacity: 0;
+	transform: translateX(36px);
+}
+
+.clock__seconds {
+	right: 0;
+}
+.clock--countdown .clock__seconds {
+	color: #fff200;
+	transform: translateX(-36px);
+}
+
+.clock__sep {
+	text-align: center;
+	width: 28px;
+	height: 28px;
+	left: 50%;
+	margin-left: -14px;
+	top: 50%;
+	margin-top: -33px;
+	line-height: 41px;
+}
+.clock--countdown .clock__sep {
+	display: none;
+}
+
+.clock__label {
+	position: absolute;
+	bottom: 0;
+	font-size: 12px;
+	transition: opacity $clockMorphAnimation ease-out,
+		transform $clockMorphAnimation ease-out;
+}
+.clock__label--minutes {
+	left: 20px;
+}
+.clock--countdown .clock__label--minutes {
+	opacity: 0;
+	transform: translateX(39px);
+}
+.clock__label--seconds {
+	right: 21px;
+}
+.clock--countdown .clock__label--seconds {
+	opacity: 0;
+	transform: translateX(-39px);
+}
+
+/**
+@styleguide
+
+@title Clock Countdown state
+
+<div class='clock clock--countdown'>
+    <div class='clock__time'>
+        <span class="clock__time__header">TIME LEFT TO PLAY:</span>
+        <div class="clock__digits">
+            <span class="clock__minutes">00</span>
+            <span class="clock__sep">:</span>
+            <span class="clock__seconds">16</span>
+        </div>
+        <span class="clock__label clock__label--minutes">MINS</span>
+        <span class="clock__label clock__label--seconds">SECS</span>
+    </div>
+</div>
+*/
+.clock--countdown {
+}
+
+/**
+@styleguide
+
+@title Clock Expired state
+
+<div class='clock clock--expired'></div>
+*/
+.clock--expired {
+}
+
+/* this is the element that overlays the svg obscuring parts 
+ * of the oval shape that morphs from two brackets to a circle
+ * (the brackets are just the oval partially obscured at top and bottom
+ */
+.clock__stage-overlay {
+	position: absolute;
+	height: 0;
+	height: 0;
+	left: 50%;
+	z-index: 3;
+
+	width: 117px; /*170px;*/
+	margin-left: -94px; /*-136px;*/
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	box-sizing: content-box;
+
+	transition: transform linear $clockMorphAnimation;
+}
+.clock__stage-overlay--top {
+	border-top: 69px solid #e20000;
+	top: -48px; /*70px;*/
+}
+@mixin card-colors ".card--%s .clock__stage-overlay--top", border-top-color, BG;
+.clock--countdown .clock__stage-overlay--top {
+	transform: translateY(-14px);
+}
+
+.clock__stage-overlay--bot {
+	border-bottom: 69px solid #e20000;
+	bottom: -48px;
+}
+
+@mixin card-colors ".card--%s .clock__stage-overlay--bot",
+	border-bottom-color,
+	BG;
+
+.clock--countdown .clock__stage-overlay--bot {
+	transform: translateY(14px);
+}

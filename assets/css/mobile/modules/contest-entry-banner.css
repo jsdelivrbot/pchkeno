@@ -1,0 +1,11 @@
+.entry-banner-contest {
+	text-align: center;
+	background: #1d1d1d;
+}
+
+.entry-banner__img-contest {
+	margin: 0 auto;
+	max-width: 100%;
+	display: block;
+	height: auto;
+}

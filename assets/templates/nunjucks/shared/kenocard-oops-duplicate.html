@@ -1,0 +1,8 @@
+{% extends "shared/modal.html" %}
+{% block modalClass %}cardplay-oops{% endblock %}
+{% block closeButton %}{% endblock %}
+{% block modalTitle %}OOPS!{% endblock %}
+{% block body %}
+    <p class='cardplay-oops__text'>You already played those numbers!  Please pick a different set of numbers and re-submit!</p>
+    <button type="button" data-dismiss="modal" class="cardplay-oops__btn cardplay-oops__btn--submit btn btn-primary">Try Again</button>
+{% endblock %}

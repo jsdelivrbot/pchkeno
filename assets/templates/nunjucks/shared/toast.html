@@ -1,0 +1,19 @@
+<div class="toast {% block toastClass %}{% endblock %}">
+    <div class="toast__border">
+        <div class="toast__body">
+            {% block toastBody %}
+            {% endblock %}
+            {% if submitBtnMsg %}
+                <p class='toast__submitbtn'>
+                    <a class='btn' target=\"_blank\" href="{% if submitBtnUrl %}{{ submitBtnUrl }}{% else %}#{% endif %}">{{ submitBtnMsg }}</a>
+                </p>
+            {% endif %}
+            {% if cancelBtnMsg %}
+                <a class='levelup__nothanks toast__dismiss' href='{% if cancelBtnUrl %}{{ cancelBtnUrl }}{% else %}#{% endif %}'>{{ cancelBtnMsg }}</a>
+            {% endif %}
+            {% block closeButton %}
+                <button class="toast__close toast__dismiss" title="Close">x</button>
+            {% endblock %}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1603 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"strengths"
+			],
+			[
+				"ho",
+				"horoscope\t(web.php)"
+			],
+			[
+				"front",
+				"frontpage.desktop.master\t(category.blade.php)"
+			],
+			[
+				"script",
+				"script\tTag"
+			],
+			[
+				"fron",
+				"frontpage.desktop.partials.styles\t(master.blade.php)"
+			],
+			[
+				"header",
+				"header-menu\t(header.blade.php)"
+			],
+			[
+				"dum",
+				"dump"
+			],
+			[
+				"cu",
+				"currentDeployment"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"getU",
+				"getUserDataFromDB〔function〕"
+			],
+			[
+				"pro",
+				"protected"
+			],
+			[
+				"key",
+				"keyCount"
+			],
+			[
+				"cru",
+				"crucial"
+			],
+			[
+				"pri",
+				"prizemachine"
+			],
+			[
+				"retur",
+				"returnUrl"
+			],
+			[
+				"to",
+				"tokens"
+			],
+			[
+				"time",
+				"timeWon"
+			],
+			[
+				"recent",
+				"recentwinner\t(recentwinner.php)"
+			],
+			[
+				"DEPLO",
+				"DEPLOY_USER"
+			],
+			[
+				"P",
+				"PROPERTY"
+			],
+			[
+				"isDe",
+				"isDesktop"
+			],
+			[
+				"ex",
+				"expandoPromo\t(default.php)"
+			],
+			[
+				"expand",
+				"expandoPromo\t(default.js)"
+			],
+			[
+				"tim",
+				"timeWon"
+			],
+			[
+				"strto",
+				"strtotime(\"now"
+			],
+			[
+				"win",
+				"winners"
+			],
+			[
+				"wi",
+				"winners"
+			],
+			[
+				"w",
+				"winner"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"devi",
+				"$deviceId〔variable〕"
+			],
+			[
+				"recen",
+				"$recentwinnersM〔variable〕"
+			],
+			[
+				"rece",
+				"$recentwinners〔variable〕"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"risk_au",
+				"risk_autoScale"
+			],
+			[
+				"au",
+				"autoSize"
+			],
+			[
+				"risk",
+				"risk_afterClose"
+			],
+			[
+				"err",
+				"$errorCode〔variable〕"
+			],
+			[
+				"ass",
+				"$assetVer〔variable〕"
+			],
+			[
+				"claim",
+				"claimButton"
+			],
+			[
+				"font",
+				"fontMessage"
+			],
+			[
+				"max",
+				"maxwidth"
+			],
+			[
+				"PchApi",
+				"PchApiHandler〔class〕"
+			],
+			[
+				"recentw",
+				"recentwinners"
+			],
+			[
+				"json",
+				"json_encode〔function〕"
+			],
+			[
+				"prev",
+				"prevSearches"
+			],
+			[
+				"pla",
+				"$playing〔variable〕"
+			],
+			[
+				"isW",
+				"isWinnerSERP"
+			],
+			[
+				"device",
+				"deviceAccessKey"
+			],
+			[
+				"is",
+				"$isWinner〔variable〕"
+			],
+			[
+				"res",
+				"$response〔variable〕"
+			],
+			[
+				"comm",
+				"comm-subsection\tComment - Subsection comment"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"toke",
+				"tokenbankclient"
+			],
+			[
+				"PchC",
+				"PchClient〔class〕"
+			],
+			[
+				"contest",
+				"contestKey"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"is_n",
+				"is_null"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"rand",
+				"mt_rand"
+			],
+			[
+				"openx",
+				"openxTimeout"
+			],
+			[
+				"re",
+				"ready"
+			],
+			[
+				"con",
+				"const"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 141.0,
+		"last_filter": "gqa",
+		"selected_items":
+		[
+			[
+				"gqa",
+				"Git: Quick Add"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"gqc",
+				"Git: Quick Commit"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"gqs",
+				"Git: Quick Status"
+			],
+			[
+				"nginx",
+				"Set Syntax: nginx"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git",
+				"Git: Remote"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git ",
+				"Git: Merge"
+			],
+			[
+				"jsonp\t",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"gc",
+				"Git: Commit"
+			],
+			[
+				"gitig",
+				"Gitignore: New gitignore"
+			],
+			[
+				"shel",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"svn co",
+				"SVN: Commit…"
+			],
+			[
+				"svn c",
+				"SVN: Commit…"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"syntax ng",
+				"Set Syntax: nginx"
+			],
+			[
+				"svn up",
+				"SVN: Update, Including Externals"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"svn cle",
+				"SVN: Cleanup"
+			],
+			[
+				"svn",
+				"SVN: Log"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"svn file",
+				"SVN: (File) Diff, Remote"
+			],
+			[
+				"svn file lo",
+				"SVN: (File) Log"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"file",
+				"File: Delete"
+			],
+			[
+				"syntax sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"svn file di",
+				"SVN: (File) Diff, Remote"
+			],
+			[
+				"syntax sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"svn di",
+				"SVN: Diff, Remote"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JSON"
+			],
+			[
+				"svn rev",
+				"SVN: (File) Revert"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"phpfmt",
+				"phpfmt: generate PHPDoc block"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"svn lo",
+				"SVN: Log"
+			],
+			[
+				"svn file re",
+				"SVN: (File) Resolve Property Conflict, Interactive…"
+			],
+			[
+				"svn file up",
+				"SVN: (File) Update"
+			],
+			[
+				"svn ",
+				"SVN: Commit…"
+			],
+			[
+				"svn re",
+				"SVN: Revert, Interactive…"
+			],
+			[
+				"svn diff",
+				"SVN: Diff, Remote"
+			],
+			[
+				"svn comm",
+				"SVN: Commit…"
+			],
+			[
+				"svn d",
+				"SVN: Diff, Remote"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"svn log",
+				"SVN: (File) Log"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax json",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntax ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git q",
+				"Git: Quick Add"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git i",
+				"Gitignore: New gitignore"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"commnet",
+				"Snippet: Comment - HTML section"
+			],
+			[
+				"comm",
+				"Snippet: Comment - Section header comment"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"svn u",
+				"SVN: Update"
+			],
+			[
+				"syntax ",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"synta",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntax j",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntax xml",
+				"Set Syntax: XML"
+			],
+			[
+				"synt xm",
+				"Set Syntax: XML"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"com",
+				"Snippet: Comment - Full section comment"
+			],
+			[
+				"comme\t",
+				"Snippet: Comment - Block style comment"
+			],
+			[
+				"svn update",
+				"SVN: Update, Including Externals"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 293.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rluna/Work/PCH/Core/uni-nav"
+	],
+	"file_history":
+	[
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/config/app.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/app/Providers/AppServiceProvider.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/composer.json",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/app/Console/Kernel.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/app/Exceptions/Handler.php",
+		"/Users/rluna/Library/Application Support/Sublime Text 3/Packages/User/SVN.errors.log",
+		"/etc/hosts",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/docs/readme.md",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/docs/01-aws.md",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/.env.example",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/app/SitePage.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/database/seeds/DatabaseSeeder.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/config/session.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/config/cache.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/tests/ExampleTest.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/tests/TestCase.php",
+		"/Users/rluna/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/database/migrations/2016_08_23_103832_create_table_menus.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/database/migrations/2016_08_23_154803_create_site_pages_table.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/routes/web.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/category/category.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/partials/header-menu.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/app/Menu.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/.gitignore",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/subcategory/subcategory.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/category/main-content.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/category/our-picks.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/category/top-stories.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/partials/header.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/pages/home.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/partials/progress-bar.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/partials/sidebar.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/partials/footer-menu.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/partials/footer.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/gulpfile.js",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/frontend/gulpfile.js",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/frontend/src/config/webpack/webpack.js",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/frontend/package.json",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/frontend/src/gulpfile.js",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/master.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/horoscope/horoscope.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/lottery/lottery.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/lottery/results.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/lottery/games.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/lottery/payouts.blade.php",
+		"/Users/rluna/Downloads/PCH/2016/08 - Aug/fpcontent-error.json",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/weather/weather.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/horoscope/daily.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/horoscope/yearly.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/horoscope/signs.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/routes/helpers.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/weather/current.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/weather/hourly.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/weather/forecast.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/weather/history.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/subcategory/main-content.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/partials/scripts.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/partials/styles.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/partials/pch-uni-nav.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/frontpage/desktop/partials/menu.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/config/auth.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/config/aws.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/config/services.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/config/queue.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/config/mail.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/.env",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/pch-frontpage-site.sublime-workspace",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/pch-frontpage-site.sublime-project",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/vendor/pagination/default.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/vendor/pagination/simple-default.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/vendor/pagination/simple-bootstrap-4.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/vendor/pagination/bootstrap-4.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/vendor/notifications/email.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/docs/02-agent.md",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/vendor/laravel/framework/composer.json",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/views/welcome.blade.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/config/database.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/readme.md",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/bootstrap/app.php",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/assets/js/components/Example.vue",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/assets/js/bootstrap.js",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/assets/sass/app.scss",
+		"/Users/rluna/Work/PCH/PCHFrontpage/frontpage-site/resources/assets/sass/variables.scss",
+		"/Users/rluna/Work/Dev/Dev-Scripts/MEMP/create-mysql.sh",
+		"/Users/rluna/Work/PCH/PCHFrontpage/scripts/build-local",
+		"/Users/rluna/Work/Dev/Dev-Scripts/MEMP/Homestead.sh",
+		"/Users/rluna/Work/Dev/Dev-Scripts/MEMP/provision.sh",
+		"/usr/local/etc/nginx/sites-enabled/demo.phppointofsale.com",
+		"/usr/local/etc/nginx/logs/pos.local.webdcg.dev.error.log",
+		"/usr/local/etc/nginx/conf.d/php-fpm",
+		"/Users/rluna/Work/PCH/PCHFrontpage/scripts/build-svn",
+		"/Users/rluna/Work/PCH/PCHGuidedSearch/deploy/deployer.sh",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/scripts/deployment",
+		"/Users/rluna/Downloads/GS_results.txt",
+		"/usr/local/etc/nginx/logs/gs.local.pch.com.error.log",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/scripts/deployer.sh",
+		"/Users/rluna/Work/PHP/packagist/propelorm/models/DB/Author.php",
+		"/Users/rluna/Work/PHP/packagist/propelorm/models/DB/AuthorQuery.php",
+		"/Users/rluna/Work/PHP/packagist/propelorm/models/DB/Map/AuthorTableMap.php",
+		"/Users/rluna/Work/PHP/packagist/propelorm/models/DB/Base/Author.php",
+		"/Users/rluna/Work/PHP/packagist/propelorm/models/DB/Base/AuthorQuery.php",
+		"/Users/rluna/Work/PHP/packagist/propelorm/models/DB/Base/Book.php",
+		"/Users/rluna/Work/PHP/packagist/propelorm/generated-sql/sqldb.map",
+		"/Users/rluna/Work/PHP/packagist/propelorm/generated-migrations/PropelMigration_1463963787.php",
+		"/Users/rluna/Work/PHP/packagist/propelorm/generated-conf/config.php",
+		"/Users/rluna/Work/PHP/packagist/propelorm/propel.yml",
+		"/Users/rluna/Work/PHP/packagist/propelorm/generated-sql/default.sql",
+		"/Users/rluna/Work/PHP/packagist/propelorm/composer.json",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/externals/admin_com_pch_modules/pch_modules.xml",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/externals/mod_pch_module_mvtest/mod_pch_module_mvtest.xml",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/externals/mod_pch_module_mvtest/mod_pch_module_mvtest.php",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/externals/mod_pch_module_mvtest/helper.php",
+		"/var/folders/86/xmz3k10j4f9g1_1hc9dcrxw90vplwf/T/sublime-svn-1463671000/SVN",
+		"/var/folders/86/xmz3k10j4f9g1_1hc9dcrxw90vplwf/T/sublime-svn-1463670933/SVN",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/packages/serp/mod_pchsearch_serpad/tmpl/search.php",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/base/lib_pchsearch/helpers/template.php",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/externals/lib_pch_prizemachine/instantwin/instantwinclient.php",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/externals/lib_pch_cronjob/tokenbank.php",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/externals/lib_pch_prizemachine/prizemachine.php",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/externals/lib_pch_prizemachine/tokenbank/tokenbankclient.php",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/base/tmpl_pchsearch_desktop/index.php",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/base/lib_pchsearch/pch_lib.php",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/packages/prizemachine/mod_pchsearch_prizemachine/assets/css/prizeMachine.css",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/packages/prizemachine/mod_pchsearch_prizemachine/mod_pchsearch_prizemachine.php",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/packages/prizemachine/mod_pchsearch_prizemachine/assets/js/prizeMachine.js",
+		"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/packages/prizemachine/mod_pchsearch_prizemachine/tmpl/winnereveryhour.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/externals/lib_pch_prizemachine",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/base/pch_settings",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/externals/",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/externals/pch_settings",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/base",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/packages",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source/",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk-svn/source",
+			"/Users/rluna/Work/PCH/PCHSearch&Win/trunk/source",
+			"/Users/rluna/Work/PCH/frontpage/source, *.php",
+			"/Users/rluna/Work/PCH/frontpage/source",
+			"/Users/rluna/Google Drive/Code/PHP/Pandora/search.local.pch.com/website/",
+			"/Users/rluna/Google Drive/Code/PHP/Pandora/frontpage.local.pch.com/",
+			"/Users/rluna/Google Drive/Code/PHP/Pandora/search.local.pch.com/website/",
+			"/Users/rluna/Google Drive/Code/PHP/Pandora/search.local.pch.com/website",
+			"/Users/rluna/Google Drive/Code/PHP/Pandora/search.local.pch.com/website/",
+			"/Users/rluna/Google Drive/Code/PHP/Pandora/search.local.pch.com/website/modules/mod_pch_uninav",
+			"/Users/rluna/Google Drive/Code/PHP/Pandora/search.local.pch.com/website"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".dev",
+			"deployments.dev",
+			"deployments",
+			"dev",
+			"frontpage-new",
+			"homestead",
+			"/fpcontent",
+			"fpcontent-int",
+			"/fpcontent",
+			"fpcontent/",
+			"cd fpcontent &&",
+			"json",
+			");",
+			"secret",
+			"tinyInt",
+			"$",
+			"jdoc",
+			"</li>",
+			"<li>",
+			"horoscope",
+			"weather",
+			"view",
+			"category",
+			"subcategory",
+			"universalnav",
+			"uninav",
+			");",
+			"$agent->",
+			"Laravel",
+			"admin",
+			"searchandwin",
+			"deploy",
+			"stg",
+			"Stg",
+			"538445000",
+			"error",
+			"1004",
+			"display_errors",
+			"error",
+			"returnParameter",
+			"return",
+			"algo_only_segment",
+			"NULL",
+			"#__categories",
+			"#_",
+			"INSERT_RANDOM_NUMBER_HERE",
+			"http://ox-d.mods.pch.com",
+			"INSERT_RANDOM_NUMBER_HERE",
+			"http://ox-d.mods.pch.com",
+			"https://pch-d.openx.net",
+			"jQuery",
+			"INSERT_RANDOM_NUMBER_HERE",
+			"http://ox-d.mods.pch.com",
+			"ox-d.mods.pch.com",
+			"segid",
+			"trunk",
+			"experian",
+			"jumps",
+			"\nSELECT",
+			"\n",
+			"trunk",
+			"$data",
+			"data",
+			"$data",
+			" () {",
+			"properties",
+			"getData",
+			"get",
+			"sso_properties",
+			"get",
+			"user->getData",
+			"user->get",
+			"getConsecutiveVisits",
+			"getUserData",
+			"sso_data",
+			"rluna@OnlineDev  ~/Work/PCH/PCHSearchAndWin  ",
+			":{",
+			"$user->set",
+			"$this->user->set",
+			"user->set",
+			"$user->set",
+			"$this->user->set",
+			"set",
+			"getData",
+			"rightSerpAd",
+			"mx_d",
+			"USER_DISABLED",
+			" [\"conditions\"]=> ",
+			" [\"segments_excluded\"]=> ",
+			" [\"segments_included\"]=> ",
+			" [\"countExpiration\"]=> ",
+			" [\"returnUrl\"]=> ",
+			" [\"returnParameter\"]=> ",
+			" [\"maxRedirects\"]=> ",
+			" [\"expiredUrl\"]=> ",
+			" [\"targetUrl\"]=> ",
+			" [\"finishPublishing\"]=> ",
+			" [\"startPublishing\"]=> ",
+			" [\"sourceUrl\"]=> ",
+			" [\"publish_down\"]=> ",
+			" [\"publish_up\"]=> ",
+			"array(15) { ",
+			"array(15)",
+			"a:",
+			"/Users/rluna/Work/PCH/PCHFrontpage",
+			"rightSerpAd",
+			"frontpage",
+			"PCHFrontpage",
+			"PCH::isAppUrl()",
+			"isAppUrl()",
+			"isApp()",
+			"page",
+			"rluna",
+			"https://",
+			"stg",
+			".qa.",
+			"self::init",
+			"getSiteSetting",
+			"getSiteSettings",
+			"getSettings",
+			"${DEPLOYMENT}",
+			"PROJECT_PATH",
+			"search-$VERSION-stg",
+			"stg",
+			"},{",
+			"var_dump",
+			"PROJECT_PATH",
+			"SCRIPT_PATH"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"https://pch-d.openx.net",
+			"https://pch-d.openx.net\n[\"conditions\"]=> ",
+			"\n[\"conditions\"]=> ",
+			"\n[\"segments_excluded\"]=> ",
+			"\n[\"segments_included\"]=> ",
+			"\n[\"countExpiration\"]=> ",
+			"\n[\"returnUrl\"]=> ",
+			"\n[\"returnParameter\"]=> ",
+			"\n[\"maxRedirects\"]=> ",
+			"\n[\"targetUrl\"]=> ",
+			"\n[\"finishPublishing\"]=> ",
+			"\n[\"startPublishing\"]=> ",
+			"\n[\"sourceUrl\"]=> ",
+			"\n[\"publish_down\"]=> ",
+			"\n[\"publish_up\"]=> ",
+			"array(15) { \n",
+			"search",
+			"PCHSearch&Win",
+			"},\n{",
+			"\n[",
+			"",
+			"::serp_messaging_",
+			"&",
+			"PchSettingsInfospaceSearch",
+			"/",
+			" ",
+			"Mobile",
+			"dev",
+			"tr",
+			"trunk",
+			"FRONTPAGE",
+			"<?php echo $segid; ?>",
+			"<?php echo $now; ?>",
+			".",
+			")",
+			"(",
+			"<?php echo $now; ?>",
+			"<?php echo now; ?>",
+			"<?php echo time(); ?>",
+			"Instantwinner",
+			"Instatwinner",
+			"",
+			"Pchfrontpage",
+			"",
+			"prize",
+			"mobile",
+			"tablet",
+			"Mobile",
+			" () {",
+			"-----------------------------------------------------------------*/",
+			"-------------------------------------------------------",
+			" () {",
+			"Frontpage",
+			";",
+			"] = ",
+			"$data[",
+			"mobile",
+			"tablet",
+			"'",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 164.0
+	},
+	"output.git-checkout":
+	{
+		"height": 124.0
+	},
+	"output.git-commit":
+	{
+		"height": 124.0
+	},
+	"output.git-init":
+	{
+		"height": 156.0
+	},
+	"output.git-pull":
+	{
+		"height": 224.0
+	},
+	"output.git-push":
+	{
+		"height": 124.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.textarea":
+	{
+		"height": 162.0
+	},
+	"pinned_build_system": "",
+	"project": "pch-uni-nav.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"handler.php",
+				"app/Exceptions/Handler.php"
+			],
+			[
+				"cate",
+				"resources/views/frontpage/desktop/category/category.blade.php"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				"app.php",
+				"config/app.php"
+			],
+			[
+				"composer.jso",
+				"composer.json"
+			],
+			[
+				"infospace",
+				"source/base/lib_pchsearch/infospace.php"
+			],
+			[
+				"infospace.xml",
+				"source/externals/admin_com_pch_config/models/forms/tab_infospace.xml"
+			],
+			[
+				"googlebigquery",
+				"source/base/lib_pchsearch/google/googlebigquery.php"
+			],
+			[
+				"source/packages/serp/mod_pchsearch_serpad/tmpl/segment.php",
+				"source/packages/serp/mod_pchsearch_serpad/tmpl/segment.php"
+			],
+			[
+				"source/packages/serp/mod_pchsearch_serpad/tmpl/search.php",
+				"source/packages/serp/mod_pchsearch_serpad/tmpl/search.php"
+			],
+			[
+				"source/packages/serp/mod_pchsearch_serpad/tmpl/frontpage.php",
+				"source/packages/serp/mod_pchsearch_serpad/tmpl/frontpage.php"
+			],
+			[
+				"source/packages/serp/mod_pch_search_view/ui/js/sidebarad.js",
+				"source/packages/serp/mod_pch_search_view/ui/js/sidebarAd.js"
+			],
+			[
+				"source/packages/openx/ui/js/openxapi.js",
+				"source/packages/openx/ui/js/openxAPI.js"
+			],
+			[
+				"source/packages/guided_search/ui/js/main.js",
+				"source/packages/guided_search/ui/js/main.js"
+			],
+			[
+				"source/packages/guided_search/mod_pchsearch_guidedsearch/mod_pchsearch_guidedsearch.php",
+				"source/packages/guided_search/mod_pchsearch_guidedsearch/mod_pchsearch_guidedsearch.php"
+			],
+			[
+				"googlebig",
+				"source/packages/serp/com_pchsearch_serp/assets/js/googleBigQuery.js"
+			],
+			[
+				"filters",
+				"source/base/lib_pchsearch/content/filters.php"
+			],
+			[
+				"filters.php",
+				"source/externals/lib_pch_content/filters.php"
+			],
+			[
+				"settinginfo",
+				"source/externals/pch_settings/infospace.php"
+			],
+			[
+				"infos",
+				"source/base/lib_pchsearch/infospace.php"
+			],
+			[
+				"googlebigque",
+				"source/packages/serp/com_pchsearch_serp/assets/js/googleBigQuery.js"
+			],
+			[
+				"main.scss",
+				"source/packages/guided_search/ui/css/main.scss"
+			],
+			[
+				"libconserp",
+				"source/base/lib_pchsearch/content/serpmessage.php"
+			],
+			[
+				"libcontoken",
+				"source/base/lib_pchsearch/content/tokens.php"
+			],
+			[
+				"serpview.html.php",
+				"source/packages/serp/admin_com_pchsearch_serp/views/pchsearchserp/view.html.php"
+			],
+			[
+				"searchuser",
+				"source/base/lib_pchsearch/searchuser.php"
+			],
+			[
+				"pchredirect.php",
+				"source/base/lib_pch/content/pchredirect.php"
+			],
+			[
+				"instantwinner",
+				"source/base/lib_pchsearch/prizemachine/instantwin/instantwinner.php"
+			],
+			[
+				"ssouser",
+				"source/externals/lib_pch_sso/user.php"
+			],
+			[
+				"instantwin",
+				"source/base/lib_pchsearch/prizemachine/instantwin/instantwinner.php"
+			],
+			[
+				"tokenawa",
+				"source/base/lib_pchsearch/prizemachine/tokenbank/tokenaward.php"
+			],
+			[
+				"infospace.php",
+				"source/base/lib_pchsearch/infospace.php"
+			],
+			[
+				"settingsgoogle",
+				"source/base/pch_settings/googlebigquery.search.php"
+			],
+			[
+				"googlexml",
+				"source/externals/admin_com_pch_config/models/forms/tab_googlebigquery.xml"
+			],
+			[
+				"modrecentsearch",
+				"source/externals/mod_pch_recentwinners/tmpl/searchandwin.php"
+			],
+			[
+				"bigquery.php",
+				"source/base/lib_pchsearch/google/googlebigquery.php"
+			],
+			[
+				"bigquery",
+				"source/base/lib_pchsearch/google/bigquery.php"
+			],
+			[
+				"tokenaward",
+				"source/base/lib_pchsearch/prizemachine/tokenbank/tokenaward.php"
+			],
+			[
+				"sites.php",
+				"source/externals/lib_pch_system/sites.php"
+			],
+			[
+				"instantwinn",
+				"source/base/lib_pchsearch/prizemachine/instantwin/instantwinner.php"
+			],
+			[
+				"bigquery.js",
+				"source/packages/serp/com_pchsearch_serp/assets/js/googleBigQuery.js"
+			],
+			[
+				"mod_pchsearch_serpad",
+				"website/modules/mod_pchsearch_serpad/mod_pchsearch_serpad.php"
+			],
+			[
+				"mod_pchsearch_serpad.php",
+				"website/modules/mod_pchsearch_serpad/mod_pchsearch_serpad.php"
+			],
+			[
+				"settinfo",
+				"website/pch_settings/infospace.php"
+			],
+			[
+				"libinfos",
+				"source/externals/lib_pchsearch/infospace.php"
+			],
+			[
+				"experian.php",
+				"website/libraries/pch/experian/experian.php"
+			],
+			[
+				"experian",
+				"source/externals/pch_media/js/pchexperian.js"
+			],
+			[
+				"pchex",
+				"website/pch_media/js/pchexperian.js"
+			],
+			[
+				"lotter",
+				"source/base/lib_pchfrontpage/lottery/lottery.php"
+			],
+			[
+				"horos",
+				"website/pch_settings/horoscope.php"
+			],
+			[
+				"pch_lib",
+				"source/base/lib_pchfrontpage/pch_lib.php"
+			],
+			[
+				"component",
+				"source/base/tmpl_pchfrontpage/component.php"
+			],
+			[
+				"categoryhelper",
+				"source/packages/category/com_pchfrontpage_category/helpers/helper.php"
+			],
+			[
+				"trunkjoomlabrowser.php",
+				"trunk/website/libraries/joomla/environment/browser.php"
+			],
+			[
+				"trunklibinstantwinner",
+				"trunk/source/base/lib_pchsearch/prizemachine/instantwin/instantwinner.php"
+			],
+			[
+				"trunklibinfospa",
+				"trunk/source/base/lib_pchsearch/infospace.php"
+			],
+			[
+				"levelapi.php",
+				"trunk/source/externals/pch_settings/levelapi.php"
+			],
+			[
+				"pchsearchbillmehandler",
+				"trunk/source/base/lib_pchsearch/searchbillmehandler.php"
+			],
+			[
+				"serp.source.js",
+				"frontpage/source/packages/serp/com_pchsearch_serp/assets/js/serp.source.js"
+			],
+			[
+				"services.php",
+				"website_prod/pch_settings/services.php"
+			],
+			[
+				"pch_lib.php",
+				"source/base/lib_pchfrontpage/pch_lib.php"
+			],
+			[
+				"serpview",
+				"source/packages/serp/com_pchsearch_serp/views/frontpage/view.html.php"
+			],
+			[
+				"serp.sou",
+				"source/packages/serp/com_pchsearch_serp/assets/js/serp.source.js"
+			],
+			[
+				"serpcomserpdefa",
+				"source/packages/serp/com_pchsearch_serp/views/pchsearchserp/tmpl/default.php"
+			],
+			[
+				"infospace.fron",
+				"website/pch_settings/infospace.frontpage.php"
+			],
+			[
+				"searchactivity",
+				"website/pch_settings/searchactivity.php"
+			],
+			[
+				"riskmanagement",
+				"source/packages/risk_management/mod_pchfrontpage_riskmanagement/mod_pchfrontpage_riskmanagement.php"
+			],
+			[
+				"logsinstant",
+				"website/logs/instantwin.log"
+			],
+			[
+				"libinfospace",
+				"source/externals/lib_pchsearch/infospace.php"
+			],
+			[
+				"libinfo",
+				"source/externals/lib_pchsearch/infospace.php"
+			],
+			[
+				"frontpageuser",
+				"source/base/lib_pchfrontpage/frontpageuser.php"
+			],
+			[
+				"pchfrontpagecategoryhelper",
+				"source/packages/category/com_pchfrontpage_category/helpers/helper.php"
+			],
+			[
+				"pchfrontpagebillmehandler",
+				"source/base/lib_pchfrontpage/frontpagebillmehandler.php"
+			],
+			[
+				"tokenbankhel",
+				"source/externals/lib_pch_prizemachine/tokenbank/tokenbankhelper.php"
+			],
+			[
+				"pchinstantwinhelper",
+				"source/externals/lib_pch_prizemachine/instantwin/instantwinhelper.php"
+			],
+			[
+				"recentwinners",
+				"website/logs/recentwinners.json"
+			],
+			[
+				"instantwintcline",
+				"source/externals/lib_pch_prizemachine/instantwin/instantwinclient.php"
+			],
+			[
+				"recentwinn",
+				"website/libraries/pch/instantwin/recentwinners.php"
+			],
+			[
+				"recen",
+				"website/libraries/pch/instantwin/recentwinners.php"
+			],
+			[
+				"libsbigquery",
+				"search.local.pch.com/website/libraries/pchsearch/google/bigquery.php"
+			],
+			[
+				"google",
+				"frontpage.local.pch.com/website/pch_settings/googlebigquery.php"
+			],
+			[
+				"token",
+				"website/pch_settings/tokens.php"
+			],
+			[
+				"tempmobileindex.php",
+				"website/templates/pchsearch_mobile/index.php"
+			],
+			[
+				"temptablindex.php",
+				"website/templates/pchsearch_tablet/index.php"
+			],
+			[
+				"levelupcelebration.js",
+				"website/pch_media/js/levelUpCelebration.js"
+			],
+			[
+				"pluginssystempch",
+				"website/plugins/system/pch_lib/pch_lib.php"
+			],
+			[
+				"dynam",
+				"website/pch_media/js/dynamic_iframe.js"
+			],
+			[
+				"modpchtoke",
+				"website/modules/mod_pch_tokencenter/mod_pch_tokencenter.php"
+			],
+			[
+				"searchbox.so",
+				"website/modules/mod_pchsearch_searchbox/assets/js/searchbox.source.js"
+			],
+			[
+				"modsearchbox",
+				"website/modules/mod_pchsearch_searchbox/mod_pchsearch_searchbox.php"
+			],
+			[
+				"modpchssolotto",
+				"website/modules/mod_pch_sso/tmpl/lotto.php"
+			],
+			[
+				"modpchssosearch",
+				"website/modules/mod_pch_sso/tmpl/search.php"
+			],
+			[
+				"compossoprocontro",
+				"website/components/com_pch_ssoproxy/controller.php"
+			],
+			[
+				"mod_pchsearch_sear",
+				"website/modules/mod_pchsearch_searchbox/mod_pchsearch_searchbox.php"
+			],
+			[
+				"tokena",
+				"website/libraries/pchsearch/prizemachine/tokenbank/tokenaward.php"
+			],
+			[
+				"temmobiindex.php",
+				"website/templates/pchsearch_mobile/index.php"
+			],
+			[
+				"settin",
+				"website/pch_settings/infospace.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "admin",
+		"selected_items":
+		[
+			[
+				"admin",
+				"~/Work/PCH/PCHFrontpage/frontpage-admin/pch-frontpage-admin.sublime-project"
+			],
+			[
+				"svn",
+				"~/Work/PCH/PCHFrontpage/PCHFrontpage-svn.sublime-project"
+			],
+			[
+				"content",
+				"~/Work/PCH/PCHFrontpage/frontpage-content/PCH-Frontpage-Content.sublime-project"
+			],
+			[
+				"video",
+				"~/Work/PCH/PCHFrontpage/PCH-Video/PCH-Video-API.sublime-project"
+			],
+			[
+				"api",
+				"~/Work/PCH/PCHFrontpage/services/PCH-Frontpage-API/PCH-FrontpageContentAPI.sublime-project"
+			],
+			[
+				"guided",
+				"~/Work/PCH/PCHGuidedSearch/PCHGuidedSearch.sublime-project"
+			],
+			[
+				"guide",
+				"~/Work/PCH/PCHGuidedSearch/PCHGuidedSearch.sublime-project"
+			],
+			[
+				"guis",
+				"~/Work/PCH/PCHGuidedSearch/PCHGuidedSearch.sublime-project"
+			],
+			[
+				"lynda",
+				"~/School/Lynda/Design Patterns in PHP/lynda-php-design-patterns.sublime-project"
+			],
+			[
+				"fornt",
+				"~/Work/PCH/PCHFrontpage/PCHFrontpage-svn.sublime-project"
+			],
+			[
+				"serial",
+				"~/Downloads/Servers4Hackers/serialapp/deploy-serialapp.sublime-project"
+			],
+			[
+				"google",
+				"~/Work/PCH/PCHGoogleBigQuery/PCH-Google-BigQuery/PCH-Google-BigQuery.sublime-project"
+			],
+			[
+				"front",
+				"~/Work/PCH/PCHFrontpage/services/PCH-Frontpage-App/PCH-Frontpage-App.sublime-project"
+			],
+			[
+				"frontpage",
+				"~/Work/PCH/PCHFrontpage/PCHFrontpage-svn.sublime-project"
+			],
+			[
+				"gbq",
+				"~/Work/PCH/PCHGoogleBigQuery/PCH-Google-BigQuery/PCH-Google-BigQuery.sublime-project"
+			],
+			[
+				"jarvis",
+				"~/Work/Virtual/Jarvis/webdcg-jarvis.sublime-project"
+			],
+			[
+				"dev",
+				"~/Work/Dev/Dev-Scripts/Dev-Scripts.sublime-project"
+			],
+			[
+				"ajen",
+				"~/Work/Virtual/Ajenti/webdcg-ajenti.sublime-project"
+			],
+			[
+				"",
+				"~/Work/PHP/Code/Laracasts/Advanced-Eloquent/laracasts-eloquent.sublime-project"
+			],
+			[
+				"la",
+				"~/Work/PHP/Code/Laracasts/Intermediate-Laravel/Intermediate-Laravel.sublime-project"
+			],
+			[
+				"goo",
+				"~/Work/PCH/PCHGoogleBigQuery/PCH-Google-BigQuery/PCH-Google-BigQuery.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 47.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"notifyTokens",
+				"notifyTokens"
+			]
+		],
+		"width": 548.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

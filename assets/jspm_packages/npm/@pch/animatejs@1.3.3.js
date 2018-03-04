@@ -1,0 +1,1 @@
+module.exports = require("npm:@pch/animatejs@1.3.3/dist/index.js");

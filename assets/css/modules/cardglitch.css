@@ -1,0 +1,47 @@
+/* card glitch */
+.card--glitch {
+	background: transparent;
+	padding: 0;
+	height: 602px;
+}
+.cardglitch {
+	position: relative;
+	background: resolve("home/home_glitch@2x.png") bottom center no-repeat;
+	background-size: contain;
+	height: 100%;
+}
+/*
+.cardglitch::before {
+    /* @TODO dev only * /
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: resolve("_screenshots/home_glitch.png") 0 0 no-repeat;
+    background-size: contain;
+    opacity: 0.5;
+}
+*/
+.cardglitch__header {
+	color: #333;
+	position: relative;
+	left: 46px;
+	top: 14px;
+}
+.cardglitch__header__title {
+	font-size: 92px;
+	line-height: 98px;
+	font-weight: 300;
+	margin: 0;
+}
+.cardglitch__header__subtitle {
+	font-size: 25px;
+	font-weight: bold;
+	text-indent: 8px;
+	margin: 0;
+}
+.cardglitch__btn {
+	margin: 26px 80px;
+}

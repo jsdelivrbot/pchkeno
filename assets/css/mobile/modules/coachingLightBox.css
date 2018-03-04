@@ -1,0 +1,169 @@
+.coachingLightBox .coachingContainer {
+    font-weight: bold;
+    max-width: 265px;
+    padding: 15px;
+}
+
+.defaultCoaching {
+    top: auto !important;
+    position: fixed;
+    bottom: 100px;
+
+    .second-arrow {
+        border-width: 12px 18px 12px 0;
+        border-style: solid;
+        border-color: transparent #000;
+        position: absolute;
+        content: "";
+        display: block;
+        left: 39%;
+        bottom: -13px;
+        transform: rotate(270deg);
+        width: 0;
+
+        &:before {
+            border-width: 12px 18px 12px 0;
+            border-style: solid;
+            border-color: transparent #fff;
+            left: 40%;
+            bottom: -18px;
+            display: block;
+            content: "";
+            position: absolute;
+            margin-bottom: 6px;
+            margin-left: 5px;
+            width: 0;
+        }
+    }
+
+    &:before {
+        left: 50%;
+        top: -12px;
+        margin-top: -9px;
+        transform: rotate(90deg);
+        margin-left: 0px;
+        border-width: 12px 18px 12px 0;
+    }
+
+    &:after {
+        left: 40%;
+        bottom: -21px;
+        transform: rotate(270deg);
+        margin-left: -3px;
+        display: block;
+        content: "";
+        position: absolute;
+        opacity: 0.5;
+        border-width: 12px 18px 12px 0;
+        border-style: solid;
+        border-color: transparent #fff;
+        z-index: -1;
+    }
+
+    .coachingContainer {
+        height: auto;
+
+        &:before {
+            top: -14px;
+            left: 50%;
+            margin-top: -10px;
+            transform: rotate(90deg);
+            border-width: 12px 18px 12px 0;
+        }
+
+        &:after {
+            top: -7px;
+            left: 50%;
+            margin-top: -12px;
+            margin-left: 0;
+            transform: rotate(90deg);
+            border-width: 12px 18px 12px 0;
+        }
+    }
+}
+
+$submitLeft: 70%;
+
+.submitCoaching {
+    bottom: 100px;
+    top: auto !important;
+    position: fixed;
+    right: 20px;
+    left: auto !important;
+
+    &:before {
+        left: 71%;
+        top: 124%;
+        transform: rotate(270deg);
+        margin-left: -3px;
+        border-width: 12px 18px 12px 0px;
+    }
+
+    .coachingContainer {
+        height: auto;
+
+        &:before {
+            top: 126%;
+            left: $submitLeft;
+            transform: rotate(270deg);
+        }
+
+        &:after {
+            top: 111%;
+            left: $submitLeft;
+            margin-left: -1px;
+            transform: rotate(270deg);
+        }
+    }
+}
+
+.choicesCoaching {
+    position: fixed;
+    top: 300px;
+    left: 40px;
+
+    &:before {
+        display: none;
+    }
+
+    .coachingContainer {
+        &:before {
+            display: none;
+        }
+
+        &:after {
+            display: none;
+        }
+    }
+}
+
+#idleLightBox {
+    position: absolute;
+    right: 10px;
+    left: auto !important;
+
+    &:before {
+        left: auto;
+        right: 38px;
+        top: -13px;
+        transform: rotate(90deg);
+        margin-left: -3px;
+    }
+
+    .coachingContainer {
+        &:before {
+            top: -11px;
+            right: 31px;
+            left: auto;
+            transform: rotate(90deg);
+        }
+
+        &:after {
+            top: -3px;
+            right: 31px;
+            left: auto;
+            margin-left: -1px;
+            transform: rotate(90deg);
+        }
+    }
+}

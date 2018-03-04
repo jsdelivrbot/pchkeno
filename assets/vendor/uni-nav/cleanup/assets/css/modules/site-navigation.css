@@ -1,0 +1,122 @@
+/*== START SITE LEVEL NAVIGATION */
+
+.site-navigation,
+.nav-bar {
+    overflow: visible;
+    width: 1130px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+    height: 43px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.site-navigation ul,
+.nav-bar ul {
+    list-style: none;
+    position: relative;
+}
+
+.site-navigation li,
+.nav-bar li {
+    float: left;
+    margin-right: 5px;
+    /*1.7em;*/
+    color: #838080;
+    position: relative;
+}
+
+.site-navigation li a,
+.nav-bar li a {
+    color: #838080;
+    text-decoration: none;
+    padding: 2px 8px;
+    display: block;
+}
+
+.site-navigation li a:hover,
+.nav-bar li a:hover {
+    color: #fff;
+    /*#7D9E40;*/
+    cursor: pointer;
+}
+
+.site-navigation li.active a,
+.nav-bar li.active a,
+.site-navigation li.active a:hover,
+.nav-bar li.active a:hover {
+    color: #669900;
+}
+
+.site-navigation ul ul,
+.nav-bar ul ul {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 0 5px 5px 5px;
+    list-style: none;
+    position: absolute;
+    /* Hide off-screen when not needed */
+    left: -9999px;
+    color: #fff;
+    padding: 5px;
+    top: 32px;
+    width: auto;
+    margin: 0;
+    display: block;
+}
+
+.site-navigation ul ul li,
+.nav-bar ul ul li {
+    float: none;
+    display: block;
+    margin: 0;
+    padding: 0 20px 0 0;
+    font-size: 80%;
+}
+
+.site-navigation ul ul a,
+.nav-bar ul ul a {
+    white-space: nowrap;
+    *zoom: 1;
+    display: block;
+}
+
+.site-navigation ul li:hover ul,
+.nav-bar ul li:hover ul {
+    left: 0;
+}
+
+.site-navigation ul li:hover a,
+.nav-bar ul li:hover a {
+    background: none;
+    color: #fff;
+    /*#7D9E40;*/
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+
+.site-navigation ul li.sub:hover a,
+.nav-bar ul li.deeper:hover a {
+    border-radius: 5px 5px 0 0;
+}
+
+.site-navigation ul li:hover ul a,
+.nav-bar ul li:hover ul a {
+    text-decoration: none;
+    color: #fff;
+    /*#838080;*/
+    background: none;
+    border-radius: none;
+}
+
+.site-navigation ul li:hover ul li a:hover,
+.nav-bar ul li:hover ul li a:hover {
+    background: none;
+    color: #fff;
+    /*#7D9E40;*/
+    text-decoration: underline;
+}

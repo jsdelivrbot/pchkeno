@@ -1,0 +1,69 @@
+/*== Token Center MESSAGE CENTER Styling ==*/
+
+.uninav .uninav__message-center {
+    display: block;
+    clear: left;
+    overflow: visible;
+    padding: 8px 0 10px;
+    color: #f8d48d;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.uninav .uninav__message-center__activity-header {
+    color: #f8d47d;
+    display: block;
+    border-radius: 8px 8px 0 0;
+    width: 301px;
+    margin: -8px auto 0;
+    padding: 4px 10px 10px;
+    line-height: 16px;
+    background: #333;
+    display: none;
+    font-size: 1em;
+}
+.uninav .uninav__message-center--latest .uninav__message-center__activity-header {
+    display: block;
+}
+
+.uninav .uninav__message-center__message-display {
+    background: #000 url(../../images/token-center/token-center-bkgd.png) no-repeat -14px -550px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    width: 330px;
+    margin: -8px auto 0;
+    padding: 8px 10px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 40px;
+}
+
+.uninav .uninav__message-center__token_messaging {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.uninav .uninav__message-center__earnings {
+    font-size: 23px;
+    line-height: 23px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.uninav .uninav__message-center__nopassword {
+    cursor: pointer;
+}
+
+.uninav .uninav__message-center__earn-tokens {
+    font-size: 22px;
+    line-height: 23px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.uninav .uninav__sf-badge {
+    display: inline-block;
+    background: transparent url(../../images/token-levels/sf_logo_mobile.png) 0 0 no-repeat;
+    width: 43px;
+    height: 54px;
+}

@@ -1,0 +1,16 @@
+.uninav .uninav__logo {
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    margin: 0;
+    padding:0;
+    position: absolute;
+    left: 0;
+    top:18px; 
+    z-index: 1000;
+}

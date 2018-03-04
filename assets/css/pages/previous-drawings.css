@@ -1,0 +1,202 @@
+.page--previous-drawings #main-content {
+    width: 1200px;
+}
+
+.previous-drawings__main-container {
+    padding-left: 0;
+    padding-right: 0;
+    width: 662px;
+    float: left;
+    position: relative;
+}
+
+.previous-drawings__main-container .black-inner-rectangle {
+    padding-left: 1px;
+    padding-bottom: 75px;
+}
+
+.page--previous-drawings #previous-drawing-ad-container {
+    opacity: 0;
+    width: 662px;
+    position: absolute;
+    visibility: hidden;
+    top: 0px;
+    left: 1px;
+}
+
+.page--previous-drawings .drawing__side-game-matches {
+    visibility: visible;
+}
+
+.page--previous-drawings .drawing__number-pad {
+    visibility: visible;
+    width: 660px;
+}
+
+.page--previous-drawings .sidebar {
+    transition: visibility 0s, opacity 0.5s linear, height 0s;
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+}
+
+.previous-drawings__container {
+    background: rgba(240, 240, 240, 1);
+    border-radius: 25px;
+    padding: 10px 0px 10px 10px;
+    width: 1240px;
+    margin-bottom: 30px;
+}
+
+.previous-drawings__header h1 {
+    color: rgba(85, 84, 152, 1);
+    font-size: 42px;
+    padding-left: 25px;
+    width: 1200px;
+}
+
+.previous-drawings__container .drawing-time {
+    font-size: 40px;
+    position: relative;
+}
+
+.previous-drawings__container .drawing-time h2 {
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+.previous-drawings__container .drawing-time span {
+    font-weight: bold;
+}
+
+.previous-drawings-side-game-match-container {
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.previous-drawings__container .drawing-time a.more-info {
+    color: rgba(153, 153, 153, 1);
+    font-size: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.previous-drawings__header h1 span {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.previous-drawings__sidebar h2 {
+    font-size: 22px;
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+    text-align: center;
+}
+
+.previous-drawings__sidebar {
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+}
+
+.previous-drawings__sidebar .drawing-times {
+    background: rgba(39, 39, 39, 1);
+    border-radius: 25px;
+    height: 325px;
+    width: 300px;
+    border: 3px solid #fff;
+    box-shadow: 0 0px 4px 1px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin: 10px 0 15px 0;
+}
+
+.previous-drawings__sidebar .drawing-times-scroller {
+    width: 200%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transform: translateX(0%);
+}
+
+.previous-drawings__sidebar .drawing-times-scroller.scroll-left {
+    transform: translateX(-50%);
+}
+
+.previous-drawings__sidebar .drawing-times-scroller ul {
+    text-align: center;
+    margin-top: 15px;
+    border-left: 1px solid rgba(150, 150, 150, 1);
+    display: inline-block;
+    width: 32%;
+}
+
+.previous-drawings__sidebar .drawing-times-scroller .drawing-times-container {
+    width: 49%;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+.previous-drawings__sidebar .drawing-times-scroller ul li {
+    padding-bottom: 2px;
+}
+
+.previous-drawings__sidebar .drawing-times ul:first-of-type {
+    border-left: 0px;
+}
+
+.previous-drawings__sidebar .drawing-times a {
+    color: rgba(102, 102, 102, 1);
+    text-decoration: underline;
+}
+
+.previous-drawings__sidebar .drawing-times a.played {
+    color: rgba(167, 169, 172, 1);
+}
+
+.previous-drawings__sidebar .drawing-times a.unavailable {
+    color: rgba(76, 71, 71, 1);
+}
+
+.previous-drawings__sidebar .drawing-times a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.previous-drawings__sidebar .drawing-times a.active {
+    color: rgba(255, 255, 255, 1);
+}
+
+.previous-drawings__sidebar .drawing-times a.has-numbers {
+    color: rgba(167, 169, 172, 1);
+}
+
+.previous-drawings__sidebar .drawing-times a.current {
+    color: rgba(255, 255, 255, 1);
+}
+
+.previous-drawings__sidebar ul.drawing-times-nav {
+    margin: 8px auto;
+    text-align: center;
+}
+
+.previous-drawings__sidebar ul.drawing-times-nav li {
+    display: inline-block;
+    background-image: resolve("images/previous-drawings/previous-drawings-active@2x.png");
+    width: 11px;
+    height: 20px;
+    background-size: 11px 20px;
+    cursor: pointer;
+}
+
+.previous-drawings__sidebar ul.drawing-times-nav li.right-arrow {
+    transform: scaleX(-1);
+    margin-left: 15px;
+}
+
+.previous-drawings__sidebar ul.drawing-times-nav li.disabled {
+    background-image: resolve("images/previous-drawings/previous-drawings-disabled@2x.png");
+    width: 11px;
+    height: 20px;
+    background-size: 11px 20px;
+}

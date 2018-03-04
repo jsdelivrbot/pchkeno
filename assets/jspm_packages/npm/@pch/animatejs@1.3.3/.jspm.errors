@@ -1,0 +1,11 @@
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/animatejs@1.3.3/example/example.js:1:1: Unexpected reserved word import
+/Users/cbutera/.jspm/packages/npm/@pch/animatejs@1.3.3/example/example.js:1:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/animatejs@1.3.3/example/example.js:1:16: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/animatejs@1.3.3/example/example.js:1:21: Semi-colon expected
+
+MultipleErrors: /Users/cbutera/.jspm/packages/npm/@pch/animatejs@1.3.3/src/index.js:267:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/animatejs@1.3.3/src/index.js:267:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/animatejs@1.3.3/src/index.js:268:1: Unexpected reserved word export
+/Users/cbutera/.jspm/packages/npm/@pch/animatejs@1.3.3/src/index.js:268:8: Semi-colon expected
+/Users/cbutera/.jspm/packages/npm/@pch/animatejs@1.3.3/src/index.js:268:8: Unexpected reserved word default
+/Users/cbutera/.jspm/packages/npm/@pch/animatejs@1.3.3/src/index.js:268:16: Semi-colon expected

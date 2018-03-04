@@ -1,0 +1,118 @@
+/*== Token Center REWARD CENTER Styling ==*/
+
+.uninav .uninav__reward-center {
+    display: block;
+    margin: 6px auto 10px;
+    padding: 0 10px;
+    width: 314px;
+    height: 46px;
+    border: 1px solid rgba(36, 36, 37, 1.0);
+    background: #000;
+    background: linear-gradient(to bottom, #3b3b3b 0%, #212123 48%, #020203 100%);
+    background: -webkit-linear-gradient(top, #3b3b3b 0%, #212123 48%, #020203 100%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.uninav .uninav__token-center-container--leveling .uninav__reward-center {
+    margin: 6px 8px 10px;
+    width: 254px;
+}
+.uninav .uninav__token-center--bronze .uninav__reward-center {
+    background: #8a452f;
+    background: linear-gradient(to bottom, #8a452f 0%, #5b280f 48%, #2a0502 100%);
+    background: -webkit-linear-gradient(top, #8a452f 0%, #5b280f 48%, #2a0502 100%);
+}
+.uninav .uninav__token-center--silver .uninav__reward-center {
+    background: #696969;
+    background: linear-gradient(to bottom, #696969 0%, #4f504f 48%, #303030 100%);
+    background: -webkit-linear-gradient(top, #696969 0%, #4f504f 48%, #303030 100%);
+}
+.uninav .uninav__token-center--gold .uninav__reward-center {
+    background: #6a5728;
+    background: linear-gradient(to bottom, #dabb7f 0%, #6a5728 48%, #322300 100%);
+    background: -webkit-linear-gradient(top, #dabb7f 0%, #6a5728 48%, #322300 100%);
+}
+.uninav .uninav__token-center--platinum .uninav__reward-center {
+    background: #a5a9a5;
+    background: linear-gradient(to bottom, #a5a9a5 0%, #5e5d5d 48%, #373536 100%);
+    background: -webkit-linear-gradient(top, #a5a9a5 0%, #5e5d5d 48%, #373536 100%);
+}
+.uninav .uninav__token-center--emerald .uninav__reward-center {
+    background: #244b26;
+    background: linear-gradient(to bottom, #244b26 0%, #213a21 48%, #131713 100%);
+    background: -webkit-linear-gradient(top, #244b26 0%, #213a21 48%, #131713 100%);
+}
+.uninav .uninav__token-center--sapphire .uninav__reward-center {
+    background: #24424a;
+    background: linear-gradient(to bottom, #24424a 0%, #1f2a35 48%, #14171a 100%);
+    background: -webkit-linear-gradient(top, #24424a 0%, #1f2a35 48%, #14171a 100%);
+}
+.uninav .uninav__token-center--diamond .uninav__reward-center {
+    background: url(../../images/token-levels/uninav-level-reward-center-bg-diamond.png) repeat-x;
+}
+.uninav .uninav__token-center--black_diamond .uninav__reward-center {
+    background: url(../../images/token-levels/uninav-level-reward-center-bg-black-diamond.png) repeat-x;
+}
+
+.uninav .uninav__reward-center__token-amount {
+    font-size: 33px;
+}
+
+.uninav .uninav__reward-center ul {
+    font-size: 9px;
+    line-height: 12px;
+    color: #6c6c6c;
+    width: 70px;
+    display: block;
+    float: left;
+    padding-top: 8px;
+}
+
+.uninav .uninav__reward-center ul li {
+    text-transform: uppercase;
+    padding: 1px 12px 3px 0;
+    display: block;
+    background: transparent url(../../images/token-center/token-center-bkgd.png) no-repeat -10px -276px;
+    cursor: pointer;
+    width: 66px;
+}
+
+.uninav .uninav__reward-center ul li:hover {
+    background-position: -10px -238px;
+    color: #fff;
+}
+
+.uninav .uninav__reward-center ul li.active,
+.uninav .uninav__reward-center ul li.active:hover {
+    cursor: default;
+    color: #f8d48d;
+    background-position: -10px -238px;
+}
+
+.uninav .uninav__reward-center div {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 204px;
+    height: 46px;
+    color: #f8d48d;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.uninav .uninav__reward-center__token-amount {
+    font-weight: bold;
+    padding-right: 46px;
+    background: transparent url(../../images/token-center/token-center-bkgd.png) no-repeat right -375px;
+    display: inline-block;
+    *display: inline;
+    /* for IE7*/
+    *zoom: 1;
+    /* for IE7*/
+    height: 43px;
+    min-width: 208px;
+}
+.uninav .uninav__reward-center__token-amount--token-loading {
+    font-size: 25px;
+}

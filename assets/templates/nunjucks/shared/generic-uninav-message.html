@@ -1,0 +1,9 @@
+{% extends "shared/toast.html" %}
+{% block toastBody %}
+    {% if message %}
+        {{ message | safe }}
+    {% endif %}
+    {% if text %}
+        {{ text | safe }}
+    {% endif %}
+{% endblock %}

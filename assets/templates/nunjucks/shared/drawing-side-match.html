@@ -1,0 +1,34 @@
+<div class="cardflip drawing__side-game-match-card">
+    <div class="cardflip__front drawing__side-game-match-card-front drawing__side-game-match-completed-numbers">
+        <div class="background-number">0{{index}}</div>
+        <div class="completed">COMPLETED<div class="checkmark"></div>
+    </div>
+    <div class="did-not-play">DID NOT PLAY</div>
+    <ul class="drawing__side-game-match-card-numbers">
+        {% for pick in picks %}
+            <li><div class="drawing__side-game-match-card-numbers-ball">{{pick}}</div></li>
+        {% endfor %}
+        
+    </ul>
+</div>
+<div class="cardflip__back drawing__side-game-match-card-back drawing__side-game-match-matched">
+    <div class="colored-top">
+        <div class="background-number">0{{index}}</div>
+        <div class="matched">MATCHED: {{matches}}</div>
+    </div>
+    
+    <div class="winnings-message {% if cashPrize > 0 %} cash {% endif %}">
+    <div class="tokens-won">
+        <div class="tokens-icon small"></div>
+        <div class="token-amount">{{tokenPrize}}{% if tokenPrize > 0 %}! {% endif %} {% if cashPrize > 0 %}  <span class="plus">+</span>{% endif %}</div>
+    </div>
+    {% if cashPrize > 0 %}
+        <div class="cash-won">
+            <div class="cash-won-text">Up to <div class="cash-icon"></div> <div class="cash-amount">{{cashPrizeDisplay}}</div>
+        </div>
+    </div>
+{% endif %}
+</div>
+
+</div>
+</div>

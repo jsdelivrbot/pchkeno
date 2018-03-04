@@ -1,0 +1,31 @@
+.play-keno-online-modal,
+.live-keno-lottery-drawings-modal,
+.winning-numbers-from-past-modal,
+.lucky-pch-keno-winners-modal,
+.your-picks-modal{
+  h2{
+    margin-top:10px;
+    text-transform: uppercase;
+  }
+  h4{
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .modal-body{
+    padding:0;
+    color:#fff;
+  }
+  .modal-dialog{
+    width:690px;
+  }
+  .modal-content{
+    border-radius:35px;
+    border:0;
+    background-color:#323230;
+
+  }
+  .sub-content{
+    padding:0 25px 25px 25px;
+  }
+}
+

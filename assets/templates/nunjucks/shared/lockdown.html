@@ -1,0 +1,32 @@
+<div class="lock-down-message-container">
+	<h2>Good going, <br />{{firstName}}!</h2>
+	<h3>You Completed <span>{{cardsCompleted}}</span> Keno Cards for the 
+{% if isLiveDrawing %}
+
+		{{currentDrawing}}
+
+	{% else %} 
+
+		{{previousDrawing}}
+
+	{% endif %}
+
+	 ET Drawing!</h3>
+	<div class="live-drawing__lockdown-options-container">
+		<div class="stay-tuned {% if glitch %} stay-tuned-glitch {% endif %}">
+	
+			<h4 >Stay Tuned for the 	{% if isLiveDrawing %} Live 	{% else %} Latest 	{% endif %} Drawing!</h4>
+			
+	
+
+
+	{% if isLiveDrawing %}
+			<div class="live-drawing__lockdown_countdown-clock-container">
+			</div>
+		{% endif %}
+		</div>
+
+	</div>
+	<div id="div-gpt-ad-keno-mobile-message" class="mobile-gtp-ad"></div>
+	<div class="keno-card-lockdown-graphic"></div>
+</div>

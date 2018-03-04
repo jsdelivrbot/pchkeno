@@ -1,0 +1,11 @@
+MultipleErrors: /home/vagrant/.jspm/packages/npm/@pch/animatejs@1.2.3/example/example.js:1:1: Unexpected reserved word import
+/home/vagrant/.jspm/packages/npm/@pch/animatejs@1.2.3/example/example.js:1:8: Semi-colon expected
+/home/vagrant/.jspm/packages/npm/@pch/animatejs@1.2.3/example/example.js:1:16: Semi-colon expected
+/home/vagrant/.jspm/packages/npm/@pch/animatejs@1.2.3/example/example.js:1:21: Semi-colon expected
+
+MultipleErrors: /home/vagrant/.jspm/packages/npm/@pch/animatejs@1.2.3/src/index.js:227:1: Unexpected reserved word export
+/home/vagrant/.jspm/packages/npm/@pch/animatejs@1.2.3/src/index.js:227:8: Semi-colon expected
+/home/vagrant/.jspm/packages/npm/@pch/animatejs@1.2.3/src/index.js:228:1: Unexpected reserved word export
+/home/vagrant/.jspm/packages/npm/@pch/animatejs@1.2.3/src/index.js:228:8: Semi-colon expected
+/home/vagrant/.jspm/packages/npm/@pch/animatejs@1.2.3/src/index.js:228:8: Unexpected reserved word default
+/home/vagrant/.jspm/packages/npm/@pch/animatejs@1.2.3/src/index.js:228:16: Semi-colon expected

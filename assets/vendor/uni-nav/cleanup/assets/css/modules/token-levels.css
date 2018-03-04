@@ -1,0 +1,72 @@
+.uninav .uninav__token-level-icon {
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    text-indent: -9999px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain; -webkit-background-size: contain;
+    position: relative;
+}
+
+.uninav__token-level-icon--bronze { background-image: url(../../images/token-levels/bronze.png); }
+.uninav__token-level-icon--silver { background-image: url(../../images/token-levels/silver.png); }
+.uninav__token-level-icon--gold { background-image: url(../../images/token-levels/gold.png); }
+.uninav__token-level-icon--platinum { background-image: url(../../images/token-levels/platinum.png); }
+.uninav__token-level-icon-emerald,
+.uninav__token-level-icon--emerald 
+{ background-image: url(../../images/token-levels/emerald.png); }
+.uninav__token-level-icon--saphire, .uninav__token-level-icon--sapphire { background-image: url(../../images/token-levels/sapphire.png); }
+.uninav__token-level-icon--emerald, .uninav__token-level-icon--saphire, .uninav__token-level-icon--sapphire { left: 1px; }
+.uninav__token-level-icon--diamond { background-image: url(../../images/token-levels/diamond.png); }
+.uninav__token-level-icon--blackdiamond, .uninav__token-level-icon--black_diamond { background-image: url(../../images/token-levels/black_diamond.png); }
+
+/* uninav token level dropdown */
+.uninav__display-token-level--bronze { background-image: url(../../images/token-levels/uninav-level-bg-bronze.png); }
+.uninav__display-token-level--silver { background-image: url(../../images/token-levels/uninav-level-bg-silver.png); }
+.uninav__display-token-level--gold { background-image: url(../../images/token-levels/uninav-level-bg-gold.png); }
+.uninav__display-token-level--platinum { background-image: url(../../images/token-levels/uninav-level-bg-platinum.png); }
+.uninav__display-token-level--emerald { background-image: url(../../images/token-levels/uninav-level-bg-emerald.png); }
+.uninav__display-token-level--sapphire, 
+.uninav__display-token-level--sappphire { background-image: url(../../images/token-levels/uninav-level-bg-sapphire.png); }
+.uninav__display-token-level--diamond { background-image: url(../../images/token-levels/uninav-level-bg-diamond.png); }
+.uninav__display-token-level--blackdiamond, 
+.uninav__display-token-level--black_diamond { background-image: url(../../images/token-levels/uninav-level-bg-black_diamond.png); }
+.uninav__display-token-level--no-password {
+    background-image: url(../../images/token-levels/uninav-level-no-password.png); 
+    background-size: 100% 336px !important; background-repeat: no-repeat; 
+}
+
+/* Token Leveling Feedback */
+.uninav .uninav__token-level-feedback {
+    position: relative;
+}
+.uninav .uninav__token-level-feedback__header,
+.uninav .token-level-feedback-header /* deprecated non BEM classes, may come from ajax response */
+{
+	font-size: 18px;
+	padding-bottom: 21px;
+	margin-top: 75px;
+	line-height: 22px;
+    padding: 0 10px 17px;
+}
+
+.uninav .uninav__token-level-feedback__msg,
+.uninav .token-level-feedback /* deprecated non BEM classes, may come from ajax response */
+{
+	padding: 0 10px 17px;
+}
+
+.uninav .uninav__token-level-feedback__list,
+.uninav .token-level-feedback-list /* deprecated non BEM classes, may come from ajax response */
+{
+	padding: 0 20px 17px 20px;
+	list-style-type: disc;
+}
+
+.uninav .uninav__token-level-feedback__expanded,
+.uninav .token-level-feedback-expanded /* deprecated non BEM classes, may come from ajax response */
+{
+    display: none;
+}

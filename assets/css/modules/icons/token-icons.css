@@ -1,0 +1,52 @@
+.tokens-icon.small {
+	background: resolve("images/sprites/icons/tokens@2x.png");
+	width: 40px;
+	height: 41px;
+	background-size: 40px 41px;
+	display: inline-block;
+}
+
+.tokens-icon.small.no-text {
+	height: 31px;
+}
+
+.tokens-icon.small.userwithoutpass {
+	width: 50px;
+	margin-top: 14px;
+}
+
+.token-stack-icon {
+	@mixin imagereplace;
+	background: resolve("images/sprites/icons/tokenstack-icon@2x.png");
+	width: 40px;
+	height: 33px;
+	background-size: 40px 33px;
+	display: inline-block;
+}
+
+.token-stack-icon-large {
+	@mixin imagereplace;
+	background: resolve("images/sprites/icons/tokenstack-icon-large@2x.png");
+	width: 50px;
+	height: 42px;
+	background-size: 50px 42px;
+	display: inline-block;
+}
+
+.token-stack-icon-nocoin {
+	@mixin imagereplace;
+	background: resolve("images/sprites/icons/tokenstack-icon-nocoin@2x.png");
+	width: 23px;
+	height: 43px;
+	background-size: 23px 43px;
+	display: inline-block;
+}
+
+.cash-icon {
+	@mixin imagereplace;
+	display: inline-block;
+	background: resolve("images/sprites/icons/cash-icon@2x.png");
+	background-size: 26px 24px;
+	width: 26px;
+	height: 24px;
+}

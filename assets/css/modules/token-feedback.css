@@ -1,0 +1,23 @@
+.token-feedback .toast__body {
+	padding: 18px 2px;
+
+	/* dev only */
+	/*
+    background: black resolve("_screenshots/28_bank_tokens_toast.png") 50% 50% no-repeat;
+    background-size: 317px auto;
+    */
+}
+
+.token-feedback__links {
+	color: #999;
+	font-size: 13px;
+	margin-bottom: 0;
+}
+
+.token-feedback__links__link {
+	color: #999;
+	font-size: 13px;
+	text-decoration: underline;
+	display: inline-block;
+	margin-bottom: 5px;
+}

@@ -1,0 +1,22 @@
+.container {
+	width: 1200px !important;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1185px;
+		padding-left: 7px;
+		padding-right: 8px;
+	}
+}
+
+.main-col {
+	padding-left: 0;
+	padding-right: 15px;
+}
+#main-content {
+	width: 900px !important;
+}
+.main-col.sidebar {
+	padding-right: 0;
+}

@@ -1,0 +1,162 @@
+.card {
+	background: rgba(255, 126, 0, 1);
+}
+
+.cardplay {
+	position: relative;
+}
+
+@mixin card-colors ".cardplay--%s", background, BG;
+
+.card-heading {
+	color: rgba(255, 255, 255, 1);
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 10px;
+	.card-heading__left {
+		display: flex;
+	}
+
+	.keno-logo {
+		width: 48px;
+		height: 49px;
+		margin-top: 5px;
+	}
+
+	h1 {
+		font-size: 18px;
+		margin: 0;
+		font-weight: normal;
+		padding: 10px 4px 0 0;
+
+		span {
+			font-weight: bold;
+			letter-spacing: 1px;
+		}
+	}
+
+	.card-heading__timestamp {
+		font-size: 12px;
+		float: left;
+	}
+
+	.card-heading__more-info a {
+		font-size: 10px;
+		color: rgba(255, 255, 255, 1);
+		text-decoration: underline;
+		float: right;
+	}
+
+	.card-heading__countdown-clock {
+		font-size: 24px;
+		width: 67px;
+		height: 58px;
+	}
+
+	.card-heading__text {
+		margin-left: 10px;
+		z-index: 1;
+	}
+
+	.clock {
+		transform: scale(0.475);
+		right: -49px;
+		top: -23px;
+	}
+}
+
+.card__form {
+	position: relative;
+}
+
+.card__numbers {
+	display: block;
+	box-sizing: border-box;
+	list-style: none;
+	float: left;
+	margin: 0 0 5px 0;
+	padding: 0px 0 125px 0;
+}
+
+.card__number {
+	display: block;
+	width: 14.09%;
+	float: left;
+	height: 45px;
+	line-height: 42px;
+	font-family: "Open Sans", Arial, sans-serif;
+	text-align: center;
+}
+
+.card__number__label {
+	position: relative;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	margin: 2px auto;
+	line-height: 40px;
+	font-size: 24px;
+	color: #fff;
+	font-family: "Open Sans", Arial, Roboto;
+	font-weight: normal;
+}
+
+.card__number--selected .card__number__label,
+.notouch .card__number__label:hover {
+	cursor: pointer;
+	background: #fff;
+	border-radius: 22px;
+	color: rgba(255, 126, 0, 1);
+
+	/* needs to be replaced with dynamic color based on card */
+}
+
+@mixin card-colors ".cardplay--%s .card__number--selected .card__number__label ",
+	color,
+	BG;
+
+.card__titlenum {
+	position: absolute;
+	top: 46px;
+	left: 4px;
+	font-size: 240px;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: bold;
+}
+
+.card__number__input {
+	opacity: 0;
+	position: absolute;
+}
+
+.card__titlenum {
+	position: absolute;
+	top: -17px;
+	left: 4px;
+	font-size: 140px;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: bold;
+	opacity: 0.45;
+}
+
+.control-bar__your-numbers ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.control-bar__your-numbers ul li {
+	color: rgba(85, 84, 152, 1);
+	font-size: 15px;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 42px;
+	padding: 3px;
+	text-align: center;
+	padding: 2px 0;
+	width: 24px;
+	margin: 0 1%;
+}
+
+.card-heading .clock__digits {
+	top: -5px;
+}

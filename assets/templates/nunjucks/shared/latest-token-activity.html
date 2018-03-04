@@ -1,0 +1,17 @@
+{% extends "shared/toast.html" %} {% block toastClass %}token-feedback{% endblock %} {% block toastBody %} {% if message
+%} {{ message | safe }} {% endif %} {% if value %}
+<p class='toast__usermsg'>{% if userName %}{{ userName }}, you{% else %}You{% endif %} earned</p>
+<p class='toast__awardmsg toast__awardmsg--{{ type }}'>
+    {% if type == "tokens" %}
+    <span class='token-stack-icon'></span>
+    {% elif type == "cash" %}
+    <span class='cash-icon'></span>
+    $ {%- endif -%} {{ value|numberFormat }} {% if type == "tokens" %} Tokens {% elif type == "cash" %} {% endif %}
+</p>
+{% if description %}
+<p class='toast__description'>{{ description }}</p>{% endif %} {% endif %}
+<p class='token-feedback__links'>
+    <a class='token-feedback__links__link' href='{{ redeemUrl }}'>Redeem Tokens</a> |
+    <a class='token-feedback__links__link' href='{{ historyUrl }}'>Token History</a>
+</p>
+{% endblock %}

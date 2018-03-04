@@ -1,0 +1,13 @@
+{% extends "shared/toast.html" %}
+
+{% block toastClass %}promotion-entry{% endblock %}
+
+{% block toastBody%}
+  {% if imgPath %}
+    <img id="entry-notification-mobile" src="{{imgPath}}" alt="Promotion Entry Notification">
+  {% else %}
+    <span class="toast__description">
+      {{textContent}}
+    </span>
+  {% endif %}
+{% endblock %}

@@ -1,0 +1,11 @@
+{
+  "name": "@pch/pch_rotate_error",
+  "version": "1.0.0",
+  "description": "Rotate Error for Landscape for Mobile sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Butera",
+  "license": "ISC"
+}

@@ -1,0 +1,278 @@
+article.drawing {
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+}
+
+.side-game-matches-container {
+    width: 225px;
+    position: relative;
+    display: inline-block;
+}
+
+.drawing__number-pad {
+    padding: 10px;
+    width: 650px;
+    visibility: hidden;
+    overflow: hidden;
+    position: relative;
+}
+
+.drawing__container {
+    background: linear-gradient(to bottom, rgba(202, 202, 202, 1) 0%, rgba(255, 255, 255, 1) 51%, rgba(202, 202, 202, 1) 100%);
+    border-radius: 25px;
+    overflow: hidden;
+    border: 3px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 0px 4px 1px rgba(0, 0, 0, 0.3);
+    width: 650px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.drawing__number-pad .sk-cube-grid {}
+
+.drawing__number-pad .card__number__label {
+    color: rgba(0, 0, 0, 1);
+    font-size: 30px;
+}
+
+.drawing .card__number__label:hover {
+    background: none;
+    cursor: pointer;
+}
+
+.drawing .card__numbers {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --ball-color: #f1c84f;
+    --ball-drop-dur: 0.2s;
+    --ball-land-dur: 0.4s;
+}
+
+.drawing__ball {
+    width: 50px;
+    height: 50px;
+    position: absolute !important;
+
+    /*fix for ie11 bug on animation, not sure why but it's setting to relative */
+    z-index: 2;
+    margin: -4px 0 0 3px;
+    opacity: 0;
+}
+
+.drawing__ball__num {
+    background: var(--ball-color);
+    background: linear-gradient(to bottom, rgba(251, 241, 176, 1) 0%, rgba(253, 226, 117, 1) 49%, rgba(255, 211, 66, 1) 100%);
+    color: var(--ball-color);
+    border-radius: 50px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 1);
+    font-size: 30px;
+    line-height: 44px;
+    visibility: false;
+    font-family: "Open Sans", Arial, sans-serif;
+    box-shadow: 2px 2px 0px rgba(199, 199, 199, 1);
+}
+
+/* need multiple elements to animate in order to get curved path
+http://tobiasahlin.com/blog/curved-path-animations-in-css/
+*/
+
+/*
+@styleguide
+
+@title Ball Drop Animation
+Drawing Ball Animation
+
+<div class="drawing__ball drawing__ball--drop"><span class="drawing__ball__num">04</span></div>
+
+
+*/
+.drawing__ball--drop {
+    animation-name: drawing__ballDropX, drawing__ballLand;
+    animation-duration: var(--ball-drop-dur), var(--ball-land-dur);
+    animation-timing-function: ease-out, ease-out;
+    animation-delay: 0s, var(--ball-drop-dur);
+    opacity: 1;
+}
+
+.drawing__ball--drop .drawing__ball__num {
+    animation: var(--ball-drop-dur) ease-in 0s drawing__ballDropY, var(--ball-land-dur) ease-out var(--ball-drop-dur) drawing__ballLandNum forwards;
+    animation-name: drawing__ballDropY, drawing__ballLandNum;
+    animation-timing-function: ease-in, ease-in;
+    animation-delay: 0s, var(--ball-drop-dur);
+    animation-duration: var(--ball-drop-dur), var(--ball-drop-dur);
+}
+
+@keyframes drawing__ballDropX {
+    0% {
+        opacity: 0.2;
+        transform: translateX(46px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes drawing__ballDropY {
+    0% {
+        transform: translateY(-48px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes drawing__ballLand {
+    25% {
+        transform: scale(0);
+        z-index: 3;
+    }
+
+    75% {
+        transform: scale(1.5);
+        z-index: 3;
+    }
+
+    100% {
+        transform: scale(1);
+        z-index: 3;
+    }
+}
+
+@keyframes drawing__ballLandNum {
+    25% {
+        color: rgba(0, 0, 0, 1);
+    }
+
+    75% {
+        color: rgba(0, 0, 0, 1);
+    }
+
+    100% {
+        color: rgba(0, 0, 0, 1);
+    }
+}
+
+/*card-container*/
+
+.side-game-matches-container .unrecognized-overlay {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+    text-align: center;
+    opacity: 0;
+    display: none;
+}
+
+.side-game-matches-container
+.unrecognized-overlay
+a.live-drawing__play-keno-button {
+    margin: 0 auto 20px;
+}
+
+.side-game-matches-container .unrecognized-down-arrow {
+    padding: 15px 28px;
+}
+
+.side-game-matches-container .unrecognized-overlay h4 {
+    font-size: 29px;
+    color: rgba(85, 84, 152, 1);
+}
+
+.side-game-matches-container .unrecognized-overlay h5 {
+    color: rgba(174, 0, 0, 1);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.side-game-matches-container .unrecognized-overlay .unrecognized-down-arrow {
+    background: resolve("images/sprites/live-drawings/unrecognized-down-arrow@2x.png");
+    width: 215px;
+    height: 232px;
+    background-size: 100%;
+    margin: 0px auto 16px;
+}
+
+#maintenance-overlay {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.drawing-maintenance-image {
+    background: resolve("images/sprites/live-drawings/oops-maintenance-transparent@2x.png");
+    width: 665px;
+    height: 592px;
+    background-size: 100%;
+    position: absolute;
+    left: -18px;
+    top: -14px;
+}
+
+.page--previous-drawings .drawing-maintenance-image {
+    width: 673px;
+}
+
+.page--previous-drawings .drawing-maintenance-image {
+    width: 673px;
+}
+
+.drawing-maintenance-image {
+    color: rgba(51, 51, 51, 1);
+
+    h4 {
+        font-size: 111px;
+        font-weight: bold;
+        padding-left: 70px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-size: 22px;
+        font-weight: bold;
+        padding-left: 80px;
+    }
+}
+
+.previous-drawings-maintenance {
+    h4 {
+        font-weight: 400;
+        padding-left: 30px;
+        line-height: 105px;
+    }
+
+    p {
+        font-size: 20px;
+        padding-left: 40px;
+        font-weight: normal;
+        margin-bottom: 0;
+    }
+
+    p.check-back {
+        font-size: 39px;
+        font-weight: bold;
+    }
+
+    p.dont-worry {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

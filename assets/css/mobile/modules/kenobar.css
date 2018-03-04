@@ -1,0 +1,161 @@
+.keno-bar {
+	height: 65px;
+	width: 100%;
+	background: linear-gradient(to bottom, #3c3c3c, #000);
+	padding: 2px 5px;
+	z-index: 2;
+	display: none;
+}
+
+.keno-bar h4 {
+	color: #fff;
+	font-size: 11px;
+	padding-bottom: 3px;
+	padding-top: 5px;
+}
+
+.kenobar__cards {
+	padding: 0;
+}
+
+.kenobar__card {
+	float: left;
+	border: 2px solid #666;
+	margin: 4px 21px 0 0;
+	width: 25px;
+	height: 25px;
+	border-radius: 24px;
+	text-align: center;
+	position: relative;
+}
+@mixin card-colors ".kenobar__card--%s", border-color, BG;
+.kenobar__card--locked {
+	border-color: #666;
+}
+@mixin card-colors ".kenobar__card--%s.kenobar__card--complete", background, BG;
+
+.kenobar__card__num,
+.kenobar__card--complete .kenobar__card__completeicon {
+	font-size: 12px;
+	line-height: 19px;
+	font-weight: bold;
+	color: #666;
+}
+.kenobar__card--complete .kenobar__card__completeicon {
+	color: #1f1f1f;
+	font-weight: normal;
+	line-height: 18px;
+}
+@mixin card-colors ".kenobar__card--%s .kenobar__card__num", color, BG;
+.kenobar__card--locked .kenobar__card__num {
+	color: #666;
+}
+
+.kenobar__card--complete .kenobar__card__num,
+.kenobar__card__complete {
+	position: absolute;
+	visibility: hidden;
+}
+
+.kenobar__card__completeicon,
+.kenobar__card__complete {
+	display: none;
+}
+.kenobar__card--complete .kenobar__card__completeicon,
+.kenobar__card--complete .kenobar__card__complete {
+	display: inline-block;
+}
+
+.kenobar__card__nexticon {
+	position: absolute;
+	right: -20px;
+	top: 4px;
+	color: #666;
+	font-size: 16px;
+}
+.kenobar__card--complete .kenobar__card__nexticon {
+	color: #fff;
+}
+.kenobar__card:last-child .kenobar__card__nexticon {
+	display: none;
+}
+
+.keno-bar {
+	position: absolute;
+	overflow: hidden;
+}
+
+.keno-bar__countdown-clock {
+	position: absolute;
+	top: -29px;
+	right: -46px;
+}
+
+.keno-bar__countdown-clock .clock {
+	transform: scale(0.53);
+}
+
+.keno-bar__countdown-clock .clock__stage-overlay--top {
+	border-top: 69px solid #393939;
+}
+
+.keno-bar__countdown-clock .clock__stage-overlay--bot {
+	border-bottom: 69px solid #020202;
+}
+
+.keno-bar__live-drawing {
+	display: none;
+}
+
+.keno-bar__live-drawing h4 {
+	color: #fff200;
+	font-size: 20px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.keno-bar__drawing-time {
+	font-size: 23px;
+	color: #fff;
+	font-weight: bold;
+
+	align-items: center;
+	width: 200px;
+}
+
+.keno-bar__drawing-time span {
+	font-weight: normal;
+}
+
+$keno-bar__drawing-time-arrow-bg: linear-gradient(to bottom, #7f7f7f, #3f3f3f);
+
+.keno-bar__drawing-time:before,
+.keno-bar__drawing-time:after {
+	background: $keno-bar__drawing-time-arrow-bg;
+	height: 18px;
+	margin-top: 7px;
+	content: "";
+}
+
+.keno-bar__drawing-time:before {
+	width: 8px;
+	float: left;
+	margin-right: 10px;
+}
+
+.keno-bar__drawing-time:after {
+	width: 42px;
+	float: right;
+}
+
+.keno-bar__drawing-time-arrow {
+	background-image: resolve(
+		"mobile/live-drawing/kenobar-livedrawing-arrow.png"
+	);
+	width: 12px;
+	height: 29px;
+	position: absolute;
+	left: 198px;
+	top: 24px;
+	background-size: cover;
+}

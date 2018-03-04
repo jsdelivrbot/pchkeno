@@ -1,0 +1,44 @@
+.token-level-icon {
+	display: inline-block;
+	width: 24px;
+	height: 20px;
+	text-indent: -9999px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: contain;
+	-webkit-background-size: contain;
+	position: relative;
+}
+
+.token-level-icon-bronze {
+	background-image: url(/pch_media/images/levels/bronze.png);
+}
+.token-level-icon-silver {
+	background-image: url(/pch_media/images/levels/silver.png);
+}
+.token-level-icon-gold {
+	background-image: url(/pch_media/images/levels/gold.png);
+}
+.token-level-icon-platinum {
+	background-image: url(/pch_media/images/levels/platinum.png);
+}
+.token-level-icon-emerald {
+	background-image: url(/pch_media/images/levels/emerald.png);
+}
+.token-level-icon-saphire,
+.token-level-icon-sapphire {
+	background-image: url(/pch_media/images/levels/sapphire.png);
+}
+.token-level-icon-emerald,
+.token-level-icon-saphire,
+.token-level-icon-sapphire {
+	left: 1px;
+}
+.token-level-icon-diamond {
+	background-image: url(/pch_media/images/levels/diamond.png);
+}
+.token-level-icon-blackdiamond,
+.token-level-icon-black_diamond {
+	background-image: url(/pch_media/images/levels/black_diamond.png);
+}

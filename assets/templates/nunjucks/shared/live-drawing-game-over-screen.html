@@ -1,0 +1,47 @@
+<div  class="live-drawing-game-over-screen bounceInDown animated">
+
+	{% if numGames > 0 and tokenAmount > 0 %}
+	<div class="top-background">
+		{% if cashAmount > 0 %} <h2 class="cash-win">CONGRATULATIONS!</h2>
+		{% else %}
+		<h2 class="token-win">GREAT JOB!</h2>
+		{% endif %}
+	
+		<div class="bottom-graphic 	{% if cashAmount > 0 %} cash	{% endif %}"></div>
+	
+	</div>
+	<h3>{{firstName}}, you've won</h3>
+	<div class="won tokens-won"><div class="icon tokens-icon"></div>{{tokenAmount|numberFormat}} Tokens!</div>
+	{% if cashAmount > 0 %} 
+	<div class="divider-line"><div class="and">&amp;</div></div>
+	
+	<div class="won cash-won"><span>Up To</span> <div class="icon cash-icon"></div>${{cashAmount|numberFormat}}!</div>
+	{% endif %}
+	<div class="keep-playing-container">
+		<a class="keep-playing" href = "/">KEEP PLAYING!</a>
+		<p>Don’t forget to redeem your tokens for MORE chances to WIN!</p>
+	</div>
+
+	{% else %}
+	<div class="top-background">
+		{% if numGames == 0 %} <h2 class="no-wins">Did Not Play!</h2>
+		{% else %}
+		<h2 class="no-wins">No Matches</h2>
+		{% endif %}
+	
+	
+	
+	</div>
+	{% if numGames == 0 %}
+	<h3 class="no-wins"> Don’t miss the next drawing for your chance to score tokens or win cash!</h3>
+ {% else %}
+ <h3 class="no-wins">No matching numbers this time, but play again for a chance to win big in the next drawing!</h3>
+	{% endif %}
+
+	<div class="keep-playing-container">
+		<a class="keep-playing" href = "/">KEEP PLAYING!</a>
+		<p>Don’t forget to redeem your tokens for MORE chances to WIN!</p>
+	</div>
+
+	{% endif %}
+</div>

@@ -1,0 +1,22 @@
+<div class="modal fade {% block modalClass %}{% endblock %}" tabindex="-1" role="dialog">
+    <div class="modal-vertical-align-spacer">
+        <div class="modal-vertical-align-body">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                {% block closeButton %}
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                {% endblock %}
+                {% block header %}
+                    <h4 class="modal-title">{% block modalTitle %}{% endblock %}</h4>
+                {% endblock %}
+              </div>
+              <div class="modal-body">
+                {% block body %}
+                {% endblock %}
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>

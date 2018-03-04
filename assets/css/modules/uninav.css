@@ -1,0 +1,26 @@
+.uni-nav-bar .pchLogo {
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	display: inline-block;
+	width: 246px;
+	height: 50px;
+	background: resolve("uninav/logo.png") 0 0 no-repeat;
+	background-size: contain;
+	margin-top: -6px;
+}
+
+/* some overrides for Keno */
+.uni-nav-bar .content {
+	background-position: 18px 0;
+}
+
+.uni-nav-bar .content .nav-list {
+	margin-left: 258px;
+}
+
+.uni-nav-bar .content .nav-list span.nxt {
+	white-space: nowrap;
+	text-indent: 100%;
+	overflow: hidden;
+}

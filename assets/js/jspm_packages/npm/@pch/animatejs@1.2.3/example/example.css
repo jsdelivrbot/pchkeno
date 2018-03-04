@@ -1,0 +1,28 @@
+/* These styles only for this example, the only styles that animate.js
+ * expects are the animate.css vendor styles
+ */
+
+.example {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 50px;
+    text-align: center;
+    color: #fff;
+    line-height: 80px;
+    background: green;
+}
+.example-targ--1 {
+    background: red;
+}
+.example-targ--2 {
+    background: blue;
+}
+.example-trans {
+    background: green;
+    transform: translateX(0);
+    transition: transform 1s ease;
+}
+.example-trans.move-right {
+    transform: translateX(200px);
+}

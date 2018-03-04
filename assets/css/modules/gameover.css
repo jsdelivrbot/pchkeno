@@ -1,0 +1,248 @@
+/* the overlaid game */
+
+.game-content--gameover {
+    visibility: hidden;
+}
+
+
+/* the game result view */
+
+
+/* these are overrides when the screen is shown inline instead of as a modal */
+
+.gameover--inline {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    opacity: 1;
+}
+
+.gameover .modal-content {
+    padding: 0;
+    background: #fff;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 29px;
+    text-align: center;
+    /* dev only */
+    /*
+    background: #e20000 resolve("_screenshots/05_game_over_slots.png") -10px -10px no-repeat;
+    background-size: 870px auto;
+    */
+}
+
+
+/* border color depends on card num */
+
+@mixin card-colors ".gameover--%s .modal-content",
+border-color,
+BG;
+.gameover .modal-dialog {
+    width: 100%;
+}
+
+
+/* these are overrides when the screen is shown inline instead of as a modal */
+
+.modal.gameover--inline .modal-dialog {
+    transform: none;
+    margin: 0;
+    border: 0;
+}
+
+.gameover .modal-body {
+    padding: 0;
+}
+
+
+/* show elements only needed for nopass users*/
+
+.gameover--haspass .gameover__nopass__text,
+.gameover--haspass .gameover__form__cancel {
+    display: none;
+}
+
+#pathgame-container .black-inner-rectangle .gameover h2.gameover__title,
+.gameover h2.gameover__title {
+    color: #e20000;
+    font-weight: bold;
+    font-size: calc(15px + 0.8vw);
+    line-height: 5vh;
+    letter-spacing: 1px;
+    padding-top: 107px;
+    margin: 0 1px 0;
+    position: relative;
+    width: auto;
+}
+
+#pathgame-container .black-inner-rectangle .gameover h2.gameover__title-error,
+.gameover h2.gameover__title-error {
+    color: #e20000;
+    font-weight: bold;
+    font-size: calc(17px + 0.7vw);
+    line-height: 4vh;
+}
+
+.gameover__error {
+    font-size: calc(11px + 0.5vw);
+    padding-top: 10px;
+    padding-top: 115px;
+}
+
+.errorText {
+    width: 85%;
+    margin: 0 auto
+}
+
+.gameover__title:before,
+.gameover__error:before {
+    position: absolute;
+    content: " ";
+    left: 0;
+    top: 0;
+    background: #ebebeb resolve("icons/gameover@2x.png") 50% 50% no-repeat;
+    background-size: 63px 65px;
+    height: 100px;
+    width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.gameover__award {
+    border-top: 2px solid #ebebeb;
+    width: 100%;
+    margin: 6px auto 48px;
+    padding-top: 20px;
+}
+
+.gameover__tokens {
+    font-size: calc(18px + 1vw);
+    color: rgba(222, 167, 61, 1);
+}
+
+.gameover__title-error {
+    margin-top: 15px;
+}
+
+.gameover--haspass .gameover__award {
+    margin-bottom: 2px;
+}
+
+.gameover__award table {
+    font-size: 3vh;
+    font-weight: 300;
+    width: 100%;
+}
+
+.gameover__award tr {
+    display: flex;
+    justify-content: space-evently;
+}
+
+.gameover__award th {
+    font-weight: 300;
+    width: 60%;
+    text-align: right;
+    padding: 3px 0;
+    letter-spacing: 1px;
+    font-size: calc(14px + 0.8vw);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameover__award th .earned {
+    padding-left: 10px;
+}
+
+.gameover__award td {
+    text-align: center;
+    font-size: calc(14px + 0.8vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 55px;
+}
+
+.gameover__award__score {
+    color: #666;
+}
+
+.gameover__award__score .score-icon {
+    margin-right: 13px;
+    position: relative;
+    top: 2px;
+}
+
+.gameover__award__tokens {
+    color: #dda32d;
+}
+
+.gameover__award__cash {
+    color: #07ae17;
+}
+
+.gameover__award__tokens .token-stack-icon {
+    position: relative;
+    top: -4px;
+}
+
+.gameover__award__cash .cash-stack-icon {}
+
+.gameover_error {
+    font-size: 16px;
+}
+
+.gameover__redeem-reminder {
+    color: rgba(95, 94, 94, 1);
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+    top: 32px;
+    font-size: calc(10px + 0.1vw);
+    font-weight: bold;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.gameover__form__submit__text {
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.gameover__form {
+    width: 100%;
+    margin: 0;
+    padding: 0 124px 122px;
+}
+
+.gameover__form__submit {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 6px;
+}
+
+@mixin card-colors ".gameover--%s .gameover__form__submit",
+background,
+BG;
+.gameover__form .btn {
+    display: block;
+    margin: 10px auto 5px;
+}
+
+.gameover__form .btn--createpass {
+    width: 244px;
+}
+
+.gameover__form__cancel {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 200;
+}

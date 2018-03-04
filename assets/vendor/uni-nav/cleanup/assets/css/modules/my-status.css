@@ -1,0 +1,19 @@
+.uninav .uninav__my-status {
+    position: absolute;
+    right: 7px;
+    top: 6px;
+    color: rgba(247, 215, 147, 1.0);
+    width: 36px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.uninav .uninav__my-status__icon {
+    width: 27px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 3px auto 0;
+}

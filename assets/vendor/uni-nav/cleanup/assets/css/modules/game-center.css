@@ -1,0 +1,383 @@
+/*== Token Center META-GAME CENTER Styling ==*/
+
+.uninav .uninav__game-center {
+    clear: left;
+    width: 330px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border: 1px solid rgba(53, 51, 51, 1.0);
+    position: relative;
+}
+.uninav .uninav__token-center-container--last-activity .uninav__game-center {
+    display: none;
+}
+
+.uninav .uninav__game-center__bg {
+    background-size: 100%;
+    width: 330px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.uninav .uninav__game-center__level-show-or-hide {
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    display: block;
+    cursor: pointer;
+    font-family: serif;
+}
+
+.uninav .uninav__game-center__level-divider {
+    background-color: #353333;
+    text-align: center;
+    color: #f8d48d;
+    padding-top: 3px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.uninav .uninav__game-center__level-start-indicator {
+    background-color: #353333;
+    color: #f8d48d;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 20px;
+    position: relative;
+}
+
+/*http://css-tricks.com/snippets/css/css-triangle/*/
+.uninav .uninav__game-center__level-start-indicator .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    position: absolute;
+    top: -15px;
+    left: 36px;
+    /*base value, will change for each status */
+    border-bottom: 15px solid #353333;
+}
+
+.uninav .uninav__token-center--silver .uninav__game-center__level-start-indicator .arrow-up { left: 71px; }
+.uninav .uninav__token-center--gold .uninav__game-center__level-start-indicator .arrow-up { left: 105px; }
+.uninav .uninav__token-center--platinum .uninav__game-center__level-start-indicator .arrow-up { left: 146px; }
+.uninav .uninav__token-center--emerald .uninav__game-center__level-start-indicator .arrow-up { left: 184px; }
+.uninav .uninav__token-center--sapphire .uninav__game-center__level-start-indicator .arrow-up { left: 213px; }
+.uninav .uninav__token-center--diamond .uninav__game-center__level-start-indicator .arrow-up { left: 246px; }
+.uninav .uninav__token-center--black_diamond .uninav__game-center__level-start-indicator .arrow-up { left: 276px; }
+
+.uninav .uninav__game-center__rewards-status {
+    margin-top: 20px;
+}
+.uninav .uninav__game-center__rewards-status__image {
+    display: inline-block;
+    width: 330px;
+    height: 123px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow: hidden;
+}
+.uninav .uninav__game-center__rewards-status__image--bronze { background-image: url(../../images/token-levels/uninav-level-carousel-bronze.png); }
+.uninav .uninav__game-center__rewards-status__image--silver { background-image: url(../../images/token-levels/uninav-level-carousel-silver.png); }
+.uninav .uninav__game-center__rewards-status__image--gold { background-image: url(../../images/token-levels/uninav-level-carousel-gold.png); }
+.uninav .uninav__game-center__rewards-status__image--platinum { background-image: url(../../images/token-levels/uninav-level-carousel-platinum.png); }
+.uninav .uninav__game-center__rewards-status__image--emerald { background-image: url(../../images/token-levels/uninav-level-carousel-emerald.png); }
+.uninav .uninav__game-center__rewards-status__image--saphire, 
+.uninav .uninav__game-center__rewards-status__image--sapphire, 
+.uninav .uninav__game-center__rewards-status__image--sappphire
+{ background-image: url(../../images/token-levels/uninav-level-carousel-sapphire.png); }
+.uninav .uninav__game-center__rewards-status__image--diamond { background-image: url(../../images/token-levels/uninav-level-carousel-diamond.png); }
+.uninav .uninav__game-center__rewards-status__image--blackdiamond, 
+.uninav .uninav__game-center__rewards-status__image--black_diamond
+{ background-image: url(../../images/token-levels/uninav-level-carousel-black_diamond.png); }
+
+.uninav .uninav__game-center__more-about-rewards {
+    font-size: 14px;
+    color: rgba(248, 212, 141, 1.0);
+    font-weight: bold;
+    margin: 35px auto;
+    text-align: center;
+    display: block;
+}
+.uninav .uninav__game-center--token-level-no-password .uninav__game-center__more-about-rewards {
+    margin-top: 15px;
+}
+
+.uninav .uninav__game-center__token-level-create-password {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 1.0);
+    font-weight: bold;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+.uninav .uninav__game-center__header,
+.uninav .uninav__game-center__footer {
+    border-radius: 8px 8px 0 0;
+    border: 1px solid #333;
+    border-bottom: none;
+    height: 7px;
+    background: #000;
+    padding: 0;
+}
+
+.uninav .uninav__game-center__content {
+    border: 1px solid #333;
+    border-bottom: none;
+    border-top: none;
+    height: auto;
+    background: #000;
+    width: 328px;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+.uninav .uninav__game-center__footer {
+    border-radius: 0 0 8px 8px;
+    border-bottom: 1px solid #333;
+    border-top: none;
+}
+
+/*== META-GAME CENTER BONUS GAMES Styling ==*/
+
+.uninav .uninav__game-center h2 {
+    display: block;
+    width: 318px;
+    margin: 0 auto 35px;
+    background: #97bb49;
+    background: linear-gradient(to bottom, #97bb49 0%, #6b8a39 100%);
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 6px 0 4px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    height: auto;
+    overflow: visible;
+    text-shadow: 2px 2px 4px #357b7a;
+    /* 357b7a | 509bb4*/
+    filter: dropshadow(color=#357b7a, offx=2, offy=2);
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.uninav .uninav__game-center h2 span {
+    display: block;
+    clear: left;
+    text-align: inherit;
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.uninav .uninav__game-center h2:after {
+    border-color: #6B8A39 transparent;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    bottom: -15px;
+    content: "";
+    height: 0;
+    left: 149px;
+    position: absolute;
+    width: 0;
+}
+
+.uninav .uninav__game-center h2:before {
+    border-color: #FFFFFF transparent;
+    border-style: solid;
+    border-width: 17px 17px 0;
+    bottom: -18px;
+    content: "";
+    height: 0;
+    left: 147px;
+    position: absolute;
+}
+
+.uninav .uninav__game-center .bonus-container {
+    display: block;
+    clear: left;
+    color: #444;
+    margin: 20px auto 0;
+    padding: 10px 0 4px 3px;
+    overflow: visible;
+    width: 312px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background: #fed692;
+    -webkit-box-shadow: inset 0px 0px 8px 8px rgba(229, 180, 88, .8);
+    box-shadow: inset 0px 0px 8px 8px rgba(229, 180, 88, .8);
+}
+
+.uninav .uninav__game-center .bonus-container.bonus-default {
+    color: #333;
+}
+
+.uninav .uninav__game-center .bonus-container.bonus-blue {
+    color: #013759;
+}
+
+.uninav .uninav__game-center .bonus-container.bonus-green {
+    color: #183506;
+}
+
+.uninav .uninav__game-center .bonus-container.bonus-red {
+    color: #990000;
+}
+
+.uninav .uninav__game-center .bonus-container h3 {
+    background: #333;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    display: block;
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 23px;
+    margin: -25px auto 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 255px;
+    clear: left;
+}
+
+.bonus-container.bonus-default h3 {
+    background: #333;
+    color: #fff;
+}
+
+.bonus-container.bonus-blue h3 {
+    background: #013759;
+    color: #78d3f0;
+}
+
+.bonus-container.bonus-green h3 {
+    background: #183506;
+    color: #06E300;
+}
+
+.bonus-container.bonus-red h3 {
+    background: #990000;
+    color: #FF2D2D;
+}
+
+.bonus-container .bonus-content {
+    display: block;
+    overflow: hidden;
+}
+
+.bonus-content ul {
+    display: block;
+    float: left;
+    width: 216px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.bonus-content ul li {
+    width: 69px;
+    height: 60px;
+    float: left;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 1px 0 0 3px;
+    cursor: pointer;
+}
+
+.bonus-content ul li img {
+    display: block;
+    width: 59px;
+    height: 47px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px 0 rgba(178, 94, 18, .9);
+}
+
+.bonus-content ul li.complete {
+    cursor: default;
+}
+
+.bonus-content ul li.complete img {
+    opacity: 0.2;
+    box-shadow: none;
+    filter: grayscale(100%);
+    filter: gray alpha(opacity=20);
+}
+
+.bonus-content ul li span {
+    display: none;
+}
+
+.bonus-content ul li.complete span {
+    text-indent: -9999px;
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 69px;
+    /*72*/
+    height: 57px;
+    /*58*/
+    background: transparent url(../../images/token-center/complete-check.png) no-repeat center 3px;
+}
+
+.bonus-content .bonus-status {
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 95px;
+    text-align: center;
+}
+
+.bonus-content .bonus-status .bonus-game {
+    width: 95px;
+    height: 114px;
+    /*98px;*/
+    display: block;
+}
+
+.bonus-content .bonus-status .bonus-game img {
+    width: 86px;
+    height: 86px;
+    margin: 5px auto;
+}
+
+.bonus-content .bonus-status.complete .bonus-game img {
+    opacity: 0.2;
+    box-shadow: none;
+    filter: grayscale(100%);
+    filter: gray alpha(opacity=20);
+}
+
+.bonus-content .bonus-status.unlocked .bonus-game {
+    background: none;
+    cursor: pointer;
+}
+
+.bonus-status.unlocked .game-message {
+    background: none;
+    display: none;
+}
+
+.bonus-status.complete .game-message {
+    background: transparent url(../../images/token-center/complete-check.png) no-repeat center center;
+}

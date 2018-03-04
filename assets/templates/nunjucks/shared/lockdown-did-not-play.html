@@ -1,0 +1,32 @@
+<div class="lock-down-message-container lock-down-message-container--did-not-play">
+	<h2>Looks like you didn't play, {{ firstName }}!</h2>
+		<p>That's okay -- start the next round after this message and make the 
+	{% if isLiveDrawing %} {{nextDrawing}} {% else %} {{currentDrawing}}{% endif %}
+ET {% if isLiveDrawing %}Live {% endif %} Drawing!</p>
+
+	{% if glitch %}
+			<div class="stay-tuned-glitch">
+				<h4 >Stay Tuned for the 	{% if isLiveDrawing %} Live 	{% else %} Latest 	{% endif %} Drawing!</h4>
+			
+
+		</div>
+		{% else %}
+			<div class="stay-tuned">
+				<h4 >Stay Tuned for the 	{% if isLiveDrawing %} Live 	{% else %} Latest 	{% endif %} Drawing!</h4>
+			
+
+		</div>
+			{% endif %}
+
+
+	{% if isLiveDrawing %}
+
+
+		<div class="live-drawing__lockdown_countdown-clock-container">
+		</div>
+
+	{% endif %}
+	  <div id="div-gpt-ad-keno-mobile-message" class="mobile-gtp-ad"></div>
+			<div class="keno-card-lockdown-graphic"></div>
+	<!-- end if
+</div>

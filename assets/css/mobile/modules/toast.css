@@ -1,0 +1,23 @@
+.toast {
+	bottom: 0;
+	width: 100vw;
+	margin-left: 0;
+	left: 0;
+}
+
+.toast__border {
+	width: 94vw;
+	left: -3vw;
+	margin: unset;
+}
+
+.toast__body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#entry-notification-mobile {
+	max-width: 94vw;
+}

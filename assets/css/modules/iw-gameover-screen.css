@@ -1,0 +1,450 @@
+.sso-outer-shell .error {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.gos {
+	font-family: "HelveticaNeue", "Helvetica Neue", "TeXGyreHerosRegular",
+		"Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	box-sizing: border-box;
+	display: none;
+}
+
+.gos * {
+	box-sizing: border-box;
+}
+
+.gos--desktop {
+	background: #383838;
+	background: -webkit-linear-gradient(
+		top,
+		#414141 0%,
+		#373737 71%,
+		#1b1b1b 100%
+	);
+	background: linear-gradient(to bottom, #414141 0%, #373737 71%, #1b1b1b 100%);
+	box-shadow: 0px 4px 2px 0px black;
+	width: 615px;
+	padding: 10px 15px 20px;
+	position: absolute;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-size: 18px;
+	top: -400px;
+	left: 50px;
+}
+.gos--desktop .gos__header {
+	text-align: center;
+	margin-bottom: 5px;
+}
+.gos--desktop .gos__inner {
+	position: relative;
+	border-radius: 10px;
+	background: #333;
+	background: -webkit-linear-gradient(
+		top,
+		#3e3e3e 0%,
+		#2a2a2c 74%,
+		#010101 99%
+	);
+	background: linear-gradient(to bottom, #3e3e3e 0%, #2a2a2c 74%, #010101 99%);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.41) inset;
+	border: 1px solid rgba(128, 128, 128, 0.44);
+	margin: 0 auto;
+	height: auto;
+	min-height: 250px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.gos--desktop .gos__top-text,
+.gos--desktop .gos__main-text,
+.gos--desktop .gos__you-won,
+.gos--desktop .gos__bottom-text,
+.gos--desktop .gos__bottom-text-continue {
+	color: white;
+	text-shadow: 0px 2px black;
+}
+.gos--desktop .gos__top-text,
+.gos--desktop .gos__amount,
+.gos--desktop .gos__bottom-text-continue {
+	font-size: 1.2em;
+	text-shadow: 0px 3px rgba(10, 10, 10, 0.93);
+}
+.gos--desktop .gos__top-text,
+.gos--desktop .gos__amount {
+	margin: 20px 0;
+}
+.gos--desktop .gos__top-text {
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.gos--desktop .gos__main-text {
+	font-weight: bold;
+	font-size: 1.5em;
+	display: inline-block;
+}
+.gos--desktop.gos--td .gos__main-text {
+	font-size: 1em;
+}
+.gos--desktop .gos__you-won {
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.gos--desktop .gos__amount {
+	color: #f8d48d;
+	font-weight: bold;
+	font-size: 2em;
+}
+.gos--desktop .gos__bottom-text {
+	margin: 15px 0px;
+}
+.gos--desktop .gos__bottom-text-continue {
+	color: #888;
+	font-size: 0.9em;
+}
+.gos--desktop .gos__sso {
+	display: none;
+}
+.gos--desktop .gos__sso-message {
+	color: #f8d48d;
+	font-size: 1.3em;
+	padding: 7px 0px;
+}
+.gos--desktop .gos__sso-inputs-container {
+	margin: 10px 0px;
+}
+.gos--desktop .gos__sso-field {
+	margin-top: 5px;
+	display: inline-block;
+	position: relative;
+}
+.gos--desktop .gos__sso-input {
+	border-radius: 5px;
+	height: 30px;
+	width: 200px;
+	padding: 0px 5px;
+}
+.gos--desktop .gos__sso-label {
+	color: #aaa;
+	position: absolute;
+	text-align: center;
+	cursor: text;
+	display: none;
+	font-weight: normal;
+	top: 5px;
+}
+.gos--desktop .gos__sso-label.light {
+	color: #eee;
+}
+.gos--desktop .gos__sso-label--password {
+	left: 60px;
+}
+.gos--desktop .gos__sso-label--confirmpassword {
+	left: 30px;
+}
+.gos--desktop .gos__persist-container {
+	text-align: left;
+	margin: 10px 60px;
+	padding: 0px 50px;
+	margin: 5px 0px;
+	font-size: 0.7em;
+}
+.gos--desktop .gos__persist {
+	float: left;
+	margin: 2px 5px 0px 0px;
+}
+.gos--desktop .gos__persist-label {
+	color: #aaa;
+	left: 20px;
+	top: 3px;
+	float: left;
+}
+.gos--desktop .gos__privacy-link {
+	color: #aaa;
+	right: 10px;
+	top: 3px;
+	float: right;
+}
+.gos--desktop .gos__play-more-button {
+	background: #ff7623;
+	background: -webkit-linear-gradient(top, #ff9933 0%, #ff6101 100%);
+	background: linear-gradient(to bottom, #ff9933 0%, #ff6101 100%);
+	padding-right: 18px;
+	color: white;
+	border-radius: 5px;
+	font-size: 28px;
+	text-align: center;
+	box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.75),
+		2px 1px 1px rgba(255, 255, 255, 0.5) inset;
+	text-shadow: 0 -1px #ff4e1b;
+	line-height: 35px;
+	border: #ff7501 1px solid;
+	width: auto;
+	height: 55px;
+	cursor: pointer;
+}
+.gos--desktop .gos__button-container {
+	margin: 10px 0px;
+}
+.gos--desktop .gos__but-text {
+	margin: 0px 10px;
+	cursor: pointer;
+}
+.gos--desktop .gos__arrow-border {
+	border-left: 1px solid rgba(243, 194, 165, 0.2);
+	width: 1px;
+}
+.gos--desktop .gos__arrow {
+	display: inline-block;
+}
+.gos--desktop .gos__arrow-right {
+	width: 0px;
+	height: 0px;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	border-left: 14px solid white;
+	font-size: 7px;
+	position: relative;
+	top: 4px;
+	display: inline-block;
+}
+.gos--desktop .gos__forfeit {
+	color: #888;
+	font-size: 0.7em;
+	color: #888;
+}
+.gos--desktop .gos__footer {
+	text-align: center;
+}
+.gos--desktop .gos__claim-code {
+	word-wrap: break-word;
+	font-size: 0.7em;
+	color: white;
+}
+.gos--desktop.gos--td .gos__bottom-text {
+	margin: 40px 0px;
+}
+
+.gos--tablet {
+	background: #383838;
+	background: -webkit-linear-gradient(
+		top,
+		#414141 0%,
+		#373737 71%,
+		#1b1b1b 100%
+	);
+	background: linear-gradient(to bottom, #414141 0%, #373737 71%, #1b1b1b 100%);
+	box-shadow: 0px 4px 2px 0px black;
+	width: 615px;
+	padding: 10px 15px 20px;
+	position: absolute;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-size: 18px;
+	top: -400px;
+	left: 50px;
+}
+.gos--tablet .gos__header {
+	text-align: center;
+	margin-bottom: 5px;
+}
+.gos--tablet .gos__inner {
+	position: relative;
+	border-radius: 10px;
+	background: #333;
+	background: -webkit-linear-gradient(
+		top,
+		#3e3e3e 0%,
+		#2a2a2c 74%,
+		#010101 99%
+	);
+	background: linear-gradient(to bottom, #3e3e3e 0%, #2a2a2c 74%, #010101 99%);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.41) inset;
+	border: 1px solid rgba(128, 128, 128, 0.44);
+	margin: 0 auto;
+	height: auto;
+	min-height: 250px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.gos--tablet .gos__top-text,
+.gos--tablet .gos__main-text,
+.gos--tablet .gos__you-won,
+.gos--tablet .gos__bottom-text,
+.gos--tablet .gos__bottom-text-continue {
+	color: white;
+	text-shadow: 0px 2px black;
+}
+.gos--tablet .gos__top-text,
+.gos--tablet .gos__amount,
+.gos--tablet .gos__bottom-text-continue {
+	font-size: 1.2em;
+	text-shadow: 0px 3px rgba(10, 10, 10, 0.93);
+}
+.gos--tablet .gos__top-text,
+.gos--tablet .gos__amount {
+	margin: 20px 0;
+}
+.gos--tablet .gos__top-text {
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.gos--tablet .gos__main-text {
+	font-weight: bold;
+	font-size: 1.5em;
+	display: inline-block;
+}
+.gos--tablet.gos--td .gos__main-text {
+	font-size: 1em;
+}
+.gos--tablet .gos__you-won {
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.gos--tablet .gos__amount {
+	color: #f8d48d;
+	font-weight: bold;
+	font-size: 2em;
+}
+.gos--tablet .gos__bottom-text {
+	margin: 15px 0px;
+}
+.gos--tablet .gos__bottom-text-continue {
+	color: #888;
+	font-size: 0.9em;
+}
+.gos--tablet .gos__sso {
+	display: none;
+}
+.gos--tablet .gos__sso-message {
+	color: #f8d48d;
+	font-size: 1.3em;
+	padding: 7px 0px;
+}
+.gos--tablet .gos__sso-inputs-container {
+	margin: 10px 0px;
+}
+.gos--tablet .gos__sso-field {
+	margin-top: 5px;
+	display: inline-block;
+	position: relative;
+}
+.gos--tablet .gos__sso-input {
+	border-radius: 5px;
+	height: 30px;
+	width: 200px;
+	padding: 0px 5px;
+}
+.gos--tablet .gos__sso-label {
+	color: #aaa;
+	position: absolute;
+	text-align: center;
+	cursor: text;
+	display: none;
+	font-weight: normal;
+	top: 5px;
+}
+.gos--tablet .gos__sso-label.light {
+	color: #eee;
+}
+.gos--tablet .gos__sso-label--password {
+	left: 60px;
+}
+.gos--tablet .gos__sso-label--confirmpassword {
+	left: 30px;
+}
+.gos--tablet .gos__persist-container {
+	text-align: left;
+	margin: 10px 60px;
+	padding: 0px 50px;
+	margin: 5px 0px;
+	font-size: 0.7em;
+}
+.gos--tablet .gos__persist {
+	float: left;
+	margin: 2px 5px 0px 0px;
+}
+.gos--tablet .gos__persist-label {
+	color: #aaa;
+	left: 20px;
+	top: 3px;
+	float: left;
+}
+.gos--tablet .gos__privacy-link {
+	color: #aaa;
+	right: 10px;
+	top: 3px;
+	float: right;
+}
+.gos--tablet .gos__play-more-button {
+	background: #ff7623;
+	background: -webkit-linear-gradient(top, #ff9933 0%, #ff6101 100%);
+	background: linear-gradient(to bottom, #ff9933 0%, #ff6101 100%);
+	padding-right: 18px;
+	color: white;
+	border-radius: 5px;
+	font-size: 28px;
+	text-align: center;
+	box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.75),
+		2px 1px 1px rgba(255, 255, 255, 0.5) inset;
+	text-shadow: 0 -1px #ff4e1b;
+	line-height: 35px;
+	border: #ff7501 1px solid;
+	width: auto;
+	height: 55px;
+	cursor: pointer;
+}
+.gos--tablet .gos__button-container {
+	margin: 10px 0px;
+}
+.gos--tablet .gos__but-text {
+	margin: 0px 10px;
+	cursor: pointer;
+}
+.gos--tablet .gos__arrow-border {
+	border-left: 1px solid rgba(243, 194, 165, 0.2);
+	width: 1px;
+}
+.gos--tablet .gos__arrow {
+	display: inline-block;
+}
+.gos--tablet .gos__arrow-right {
+	width: 0px;
+	height: 0px;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	border-left: 14px solid white;
+	font-size: 7px;
+	position: relative;
+	top: 4px;
+	display: inline-block;
+}
+.gos--tablet .gos__forfeit {
+	color: #888;
+	font-size: 0.7em;
+	color: #888;
+}
+.gos--tablet .gos__footer {
+	text-align: center;
+}
+.gos--tablet .gos__claim-code {
+	word-wrap: break-word;
+	font-size: 0.7em;
+	color: white;
+}
+.gos--tablet.gos--td .gos__bottom-text {
+	margin: 40px 0px;
+}
+
+.gos--mobile {
+	padding: 5px;
+	top: 0px;
+	left: 0px;
+	min-height: 480px;
+	width: 100%;
+	position: absolute;
+	color: white;
+	text-align: center;
+}

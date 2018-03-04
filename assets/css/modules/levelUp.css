@@ -1,0 +1,111 @@
+.levelup-toast {
+}
+.levelup-toast .toast__border {
+	width: 362px;
+}
+.levelup-toast .toast__body {
+	padding: 18px;
+}
+
+.levelup-toast .levelup__title {
+	font-size: 22px;
+	line-height: 22px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.levelup-toast .levelup__levelmsg {
+	font-size: 18px;
+	margin: 0 0 7px 0;
+	font-weight: 300;
+}
+
+.levelup-toast .toast__level {
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 225px;
+	height: 45px;
+	margin: 12px auto 0 auto;
+	background-size: 234px auto;
+	background-position: -10px -1px;
+	background-repeat: no-repeat;
+	border: 1px solid #000;
+	border-radius: 6px;
+	box-shadow: 0 0 14px 1px rgba(255, 255, 255, 0.5);
+}
+
+.levelup-toast .toast__level--bronze {
+	background-image: resolve("uni-nav/token-levels/uninav-level-bg-bronze.png");
+}
+.levelup-toast .toast__level--silver {
+	background-image: resolve("uni-nav/token-levels/uninav-level-bg-silver.png");
+}
+.levelup-toast .toast__level--gold {
+	background-image: resolve("uni-nav/token-levels/uninav-level-bg-gold.png");
+}
+.levelup-toast .toast__level--platinum {
+	background-image: resolve(
+		"uni-nav/token-levels/uninav-level-bg-platinum.png"
+	);
+}
+.levelup-toast .toast__level--emerald {
+	background-image: resolve("uni-nav/token-levels/uninav-level-bg-emerald.png");
+}
+.levelup-toast .toast__level--sapphire,
+.levelup-toast .toast__level--sappphire {
+	background-image: resolve(
+		"uni-nav/token-levels/uninav-level-bg-sapphire.png"
+	);
+}
+.levelup-toast .toast__level--diamond {
+	background-image: resolve("uni-nav/token-levels/uninav-level-bg-diamond.png");
+}
+.levelup-toast .toast__level--blackdiamond,
+.levelup-toast .toast__level--black_diamond {
+	background-image: resolve(
+		"uni-nav/token-levels/uninav-level-bg-black_diamond.png"
+	);
+}
+
+.levelup-toast .levelup__sep {
+	position: relative;
+	margin: 16px 0 0;
+}
+.levelup-toast .levelup__sep__text {
+	color: #6b6b6b;
+	font-size: 22px;
+	position: relative;
+	z-index: 2;
+	text-shadow: -2px -2px 0 #1c1c1c, 2px -2px 0 #1c1c1c, -2px 2px 0 #1c1c1c,
+		2px 2px 0 #1c1c1c;
+}
+.levelup-toast .levelup__sep:after {
+	content: " ";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -1px;
+	margin-left: -150px;
+	height: 1px;
+	width: 300px;
+	background: #6b6b6b;
+}
+
+.levelup-toast .levelup__unlockmsg {
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.levelup-toast .levelup__playbtn .btn {
+	margin: 0;
+}
+
+.levelup-toast .levelup__nothanks {
+	color: #999;
+	font-size: 13px;
+	text-decoration: underline;
+	display: inline-block;
+	margin-bottom: 5px;
+}

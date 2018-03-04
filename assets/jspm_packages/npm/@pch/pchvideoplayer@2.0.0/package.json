@@ -1,0 +1,44 @@
+{
+  "name": "@pch/pchvideoplayer",
+  "version": "2.0.0",
+  "description": "AD and video player based on jwplayer",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build",
+    "prebuild": "rm -rf dist && mkdir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://pdevops01.pchoso.com/hyaghinloo/ad-jwplayer.git"
+  },
+  "keywords": [
+    "jwplayer",
+    "ad",
+    "player",
+    "video"
+  ],
+  "author": "hadi yaghinloo",
+  "license": "ISC",
+  "dependencies": {
+    "ms": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup": "^0.46.0",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1"
+  },
+  "files": [
+    "dist"
+  ]
+}

@@ -1,0 +1,1 @@
+module.exports = require("npm:@pch/eventsjs@1.0.0/dist/index.js");

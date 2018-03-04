@@ -1,0 +1,15 @@
+{
+  "status": 2,
+  "iw_response": {
+    "balance": "8,250",
+    "creditTotal": "8,250",
+    "data": {
+      "level": {
+        "level": "silver",
+        "levelText": "<p class=\"token-level-feedback-header\">You're on the right track, Scott! <\/p><p class=\"token-level-feedback\">You've started growing your Token bank and have already unlocked the benefits of Silver Status! <\/p><div class=\"token-level-feedback-expanded\">  <ul class=\"token-level-feedback-list\"><li>Amazing Daily 250 PCHRewards Welcome Tokens!<\/li><li>1X Thank You Wheel Spin!<\/li><li>Incredible $100.00 Daily Token Leader Reward!<\/li><li>Unlock An Exciting Silver Prize Opportunity in our PCHRewards Token Exchange!<\/li><\/ul><p class=\"token-level-feedback\">The more you play, the more it could pay...so keep earning those Tokens and you could reach Gold Status sooner than you think!<\/p><\/div>",
+        "levelInfo": "2,500",
+        "hasLevelUp": false
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.uninav .uninav__menu {
+    background: none;
+    margin: 0;
+    width: 100%;
+    overflow: inherit;
+    position: relative;
+    height: 77px;
+}
+
+.uninav .uninav__menu__shim {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 50%;
+    height: 100%;
+}
+
+
+/*== SITE CONFIG: left header background should change per site */
+
+.uninav .uninav__menu__shim--left {
+    background: transparent url(../../images/uni-nav/site-default/tab-bkgd-no-color-border.png) repeat-x 0 0;
+    background-size: 28px 6px;
+    left: 0;
+}
+
+.uninav .uninav__menu__shim--right {
+    background: transparent url(../../images/uni-nav/nav-assets/nav-sprite2015.png) repeat-x 0 -170px;
+    right: 0;
+    z-index: 101
+}
+
+/*== SITE CONFIG: header content background should change per site */
+
+.uninav .uninav__menu__content {
+    background: transparent url(../../images/uni-nav/site-default/tab-bkgd-grey.png) no-repeat 0 0;
+    height: 77px;
+    margin: 0 auto;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    position: relative;
+
+    width: 1165px;
+    padding: 0;
+
+    z-index: 102;
+    clear: both;
+    background: transparent url(../../images/uni-nav/site-default/tab-bkgd-no-color.png) no-repeat 0 0;
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .uninav .uninav__menu__content {
+        background: transparent url(../../images/uni-nav/site-default/tab-bkgd-no-color.png) no-repeat -22px 0;
+    }
+}

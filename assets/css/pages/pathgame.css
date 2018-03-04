@@ -1,0 +1,35 @@
+#pathgame-card {
+    margin-top: 13px;
+    width: 100%;
+    text-align: center;
+
+    #game {
+        margin: 0px auto 10px;
+    }
+}
+
+#pathgame-card .outer_ad_holder {
+    text-align: center;
+}
+
+#pathgame-card #ad_holder {
+    margin: 0 auto;
+}
+
+#pathgame-container .game-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#pathgame-container .black-inner-rectangle h2 {
+    color: rgba(255, 255, 255, 1);
+}
+
+#pathgame-ad #jwplayer-ad {
+    margin: 0 auto;
+}
+
+#pathgame-container .black-inner-rectangle {
+    border-radius: 35px;
+}

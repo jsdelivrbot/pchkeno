@@ -1,0 +1,11 @@
+.idea/
+node_modules/
+jspm_packages
+npm-debug.log
+todo.txt
+*.sublime-*
+*.swp
+*.swo
+*.swm
+*.swn
+*.DS_Store

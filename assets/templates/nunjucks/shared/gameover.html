@@ -1,0 +1,67 @@
+<div class="modal fade gameover {% if inline %}gameover--inline{% endif %} gameover--{{ cardStyle }} {% if user.haspass %}gameover--haspass{% endif %}"
+  tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+
+
+        {% if tokens or cash %}
+        <h2 class='gameover__title'> {{ user.name }}, You Rocked It!</h2> {% else %}
+        <p class="gameover__error">We are experiencing technical difficulties</p>
+        <h2 class="gameover__title-error">AS A THANK FOR YOUR PATIENCE
+          <br/>YOU'VE BEEN GRANTED</h2>
+        {% endif %}
+
+
+        <div class='gameover__award'>
+          <table>
+            {% if showScore %}
+            <tr class='gameover__award__score'>
+              <th scope='row'>
+                <span class='score-icon'></span>Your Score:</th>
+              <td>{{ score|numberFormat }}</td>
+            </tr>
+            {% endif %} {% if cash %}
+            <tr class='gameover__award__cash'>
+              <th scope='row'>
+                <span class='cash-stack-icon'></span>
+                <span class="earned">Cash Earned</span>
+              </th>
+              <td>${{ cash|numberFormat }}</td>
+            </tr>
+            {% endif %} {% if tokens %}
+            <tr class='gameover__award__tokens'>
+              <th scope='row'>
+                <span class='token-stack-icon'></span>
+                <span class="earned">Tokens Earned</span>
+              </th>
+              <td>{{ tokens|numberFormat }}</td>
+            </tr>
+            {% endif %} {% if not tokens and not cash %}
+            <div class="gameover_error">
+              <p class="gameover__tokens">1000 Tokens</p>
+              <p class="errorText">We are sorry for this inconvenience. Please try again!</p>
+            </div>
+            {% endif %}
+          </table>
+          {% if not showScore and user.haspass and tokens%}
+          <p class='gameover__redeem-reminder'>Don't forget to redeem your tokens for MORE chances to WIN!</p>
+          {% endif %}
+        </div>
+
+        <div class='gameover__nopass'>
+          <form class='gameover__form' action='#' method='post'>
+            <fieldset class='gameover__form__submit'>
+              {% if user.haspass %}
+              <button type="button" data-dismiss="modal" class="btn btn--card{{ cardStyle }} btn-primary">Keep Going!</button>{% else %}
+              <p class='gameover__form__submit__text'>Create a password to BANK YOUR TOKENS NOW!</p>
+              <button type="button" data-dismiss="modal" class="btn btn--createpass btn--card{{ cardStyle }} btn-primary">Create Password</button>
+              <a data-dismiss="modal" class='gameover__form__cancel' href='#'>No thanks, I want to forfeit my tokens.</a>
+              {% endif %}
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

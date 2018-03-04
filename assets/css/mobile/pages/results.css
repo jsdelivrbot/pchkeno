@@ -1,0 +1,348 @@
+.results {
+	border-radius: 0;
+	margin-right: 0;
+  border: 0;
+}
+
+.results__header {
+	border-radius: 0;
+  border-width: 0;
+  padding: 0;
+}
+
+.results__header__flex {
+	display: flex;
+	margin: 0;
+  padding: 10px;
+	align-items: center;
+	justify-content: space-between;
+  position: relative;
+}
+
+.results__title {
+	font-size: 3.25rem;
+	padding: 0;
+	float: none;
+	margin: 0;
+}
+
+.results__subtitle {
+	flex: 1;
+	float: none;
+	padding: 0;
+  font-size: 1.16rem;
+  line-height: 1.5;
+ 	text-decoration: none;
+	margin: 0 10px;
+}
+
+.results__more-info {
+  /*display: none;*/
+  font-size: 1.1rem;
+  position: absolute;
+  top: unset;
+  right: 15px;
+  text-decoration: underline;
+  color: #999;
+  bottom: 10px;
+}
+
+.results__navbar {
+  margin: 0;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  top: unset;
+}
+
+.results__navbar__container {
+  padding: 0;
+}
+
+.results__navbar__container .results__navbar__collapse {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.results__form {
+  border-width: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #a2a2a2;
+  padding: 10px;
+  align-items: center;
+}
+
+.select-nums__num {
+  margin: 0 3px 10px 0;
+}
+
+.results__unrecognized {
+	border-radius: 0;
+}
+
+.results__drawtype {
+	position: relative;
+	top: 0;
+}
+
+.results__paytable-link {
+	top: 75px;
+	right: 15px;
+}
+
+.results__navbar__collapse {
+	display: block;
+	margin-bottom: 10px;
+	padding: 0px 10px;
+}
+
+.results__nav__item {
+	float: left;
+	margin-right: 5px;
+}
+
+.results__navbar .navbar-nav {
+  margin: 10px 10px -3px;
+}
+
+/*.results__navbar .form-group {*/
+  /*float: none;*/
+  /*margin: 0;*/
+/*}*/
+
+.form-label {
+  flex: 1;
+  margin: 0 5px 0 0;
+}
+
+.form-label.results__form__time {
+  flex: .75;
+}
+
+.results__form__date .form-label__display,
+.results__form__time .form-label__display {
+  width: 100%;
+  min-width: 0;
+}
+
+/* iphone >= 6 */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+  .results__form__date .form-label__display,
+  .results__form__time .form-label__display {
+    font-size: 1.2rem;
+  }
+}
+
+.results__form .form-submit {
+  float: none;
+  margin: 0;
+  top: unset;
+  right: unset;
+  max-width: 48px;
+  width: 100%;
+}
+
+.results__form .results__nav__item {
+  display: inline-block;
+  margin-right: 3px;
+  float: none;
+}
+
+.results__nav__item .results__nav__link {
+	padding: 11px 7px;
+  font-size: 13px;
+}
+
+.results__form .form-submit {
+	position: relative;
+}
+
+.results__winning-nums {
+  font-size: 18px;
+  padding: 10px;
+  margin: 0;
+}
+
+.results__winning-nums .select-nums {
+  display: flex;
+  justify-content: space-between;
+  float: none;
+  padding: 0;
+}
+
+.select-nums__num {
+  margin: 0;
+  float: none;
+}
+
+.select-nums__num__val {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 24px;
+  padding: 0;
+}
+
+/* iphone < 6 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
+  .select-nums__num__val {
+      width: 22px;
+      height: 22px;
+      font-size: 12px;
+  }
+}
+
+@mixin card-colors ".results__picks__data__card--%s .select-nums__num__val", background, BG;
+
+.select-nums__num--winning .select-nums__num__val {
+  background: linear-gradient(to bottom, #fbf1af 0%, #ffd342 100%);
+  padding: 2px 0 0;
+}
+
+.results__picks{
+  border-width: 0;
+  border-radius: 0;
+}
+
+.results__picks__data td:last-child {
+  background-color: transparent;
+  padding-left: 39px;
+  z-index: 100;
+  position: relative;
+}
+
+.results__picks__data__card {
+  height: 50px;
+}
+
+.results__picks__data__card th {
+  width: unset;
+  position: relative;
+  z-index: 90;
+}
+
+.results__picks__data__card td.award {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0;
+}
+
+.results__picks__data__card .award__content {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.award__matches {
+  margin: 0 10px;
+}
+
+.award__matches__label {
+  font-size: 1rem;
+}
+
+.award__matches__val {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin card-colors ".results__picks__data__card--%s .award__matches__val", color, BG;
+
+.results__picks__data__card__num {
+  position: absolute;
+  bottom: -1px;
+  line-height: 44px;
+  left: -8px;
+}
+
+.award__prize {
+  flex: 1;
+}
+
+.award__prize__label {
+  position: relative;
+  display: flex;
+  border-top: 1px solid #fff;
+  justify-content: center;
+  margin: 5px 10px;
+}
+
+.award__prize__label span.content {
+  position: absolute;
+  top: -6px;
+  padding: 0 10px;
+  font-size: 1rem;
+  z-index: 1;
+}
+
+@mixin card-colors ".results__picks__data__card--%s .award__prize__label span.content", background, BG;
+
+.award__prize__label span.content:before {
+  content: "";
+  background-color: rgba(0, 0, 0, .5);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.results__picks__award {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: unset;
+  font-size: 1.7rem;
+}
+
+.results__picks__award--no-matches {
+  font-size: 1.3rem;
+  position: relative;
+  top: 5px;
+}
+
+.results__picks__award--tokens .token-stack-icon,
+.results__picks__award--cash .cash-icon {
+  transform: scale(.75);
+  top: 0;
+  height: 33px;
+  background-repeat: no-repeat;
+}
+
+.results__picks__award--tokens .token-stack-icon {
+  background-size: 40px 33px;
+  background-position: -9px;
+  width: 34px;
+}
+
+.results__picks__award--cash .cash-icon {
+  background-size: 26px 24px;
+  background-position: 0;
+  width: 26px;
+}
+
+.award__prize__val {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -3px 0 0 -5px;
+}
+
+.results__picks__award__disclaimer {
+  font-size: 1rem;
+  margin: 0 10px;
+}
